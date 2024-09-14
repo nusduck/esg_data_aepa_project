@@ -1,0 +1,5 @@
+.DS_store
+env/
+data/esg_parse_result/
+src/log/
+config/config.yaml
