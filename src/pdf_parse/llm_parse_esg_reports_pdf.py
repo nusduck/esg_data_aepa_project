@@ -192,7 +192,9 @@ def _gemini_parse_images(
                 current_api_key_index = (current_api_key_index + 1) % len(api_keys)
                 model = configure_model()
             else:
-                logging.error(f"Error processing page {index}: {str(e)}")
+                logging.error(f"Error processing page {index}: {str(e)}. Switching API key.")
+                current_api_key_index = (current_api_key_index + 1) % len(api_keys)
+                model = configure_model()
             time.sleep(5)  # Sleep for 5 seconds before retrying
             return _process_page(index, image_info)  # Retry
 
