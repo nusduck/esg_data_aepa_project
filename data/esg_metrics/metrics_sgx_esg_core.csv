@@ -1,0 +1,44 @@
+Code,Category,Topic,Metric,Unit,Scope,Description
+SGX-ENV-GHG-AET-TCO2E-TOT,Environmental,Greenhouse Gas Emissions,Absolute emissions (Total),tCO2e,Total,Total metric tons of carbon dioxide equivalent (tCO2e) of relevant GHG emissions.
+SGX-ENV-GHG-AE1-TCO2E-SC1,Environmental,Greenhouse Gas Emissions,Absolute emissions (Scope 1),tCO2e,Scope 1,Direct GHG emissions from sources owned or controlled by the organization.
+SGX-ENV-GHG-AE2-TCO2E-SC2,Environmental,Greenhouse Gas Emissions,Absolute emissions (Scope 2),tCO2e,Scope 2,Indirect GHG emissions from the generation of purchased energy.
+SGX-ENV-GHG-AE3-TCO2E-SC3,Environmental,Greenhouse Gas Emissions,Absolute emissions (Scope 3),tCO2e,Scope 3,Other indirect GHG emissions that occur in the value chain of the organization.
+SGX-ENV-GHG-EIT-TCO2EM-TOT,Environmental,Greenhouse Gas Emissions,Emission intensities (Total),tCO2e/organisation-specific metrics,Total,Total emission intensity ratios in GHG emissions (tCO2e) per unit of organisation-specific metrics.
+SGX-ENV-GHG-EI1-TCO2EM-SC1,Environmental,Greenhouse Gas Emissions,Emission intensities (Scope 1),tCO2e/organisation-specific metrics,Scope 1,Scope 1 emission intensity ratios in GHG emissions (tCO2e) per unit of organisation-specific metrics.
+SGX-ENV-GHG-EI2-TCO2EM-SC2,Environmental,Greenhouse Gas Emissions,Emission intensities (Scope 2),tCO2e/organisation-specific metrics,Scope 2,Scope 2 emission intensity ratios in GHG emissions (tCO2e) per unit of organisation-specific metrics.
+SGX-ENV-GHG-EI3-TCO2EM-SC3,Environmental,Greenhouse Gas Emissions,Emission intensities (Scope 3),tCO2e/organisation-specific metrics,Scope 3,Scope 3 emission intensity ratios in GHG emissions (tCO2e) per unit of organisation-specific metrics.
+SGX-ENV-ENC-TEC-MWHSGJ-TOT,Environmental,Energy Consumption,Total energy consumption,MWhs or GJ,Total,Total energy consumption within the organisation.
+SGX-ENV-ENC-ECI-MWHSGJM-TOT,Environmental,Energy Consumption,Energy consumption intensity,MWhs or GJ/organisation-specific metrics,Total,Energy intensity ratios in energy consumed per unit of organisation-specific metrics.
+SGX-ENV-WAC-TWC-MLM3-TOT,Environmental,Water Consumption,Total water consumption,ML or m_,Total,Total water consumption across all operations.
+SGX-ENV-WAC-WCI-MLM3M-TOT,Environmental,Water Consumption,Water consumption intensity,ML or m_/organisation-specific metrics,Total,Water intensity ratios in water consumed per unit of organisation-specific metrics.
+SGX-ENV-WAG-TWG-T-TOT,Environmental,Waste Generation,Total waste generated,t,Total,Total weight of waste generated within organisation.
+SGX-SOC-GED-CEG-PCT-MAL,Social,Gender Diversity,Current employees by gender male,Percentage (%),Male,Percentage of existing male employees.
+SGX-SOC-GED-CEG-PCT-FEM,Social,Gender Diversity,Current employees by gender female,Percentage (%),Female,Percentage of existing female employees.
+SGX-SOC-GED-NHG-PCT-MAL,Social,Gender Diversity,New hires by gender male,Percentage (%),Male,Percentage of new male employee hires during the reporting period.
+SGX-SOC-GED-NHG-PCT-FEM,Social,Gender Diversity,New hires by gender female,Percentage (%),Female,Percentage of new female employee hires during the reporting period.
+SGX-SOC-GED-ETG-PCT-MAL,Social,Gender Diversity,Employee turnover by gender male,Percentage (%),Male,Percentage of male employee turnover during the reporting period.
+SGX-SOC-GED-ETG-PCT-FEM,Social,Gender Diversity,Employee turnover by gender female,Percentage (%),Female,Percentage of female employee turnover during the reporting period.
+SGX-SOC-AGD-CEA-PCT-U30,Social,Age-Based Diversity,Current employees by age groups under 30,Percentage (%),under 30,Percentage of existing employees's age under 30.
+SGX-SOC-AGD-CEA-PCT-B35,Social,Age-Based Diversity,Current employees by age groups between 30 and 50,Percentage (%),between 30 and 50,Percentage of existing employees's age between 30 and 50.
+SGX-SOC-AGD-CEA-PCT-A50,Social,Age-Based Diversity,Current employees by age groups above 50,Percentage (%),above 50,Percentage of existing employees's age above 50.
+SGX-SOC-AGD-NHI-PCT-U30,Social,Age-Based Diversity,New hires and by age groups under 30,Percentage (%),under 30,Percentage of new employees hires's age under 30 during the reporting period.
+SGX-SOC-AGD-NHI-PCT-B35,Social,Age-Based Diversity,New hires and  by age groups between 30 and 50,Percentage (%),between 30 and 50,Percentage of new employees hires's age between 30 and 50 during the reporting period.
+SGX-SOC-AGD-NHI-PCT-A50,Social,Age-Based Diversity,New hires and  by age groups  above 50,Percentage (%),above 50,Percentage of new employees hires's age above 50 during the reporting period.
+SGX-SOC-AGD-TOR-PCT-U30,Social,Age-Based Diversity,New hires and turnover by age groups under 30,Percentage (%),under 30,Percentage of employee turnover's age under 30 during the reporting period.
+SGX-SOC-AGD-TOR-PCT-B35,Social,Age-Based Diversity,New hires and turnover by age groups between 30 and 50,Percentage (%),between 30 and 50,Percentage of employee turnover's age between 30 and 50 during the reporting period.
+SGX-SOC-AGD-TOR-PCT-A50,Social,Age-Based Diversity,New hires and turnover by age groups  above 50,Percentage (%),above 50,Percentage of employee turnover's age above 50 during the reporting period.
+SGX-SOC-DEV-ATH-HNE-MAL,Social,Development & Training,Average training hours per employee by gender male,Hours/No. of employees,Male,Average training hours per male employee during the reporting period.
+SGX-SOC-DEV-ATH-HNE-FEM,Social,Development & Training,Average training hours per employee by gender female,Hours/No. of employees,Female,Average training hours per female employee during the reporting period.
+SGX-SOC-OHS-FAT-NOC-TOT,Social,Occupational Health & Safety,Fatalities,Number of cases,Total,Number of fatalities as a result of work-related injury during reporting period across the organisation.
+SGX-SOC-OHS-HCI-NOC-TOT,Social,Occupational Health & Safety,High-consequence injuries,Number of cases,Total,Number of high-consequence work-related injuries (excluding fatalities) during reporting period.
+SGX-SOC-OHS-REC-NOC-TOT,Social,Occupational Health & Safety,Recordable injuries,Number of cases,Total,Number of recordable work-related injuries during reporting period.
+SGX-SOC-OHS-RWI-NOC-TOT,Social,Occupational Health & Safety,Recordable work-related ill health cases,Number of cases,Total,Number of recordable work-related illnesses or health conditions during reporting period.
+SGX-GOV-BOC-BIN-PCT-TOT,Governance,Board Composition,Board independence,Percentage (%),Total,The number of independent board directors as a percentage of all directors.
+SGX-GOV-BOC-WOB-PCT-TOT,Governance,Board Composition,Women on the board,Percentage (%),Total,The number of female board directors as a percentage of all directors.
+SGX-GOV-MAD-WMT-PCT-TOT,Governance,Management Diversity,Women in the management team,Percentage (%),Total,The number of female senior management as a percentage of senior management.
+SGX-GOV-ETB-ACD-DNS-TOT,Governance,Ethical Behaviour,Anti-corruption disclosures,Discussion and number of standards,Total,Disclosures based on GRI's anti-corruption standards of 205-1 205-2 and 205-3.
+SGX-GOV-ETB-ACT-NUM-TOT,Governance,Ethical Behaviour,Anti-corruption training for employees,Number,Total,Number of employees that received anti-corruption training during reporting period.
+SGX-GOV-ETB-ACT-PCT-TOT,Governance,Ethical Behaviour,Anti-corruption training for employees,Percentage (%),Total,Percentage of employees that received anti-corruption training during reporting period.
+SGX-GOV-CER-LRC-LST-TOT,Governance,Certifications,List of relevant certifications,List,Total,List all sustainability or ESG-related certification.
+SGX-GOV-ALF-AFD-MUL-TOT,Governance,Alignment with Frameworks,Alignment with frameworks and disclosure practices,GRI/ TCFD/ SASB/ SDGs/ others,Total,The issuer needs to give priority to using globally-recognised frameworks and disclosure practices to guide its sustainability reporting.
+SGX-GOV-ASS-ASR-MUL-TOT,Governance,Assurance,Assurance of sustainability report,Internal/External/None,Total,Disclose whether sustainability report has undertaken: (a) external independent assurance (b) internal assurance or (c) no assurance.

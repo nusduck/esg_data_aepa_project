@@ -1,0 +1,1 @@
+In the image, some areas are marked with red rectangles and names (%s).

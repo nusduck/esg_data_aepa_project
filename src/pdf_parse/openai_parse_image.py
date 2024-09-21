@@ -8,7 +8,9 @@ import yaml
 # Load configuration
 with open('config/config.yaml', 'r') as config_file:
     config = yaml.safe_load(config_file)
-
+# Load system prompt
+with open('data/prompt/system_prompt.txt', 'r') as file:
+    SYSTEM_PROMPT = file.read()
 # add a optional parameter index to log
 def analyze_image(prompt, image_input, index=None):
     logging.info(f"openai parse page {index}")
@@ -35,6 +37,10 @@ def analyze_image(prompt, image_input, index=None):
         response = client.chat.completions.create(
             model=config['openai']['model'],
             messages=[
+                {   
+                    "role": "system",
+                    "content": SYSTEM_PROMPT,
+                },
                 {
                     "role": "user",
                     "content": [
@@ -69,6 +75,6 @@ if __name__ == "__main__":
 4. Ignore long straight lines and page numbers.
 5. Convert charts (e.g., bar, line, pie) into Markdown tables when possible. If not possible, output all text from the charts as plain text.
 """
-    image_path = "data/output/United Overseas Insurance Limited_report/62.png"
+    image_path = "data/esg_parse_result/United Overseas Insurance Limited_report/62.png"
     result = analyze_image(prompt, image_path)
     print(result)

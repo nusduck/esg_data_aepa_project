@@ -1,0 +1,102 @@
+**Extract the content from the image and convert it into markdown format with the following guidelines:**
+
+1. **Textual Content**:
+   - Extract all **headings** and **text** from the image. Use bold formatting for section titles (e.g., **Section Title**) and plain text for descriptions or paragraphs.
+   - For any **lists or bullet points**, format them as markdown bullet points or numbered lists as appropriate. Ensure that all key details (e.g., statistics, amounts, and names) are preserved accurately.
+
+2. **Tables and Charts**:
+   - **Charts**: If the image contains a chart, extract all available numerical data and organize it in a simplified table. Avoid trying to replicate any chart formatting that might lead to inconsistencies or loss of clarity.
+     - If a chart represents multiple dimensions (e.g., different years, categories, and variables), treat each dimension as a separate column and ensure the data is clearly aligned.
+     - Clearly label each data type to avoid confusion.
+     - Merge data where necessary into separate columns.
+     - If a label has additional sub-labels, consolidate them into a single header to ensure consistency across columns.
+   - **Tables**: Ensure that all tables are cleanly extracted:
+     - Use correct markdown table syntax for headers and rows.
+     - **Handing Table Irregularities**:
+        - If there is an irregularity in the table structure (e.g., some rows have more cells than headers or complex multi-level headers), simplify the headers so that they align clearly with the table data, and ensure that all key information is preserved.
+        - Adjust multi-level headers into a single row for clarity. For example, merge separate header rows or categories into a single line when possible.
+     - **Bold the table title** before the table using this format: **Table: [Table Name]**.
+     - Identify key variables or categories (e.g., year, region, value types, percentages) and use them as headers in the table.
+     - Make sure to capture all numerical data, percentages, or other units in the correct columns.
+     - Avoid column shifting issues by making sure that all columns are clearly separated and data remains within the corresponding columns.
+     - Ensure the table is clean, aligned, and easy to read.
+
+3. **Image Handling**:
+   - For any images other than charts (e.g., logos or photos), replace them with markdown placeholders like ![Image Description](). 
+   - If there are **captions** or relevant text descriptions for the images, extract and place them before or after the image placeholders.
+
+4. **Formatting**:
+   - Ensure the markdown content is structured logically, with clear section breaks and headings.
+   - Retain any special formatting such as **bold text** or *italic text* as presented in the image.
+
+5. **Notes and Footnotes**:
+   - If the image contains **footnotes** or additional context, include them at the end of the markdown document in plain text format.
+
+6. **Output Format**:
+   - Use plain markdown formatting for all content.
+   - Use $ $ for block formulas and inline formulas where applicable. Don not use ```markdown ``` or ``` ``` to wrap the content.
+---
+
+**Examples for Different Image Types**:
+
+- **For a table image with extra cells**:
+
+  **Table: Example Employee Data by Gender (2022)**
+
+  | Year | Male Employees | Female Employees | Contract Employees | Region       |
+  |------|----------------|------------------|--------------------|--------------|
+  | 2022 | 9,661 (37.7%)  | 15,310 (59.7%)   | 254                | North America|
+  | 2021 | 9,097 (37.3%)  | 14,603 (60.0%)   | 265                | Europe       |
+
+  **Notes**: This table includes regional breakdowns and contract employee data.
+
+-- **For a multi-level header table**:
+  
+    **Table: Quarterly Sales Data (2022)**
+  
+    | Principal activity | Place of incorporation and operation | Number of wholly-owned subsidiaries |
+    |--------------------|--------------------------------|---------------------------------------|
+    |                     |                                | 31 December 2022 | 31 December 2021 |
+    | Stockbroking         | Singapore                      | 1                     | 1                     |
+
+    **You should adjust the header like this:**
+    | Principal activity | Place of incorporation and operation | Number of wholly-owned subsidiaries 31 December 2022 | Number of wholly-owned subsidiaries 31 December 2021 |
+    |--------------------|--------------------------------|---------------------------------------|---------------------------------------|
+    | Stockbroking         | Singapore                      | 1                     | 1                     |
+
+- **For table column shifting**:
+  
+    **Table: Group data**
+  
+    | 2022 | 2021 |
+    |------|------|
+    | $    | $    |
+    | **Service cost:** |
+    | Current service cost | 844,395 | 925,486 |
+    ** It should be adjusted like this:**
+    | | 2022 | 2021 |
+    |------|------|------|
+    | **Service cost:** |
+    | Current service cost | 844,395 | 925,486 |
+
+- **For a text-heavy image**:
+
+  **Community Stewardship**
+
+  **Amplifying our giving efforts**  
+  We raised a record of more than $2.3 million to support 26 beneficiaries. This included essential supplies and digital learning resources for disadvantaged communities.
+
+  **2022 Achievements**:
+  - Launched Heartbeat@Heartlands program in Singapore.
+  - Contributed VND100 million to poverty alleviation in Vietnam.
+  - Raised over $95,290 for pandemic recovery efforts in Hong Kong.
+
+- **For an image with charts**:
+
+  **Table: Water Usage by Region (2018 - 2022)**
+
+  | Year | Singapore | Indonesia | Malaysia | Thailand | Vietnam | Greater China | Overseas Branches | Water Usage Intensity (m³/m²) |
+  |------|-----------|-----------|----------|----------|---------|---------------|-------------------|-------------------------------|
+  | 2022 | 9,612     | 3,217     | 5,072    | 4,731    | 569     | 1,328         | 442               | 0.8                           |
+
+  **Notes**: Data includes the water usage trends across different regions.

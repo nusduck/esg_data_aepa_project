@@ -37,7 +37,14 @@ base_output_dir = 'data/esg_parse_result'
 os.makedirs(base_output_dir, exist_ok=True)
 
 layout_engine = RapidLayout(conf_thres=0.5, model_type="pp_layout_cdla")
-
+# read it from file data/prompt/user_prompt.txt
+with open('data/prompt/user_prompt.txt', 'r') as file:
+    DEFAULT_PROMPT = file.read()
+# read it from file data/prompt/system_prompt.txt
+with open('data/prompt/system_prompt.txt', 'r') as file:
+    DEFAULT_ROLE_PROMPT = file.read()
+with open('data/prompt/rect_prompt.txt', 'r') as file:
+    DEFAULT_RECT_PROMPT = file.read()
 # Initialize Gemini-Flash model
 api_keys = config['google']['api_keys']
 
@@ -51,23 +58,10 @@ safety_settings = {
 def configure_model():
     global current_api_key_index
     genai.configure(api_key=api_keys[current_api_key_index])
-    return genai.GenerativeModel(config['google']['model'], safety_settings=safety_settings, system_instruction="You are ChatGPT, a large language model trained by OpenAI")
+    return genai.GenerativeModel(config['google']['model'], safety_settings=safety_settings, system_instruction= DEFAULT_ROLE_PROMPT)
 
 model = configure_model()
 
-# This Default Prompt Using Chinese and could be changed to other languages.
-DEFAULT_PROMPT = """Convert the text recognized from the image into Markdown format. Follow these rules:
-
-1. Output the text in the same language as recognized from the image. For example, if the text is in English, output in English.
-2. Directly output the content without explanations or additional text. Do not include phrases like "Here is the Markdown text from the image."
-3. Use $ $ for block formulas and inline formulas where applicable. Don not use ```markdown ``` or ``` ``` to wrap the content.
-4. Ignore long straight lines and page numbers.
-5. Convert charts (e.g., bar, line, pie) into Markdown tables when possible. If not possible, output all text from the charts as plain text.
-"""
-DEFAULT_RECT_PROMPT = """In the image, some areas are marked with red rectangles and names (%s). If the area is a table or image, directly output the markdown format table or text content.
-"""
-DEFAULT_ROLE_PROMPT = """You are a PDF document parser, outputting the content of images using Markdown and LaTeX syntax.
-"""
 def draw_boxes_only(image, boxes):
     img = image.copy()
     for box in boxes:
@@ -150,7 +144,7 @@ def _gemini_parse_images(
         logging.info(f'gemini parse page: {index}')
 
         page_image, rect_images = image_info
-        local_prompt = role_prompt + prompt
+        local_prompt = prompt
         if rect_images:
             local_prompt += rect_prompt % ', '.join(rect_images)
 
