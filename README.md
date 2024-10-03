@@ -20,7 +20,7 @@
    pip install -r requirements.txt
    ```
 
-3. Edit `config.yaml` to add your model and API key.
+3. Edit `demo_config.yaml` to add your model and API key and rename this file to `config.yaml`.
 
 4. Move your reports file to `data/esg_reports_pdf` directory.
 
