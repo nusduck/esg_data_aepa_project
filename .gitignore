@@ -3,4 +3,3 @@ env/
 data/esg_parse_result/
 data/esg_reports_pdf/
 src/log/
-config/config.yaml
