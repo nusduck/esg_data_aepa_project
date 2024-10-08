@@ -1,0 +1,160 @@
+<View>
+  <Text name="text" value="$text"/>
+  
+  <Labels name="label" toName="text" maxUsages="0">
+    
+    <!-- Environmental (ENV) Tags -->
+    <!-- Greenhouse Gas Emissions -->
+    <Label value="B-ENV_GHG_AET" background="#FFCCCC">B-ENV_GHG_AET</Label>
+    <Label value="I-ENV_GHG_AET" background="#FFCCCC">I-ENV_GHG_AET</Label>
+    
+    <Label value="B-ENV_GHG_AE1" background="#FFCCCC">B-ENV_GHG_AE1</Label>
+    <Label value="I-ENV_GHG_AE1" background="#FFCCCC">I-ENV_GHG_AE1</Label>
+    
+    <Label value="B-ENV_GHG_AE2" background="#FFCCCC">B-ENV_GHG_AE2</Label>
+    <Label value="I-ENV_GHG_AE2" background="#FFCCCC">I-ENV_GHG_AE2</Label>
+    
+    <Label value="B-ENV_GHG_AE3" background="#FFCCCC">B-ENV_GHG_AE3</Label>
+    <Label value="I-ENV_GHG_AE3" background="#FFCCCC">I-ENV_GHG_AE3</Label>
+    
+    <Label value="B-ENV_GHG_EIT" background="#FFCCCC">B-ENV_GHG_EIT</Label>
+    <Label value="I-ENV_GHG_EIT" background="#FFCCCC">I-ENV_GHG_EIT</Label>
+    
+    <Label value="B-ENV_GHG_EI1" background="#FFCCCC">B-ENV_GHG_EI1</Label>
+    <Label value="I-ENV_GHG_EI1" background="#FFCCCC">I-ENV_GHG_EI1</Label>
+    
+    <Label value="B-ENV_GHG_EI2" background="#FFCCCC">B-ENV_GHG_EI2</Label>
+    <Label value="I-ENV_GHG_EI2" background="#FFCCCC">I-ENV_GHG_EI2</Label>
+    
+    <Label value="B-ENV_GHG_EI3" background="#FFCCCC">B-ENV_GHG_EI3</Label>
+    <Label value="I-ENV_GHG_EI3" background="#FFCCCC">I-ENV_GHG_EI3</Label>
+    
+    <!-- Energy Consumption -->
+    <Label value="B-ENV_ENC_TEC" background="#FFCC99">B-ENV_ENC_TEC</Label>
+    <Label value="I-ENV_ENC_TEC" background="#FFCC99">I-ENV_ENC_TEC</Label>
+    
+    <Label value="B-ENV_ENC_ECI" background="#FFCC99">B-ENV_ENC_ECI</Label>
+    <Label value="I-ENV_ENC_ECI" background="#FFCC99">I-ENV_ENC_ECI</Label>
+    
+    <!-- Water Consumption -->
+    <Label value="B-ENV_WAC_TWC" background="#CCFFCC">B-ENV_WAC_TWC</Label>
+    <Label value="I-ENV_WAC_TWC" background="#CCFFCC">I-ENV_WAC_TWC</Label>
+    
+    <Label value="B-ENV_WAC_WCI" background="#CCFFCC">B-ENV_WAC_WCI</Label>
+    <Label value="I-ENV_WAC_WCI" background="#CCFFCC">I-ENV_WAC_WCI</Label>
+    
+    <!-- Waste Generation -->
+    <Label value="B-ENV_WAG_TWG" background="#CCCCFF">B-ENV_WAG_TWG</Label>
+    <Label value="I-ENV_WAG_TWG" background="#CCCCFF">I-ENV_WAG_TWG</Label>
+    
+    <!-- Social (SOC) Tags -->
+    <!-- Gender Diversity -->
+    <Label value="B-SOC_GED_CEG_M" background="#FF9999">B-SOC_GED_CEG_M</Label>
+    <Label value="I-SOC_GED_CEG_M" background="#FF9999">I-SOC_GED_CEG_M</Label>
+    
+    <Label value="B-SOC_GED_CEG_F" background="#FF9999">B-SOC_GED_CEG_F</Label>
+    <Label value="I-SOC_GED_CEG_F" background="#FF9999">I-SOC_GED_CEG_F</Label>
+    
+    <Label value="B-SOC_GED_NHG_M" background="#FF9999">B-SOC_GED_NHG_M</Label>
+    <Label value="I-SOC_GED_NHG_M" background="#FF9999">I-SOC_GED_NHG_M</Label>
+    
+    <Label value="B-SOC_GED_NHG_F" background="#FF9999">B-SOC_GED_NHG_F</Label>
+    <Label value="I-SOC_GED_NHG_F" background="#FF9999">I-SOC_GED_NHG_F</Label>
+    
+    <Label value="B-SOC_GED_ETG_M" background="#FF9999">B-SOC_GED_ETG_M</Label>
+    <Label value="I-SOC_GED_ETG_M" background="#FF9999">I-SOC_GED_ETG_M</Label>
+    
+    <Label value="B-SOC_GED_ETG_F" background="#FF9999">B-SOC_GED_ETG_F</Label>
+    <Label value="I-SOC_GED_ETG_F" background="#FF9999">I-SOC_GED_ETG_F</Label>
+    
+    <!-- Age-Based Diversity -->
+    <Label value="B-SOC_AGD_CEA_U30" background="#FFCC00">B-SOC_AGD_CEA_U30</Label>
+    <Label value="I-SOC_AGD_CEA_U30" background="#FFCC00">I-SOC_AGD_CEA_U30</Label>
+    
+    <Label value="B-SOC_AGD_CEA_B35" background="#FFCC00">B-SOC_AGD_CEA_B35</Label>
+    <Label value="I-SOC_AGD_CEA_B35" background="#FFCC00">I-SOC_AGD_CEA_B35</Label>
+    
+    <Label value="B-SOC_AGD_CEA_A50" background="#FFCC00">B-SOC_AGD_CEA_A50</Label>
+    <Label value="I-SOC_AGD_CEA_A50" background="#FFCC00">I-SOC_AGD_CEA_A50</Label>
+    
+    <Label value="B-SOC_AGD_NHI_U30" background="#FFCC00">B-SOC_AGD_NHI_U30</Label>
+    <Label value="I-SOC_AGD_NHI_U30" background="#FFCC00">I-SOC_AGD_NHI_U30</Label>
+    
+    <Label value="B-SOC_AGD_NHI_B35" background="#FFCC00">B-SOC_AGD_NHI_B35</Label>
+    <Label value="I-SOC_AGD_NHI_B35" background="#FFCC00">I-SOC_AGD_NHI_B35</Label>
+    
+    <Label value="B-SOC_AGD_NHI_A50" background="#FFCC00">B-SOC_AGD_NHI_A50</Label>
+    <Label value="I-SOC_AGD_NHI_A50" background="#FFCC00">I-SOC_AGD_NHI_A50</Label>
+    
+    <Label value="B-SOC_AGD_TOR_U30" background="#FFCC00">B-SOC_AGD_TOR_U30</Label>
+    <Label value="I-SOC_AGD_TOR_U30" background="#FFCC00">I-SOC_AGD_TOR_U30</Label>
+    
+    <Label value="B-SOC_AGD_TOR_B35" background="#FFCC00">B-SOC_AGD_TOR_B35</Label>
+    <Label value="I-SOC_AGD_TOR_B35" background="#FFCC00">I-SOC_AGD_TOR_B35</Label>
+    
+    <Label value="B-SOC_AGD_TOR_A50" background="#FFCC00">B-SOC_AGD_TOR_A50</Label>
+    <Label value="I-SOC_AGD_TOR_A50" background="#FFCC00">I-SOC_AGD_TOR_A50</Label>
+    
+    <!-- Development & Training -->
+    <Label value="B-SOC_DEV_ATH_M" background="#99CCFF">B-SOC_DEV_ATH_M</Label>
+    <Label value="I-SOC_DEV_ATH_M" background="#99CCFF">I-SOC_DEV_ATH_M</Label>
+    
+    <Label value="B-SOC_DEV_ATH_F" background="#99CCFF">B-SOC_DEV_ATH_F</Label>
+    <Label value="I-SOC_DEV_ATH_F" background="#99CCFF">I-SOC_DEV_ATH_F</Label>
+    
+    <!-- Occupational Health & Safety -->
+    <Label value="B-SOC_OHS_FAT" background="#CC99FF">B-SOC_OHS_FAT</Label>
+    <Label value="I-SOC_OHS_FAT" background="#CC99FF">I-SOC_OHS_FAT</Label>
+    
+    <Label value="B-SOC_OHS_HCI" background="#CC99FF">B-SOC_OHS_HCI</Label>
+    <Label value="I-SOC_OHS_HCI" background="#CC99FF">I-SOC_OHS_HCI</Label>
+    
+    <Label value="B-SOC_OHS_REC" background="#CC99FF">B-SOC_OHS_REC</Label>
+    <Label value="I-SOC_OHS_REC" background="#CC99FF">I-SOC_OHS_REC</Label>
+    
+    <Label value="B-SOC_OHS_RWI" background="#CC99FF">B-SOC_OHS_RWI</Label>
+    <Label value="I-SOC_OHS_RWI" background="#CC99FF">I-SOC_OHS_RWI</Label>
+    
+    <!-- Governance (GOV) Tags -->
+    <!-- Board Composition -->
+    <Label value="B-GOV_BOC_BIN" background="#FF66B2">B-GOV_BOC_BIN</Label>
+    <Label value="I-GOV_BOC_BIN" background="#FF66B2">I-GOV_BOC_BIN</Label>
+    
+    <Label value="B-GOV_BOC_WOB" background="#FF66B2">B-GOV_BOC_WOB</Label>
+    <Label value="I-GOV_BOC_WOB" background="#FF66B2">I-GOV_BOC_WOB</Label>
+    
+    <!-- Management Diversity -->
+    <Label value="B-GOV_MAD_WMT" background="#FF66B2">B-GOV_MAD_WMT</Label>
+    <Label value="I-GOV_MAD_WMT" background="#FF66B2">I-GOV_MAD_WMT</Label>
+    
+    <!-- Ethical Behaviour -->
+    <Label value="B-GOV_ETB_ACD" background="#66B2FF">B-GOV_ETB_ACD</Label>
+    <Label value="I-GOV_ETB_ACD" background="#66B2FF">I-GOV_ETB_ACD</Label>
+    
+    <Label value="B-GOV_ETB_ACT_N" background="#66B2FF">B-GOV_ETB_ACT_N</Label>
+    <Label value="I-GOV_ETB_ACT_N" background="#66B2FF">I-GOV_ETB_ACT_N</Label>
+    
+    <Label value="B-GOV_ETB_ACT_P" background="#66B2FF">B-GOV_ETB_ACT_P</Label>
+    <Label value="I-GOV_ETB_ACT_P" background="#66B2FF">I-GOV_ETB_ACT_P</Label>
+    
+    <!-- Certifications -->
+    <Label value="B-GOV_CER_LRC" background="#66FF66">B-GOV_CER_LRC</Label>
+    <Label value="I-GOV_CER_LRC" background="#66FF66">I-GOV_CER_LRC</Label>
+    
+    <!-- Alignment with Frameworks -->
+    <Label value="B-GOV_ALF_AFD" background="#66FF66">B-GOV_ALF_AFD</Label>
+    <Label value="I-GOV_ALF_AFD" background="#66FF66">I-GOV_ALF_AFD</Label>
+    
+    <!-- Assurance -->
+    <Label value="B-GOV_ASS_ASR" background="#FFCC66">B-GOV_ASS_ASR</Label>
+    <Label value="I-GOV_ASS_ASR" background="#FFCC66">I-GOV_ASS_ASR</Label>
+    
+    <!-- Value and Unit Tags -->
+    <Label value="B-VALUE" background="#FFD700">B-VALUE</Label>
+    <Label value="I-VALUE" background="#FFD700">I-VALUE</Label>
+    
+    <Label value="B-UNIT" background="#ADD8E6">B-UNIT</Label>
+    <Label value="I-UNIT" background="#ADD8E6">I-UNIT</Label>
+    
+  </Labels>
+</View>
