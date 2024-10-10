@@ -29,3 +29,10 @@
    ```shell
    python3 src/pdf_parse/llm_parse_esg_reports_pdf.py
    ```
+### Convert 'Report.md' to txt format and cleaning
+- All parsed pdf report are stored in `data/esg_parse_result`, which contains all images and `ouput.md`.
+- Run the script to convert `output.md` to txt and remove useless symbol:
+  ```shell
+  python3 src/data_clean/txt_clean.py
+  ```
+- Processed files will be stored in `data/esg_cleaned_report`
