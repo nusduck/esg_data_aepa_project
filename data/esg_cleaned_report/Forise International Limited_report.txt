@@ -286,14 +286,11 @@ the company is pleased to note that its directors actively prepare for and parti
 board committees : , ac: , rc: , nc: , board: , agm: , egm: : no.
 of meetings held in the year, ac: 3, rc: 1, nc: 1, board: 2, agm: 1, egm: 0 no.
 of meetings attended board members: , attendance percentage: , ac: , rc: , nc: , board: , agm: , egm: board members: peng weile, attendance percentage: 75%, ac: 3, rc: 0, nc: 0, board: 2, agm: 1, egm: 0 board members: wan jinn woei1, attendance percentage: 100%, ac: 2, rc: n/a, nc: n/a, board: 1, agm: n/a, egm: 0 board members: peng fei2, attendance percentage: 100%, ac: 2, rc: 1, nc: 1, board: 2, agm: 1, egm: 0 board members: azman hisham bin ja'afar3, attendance percentage: 100%, ac: 3, rc: 1, nc: 1, board: 2, agm: 1, egm: 0 board members: siow chee keong, attendance percentage: 100%, ac: 3, rc: 1, nc: 1, board: 2, agm: 1, egm: 0 board members: lee ah too4, attendance percentage: 100%, ac: 1, rc: n/a, nc: n/a, board: n/a, agm: n/a, egm: 0 notes: 1 mr.
-wan jinn woei was appointed to the board as an executive director on 1 august 2022 and attended all meetings of the company held thereafter.
-2 mr.
+wan jinn woei was appointed to the board as an executive director on 1 august 2022 and attended all meetings of the company held thereafter. 2 mr.
 peng fei ceased to be a non-executive director with effect from 9 september 2022.
-he attended all meetings during his tenure of service in fy2022.
-3 mr.
+he attended all meetings during his tenure of service in fy2022. 3 mr.
 azman hisham bin ja'afar ceased to be an independent director with effect from 2 february 2023.
-he attended all meetings of the company held thereafter.
-4 mr.
+he attended all meetings of the company held thereafter. 4 mr.
 lee ah too was appointed to the board as an independent director on 1 december 2022 and attended all meetings of the company held thereafter.
 corporate governance report 1.
 board matters continued 1.1 the board's conduct of affairs continued 1.1.1 access to complete, adequate and timely information the management and executive directors provide the board with relevant and accurate information in a timely manner relating to matters to be brought before the board, prior to board meetings and on an on-going basis.
@@ -316,8 +313,7 @@ the training will cover the roles and responsibilities of a director of a listed
 all directors have duly completed their sid and sustainability reporting training as at the date of this report, and the group's culture, to enable them to direction and policies, key business risks, governance practices and all directors are also briefed and provided with regular updates on pertinent business developments, as well as developments in areas such as corporate governance, commercial risks, changes to laws and regulations pertaining to the group’s business and operations, and changes in financial reporting standards, so as to enable them to properly discharge their duties as board members.
 the group sponsors relevant courses and seminars for new and existing directors in issues beyond basic director’s duties and liabilities.
 our directors, from time to time, attend appropriate courses, conferences and seminars.
-the board encourages the directors to continually develop and refresh their professional knowledge and skills, and to keep themselves abreast of relevant developments in the group’s business and the regulatory and industry-specific environments in which the group operates.
-1.2 board composition and guidance principle 2: the board has an appropriate level of independence and diversity of thought and background in its composition to enable it to make decisions in the best interests of the company.
+the board encourages the directors to continually develop and refresh their professional knowledge and skills, and to keep themselves abreast of relevant developments in the group’s business and the regulatory and industry-specific environments in which the group operates. 1.2 board composition and guidance principle 2: the board has an appropriate level of independence and diversity of thought and background in its composition to enable it to make decisions in the best interests of the company.
 as at the date of this annual report, the board has four directors, comprising two executive directors and two independent non-executive directors.
 as two out of four members of the board are independent directors, there is a strong independent element on the board and no individual or group of individuals dominate the board’s decision-making process.
 the board recognises that this departs from the requirements of provisions 2.2 and 2.3 of the code, which stipulate that independent directors must make up a majority of the board where the chairman is not identified a suitable candidate to be appointed to the board as an independent non-executive director the "proposed new director", subject to the approval of shareholders at the upcoming agm.
@@ -443,8 +439,7 @@ on an annual basis, the rc reviews and recommends the specific remuneration pack
 each rc member will abstain from voting on any resolution making any recommendations in respect of his remuneration package.
 the rc has met to consider and review remuneration packages including those employees related to the executive directors and controlling shareholders of the company.
 the rc has explicit authority within its terms of reference to seek appropriate expert advice in the field of executive compensation outside the company on remuneration matters where necessary.
-there being no specific necessity, the rc did not require the services of an external remuneration consultant in fy2022.
-2.2 level and mix of remuneration principle 7: the level and structure of remuneration of the board and kmp are appropriate and proportionate to the sustained performance and value creation of the company, taking into account the strategic objectives of the company.
+there being no specific necessity, the rc did not require the services of an external remuneration consultant in fy2022. 2.2 level and mix of remuneration principle 7: the level and structure of remuneration of the board and kmp are appropriate and proportionate to the sustained performance and value creation of the company, taking into account the strategic objectives of the company.
 in order to maximise shareholders’ value and promote the long-term success of the group, the company seeks to attract, retain and motivate the management and employees by tailoring competitive remuneration packages.
 the remuneration packages are designed to: - remunerate at level that mix recognises the performance, potential, and responsibilities of these individuals.
 - in setting remuneration packages, the company takes into account, amongst other things, each individual’s scope of responsibilities, prevailing market conditions, the company’s risk policies and future plans, the time horizon of such risks and comparable industry benchmarks.
@@ -461,20 +456,15 @@ the executive directors have an employment term of not more than three years and
 the company's compensation framework comprises of fixed pay and short-term and long-term incentives.
 the company subscribes to linking executive remuneration to corporate and individual performance, based on an annual appraisal of employees and using indicators such as core values, competencies, key result areas, performance rating, and potential of the employees.
 long-term incentive schemes are put in place to motivate and reward employees and align their interests to maximise long-term shareholder value.
-the rc has met to consider and review the remuneration packages of the directors and kmp, including those employees related to the executive directors and controlling shareholders of the company.
-2.3 disclosure on remuneration principle 8: the company is transparent on its remuneration policies, level and mix of remuneration, the procedure for setting remuneration, and the relationships between remuneration, performance and value creation.
+the rc has met to consider and review the remuneration packages of the directors and kmp, including those employees related to the executive directors and controlling shareholders of the company. 2.3 disclosure on remuneration principle 8: the company is transparent on its remuneration policies, level and mix of remuneration, the procedure for setting remuneration, and the relationships between remuneration, performance and value creation.
 to maintain the confidentiality of the remuneration policies of the company, the board is of the view that it is in the best interests of the company not to fully disclose the remuneration of each individual executive director, although it is aware of the requirement to do so in due course for financial years ending on or after 31 december 2024.
 the rc reviews and recommends to the board the remuneration framework for directors as well as kmp, and approves the specific remuneration packages of each kmp taking into consideration the group's performance targets, the individual kmp's performance, market practices in compensation, and the group's existing businesses and business performance in fy2022, among others.
 corporate governance report 2.
-remuneration matters continued 2.3 disclosure on remuneration continued details of remuneration of directors the breakdown of remuneration paid to or accrued to each director for fy2022 is as follows: table: remuneration breakdown remuneration band and name of director: , director fees %^1: , salary %: , bonus %: , total %: , total s$ '000: remuneration band and name of director: below s$250,000, director fees %^1: , salary %: , bonus %: , total %: , total s$ '000: remuneration band and name of director: peng weile, director fees %^1: -, salary %: 100, bonus %: -, total %: 100, total s$ '000: remuneration band and name of director: wan jinn woei^2, director fees %^1: -, salary %: 100, bonus %: -, total %: 100, total s$ '000: remuneration band and name of director: peng fei^3, director fees %^1: 100, salary %: -, bonus %: -, total %: 100, total s$ '000: 21.9 remuneration band and name of director: azman hisham bin ja'afar^4, director fees %^1: 100, salary %: -, bonus %: -, total %: 100, total s$ '000: 34.3 remuneration band and name of director: siow chee keong, director fees %^1: 100, salary %: -, bonus %: -, total %: 100, total s$ '000: 33.0 remuneration band and name of director: lee ah too^5, director fees %^1: 100, salary %: -, bonus %: -, total %: 100, total s$ '000: 2.7 notes: 1 the directors’ fees were approved at the company’s agm held on 27 april 2022.
-2 mr.
+remuneration matters continued 2.3 disclosure on remuneration continued details of remuneration of directors the breakdown of remuneration paid to or accrued to each director for fy2022 is as follows: table: remuneration breakdown remuneration band and name of director: , director fees %^1: , salary %: , bonus %: , total %: , total s$ '000: remuneration band and name of director: below s$250,000, director fees %^1: , salary %: , bonus %: , total %: , total s$ '000: remuneration band and name of director: peng weile, director fees %^1: -, salary %: 100, bonus %: -, total %: 100, total s$ '000: remuneration band and name of director: wan jinn woei^2, director fees %^1: -, salary %: 100, bonus %: -, total %: 100, total s$ '000: remuneration band and name of director: peng fei^3, director fees %^1: 100, salary %: -, bonus %: -, total %: 100, total s$ '000: 21.9 remuneration band and name of director: azman hisham bin ja'afar^4, director fees %^1: 100, salary %: -, bonus %: -, total %: 100, total s$ '000: 34.3 remuneration band and name of director: siow chee keong, director fees %^1: 100, salary %: -, bonus %: -, total %: 100, total s$ '000: 33.0 remuneration band and name of director: lee ah too^5, director fees %^1: 100, salary %: -, bonus %: -, total %: 100, total s$ '000: 2.7 notes: 1 the directors’ fees were approved at the company’s agm held on 27 april 2022. 2 mr.
 wan jinn woei is also a substantial shareholder of the company.
-he was appointed to the board as an executive director on 1 august 2022.
-3 mr.
-peng fei ceased to be a non-executive director with effect from 9 september 2022.
-4 mr.
-azman hisham bin ja’afar ceased to be an independent director with effect from 2 february 2023.
-5 mr.
+he was appointed to the board as an executive director on 1 august 2022. 3 mr.
+peng fei ceased to be a non-executive director with effect from 9 september 2022. 4 mr.
+azman hisham bin ja’afar ceased to be an independent director with effect from 2 february 2023. 5 mr.
 lee ah too was appointed to the board as an independent director on 1 december 2022.
 as disclosed in page 101 of the annual report, the executive directors’ remuneration amounted to s$287,000 in total.
 details of remuneration of top kmp the company's staff remuneration policy is based on individual's rank and role, the individual’s performance, the group’s performance and industry benchmarking gathered from companies in comparable industries.
@@ -496,8 +486,7 @@ the board has also received assurance from the financial controller, executive d
 corporate governance report 3.
 accountability and audit continued 3.1 risk management and internal controls continued based on the internal controls and risk management systems established and maintained by the group including the erm, work performed by the internal and independent auditors, and reviews performed by management, various board committees and the board, in accordance with rule 120710 and rule 7191 of the listing manual, the operational, compliance and information technology controls and risk management controls including financial, with the concurrence of the ac, is of the opinion that the group’s internal system, were adequate and effective for fy2022.
 the system of internal controls and risk management established by the group provides reasonable, but not absolute, assurance that the group will not be adversely affected by any event that can be reasonably foreseen as it strives to achieve its business objectives.
-the board also notes that no system of internal controls and risk management can provide absolute assurance in this regard, or absolute assurance against the occurrence of material errors, poor judgment in decision-making, human error, losses, fraud or other irregularities.
-3.2 audit committee principle 10: the board has an audit committee which discharges its duties objectively.
+the board also notes that no system of internal controls and risk management can provide absolute assurance in this regard, or absolute assurance against the occurrence of material errors, poor judgment in decision-making, human error, losses, fraud or other irregularities. 3.2 audit committee principle 10: the board has an audit committee which discharges its duties objectively.
 the ac comprises two directors, both of whom are independent non-executive directors, namely: - mr.
 siow chee keong: chairman mr.
 lee ah too: member as mentioned above, the board has identified the proposed new director, the particulars of whom are set out in pages 114 to 123 of this annual report, as a suitable candidate to be appointed as a third member of the ac.
@@ -600,8 +589,7 @@ the company does not have a fixed dividend policy.
 the payment of dividend is deliberated by the board annually having regard to various factors, including the company's earnings, general financial condition, results of operations, capital requirements, cash flow, expected future earnings, capital expenditure and investment plans, the terms of borrowing arrangements if any, general business condition, development plans and other factors as the directors may deem appropriate.
 there can be no assurance that dividends will be paid in the future or of the amount or timing of any dividends that will be paid in the future.
 where dividends are not paid, the company expressly discloses the reasons together with the announcement of the financial statements.
-further, if investors have any questions from time to time, they are always welcome to send their queries to the address provided on the corporate website – contact@foriseinternational.com.
-5.
+further, if investors have any questions from time to time, they are always welcome to send their queries to the address provided on the corporate website – contact@foriseinternational.com. 5.
 managing stakeholder relationships 5.1 engagement with stakeholders principle 13: the board adopts an inclusive approach by considering and balancing the needs and interests of material stakeholders, as part of its overall responsibility to ensure that the best interests of the company are served.
 the company takes a pragmatic approach towards the needs and interests of key stakeholders, taking into consideration the best interests of the company and to support its long-term strategy.
 the company engages its stakeholders through various channels to ensure that the business interests of the group are balanced, when compared to the needs and interests of its stakeholders.
@@ -613,14 +601,12 @@ the website is updated regularly, and contains various information on the group 
 stakeholders may also send their queries to the address provided on the corporate website – contact@foriseinternational.com.
 the group's strategy and key areas of focus in managing stakeholder relationships can be found in the sustainability report.
 corporate governance additional information 6.
-material contracts save for the service agreements between the company and the executive directors and disclosures in paragraph 8 entitled “interested party transactions”, there were no material contracts entered into by the company or its subsidiaries involving the interests of the directors or controlling shareholders, which are either still subsisting at the end of fy2022 or if not then subsisting, entered into since the end of fy2022.
-7.
+material contracts save for the service agreements between the company and the executive directors and disclosures in paragraph 8 entitled “interested party transactions”, there were no material contracts entered into by the company or its subsidiaries involving the interests of the directors or controlling shareholders, which are either still subsisting at the end of fy2022 or if not then subsisting, entered into since the end of fy2022. 7.
 dealings in securities the company has adopted a policy on dealings in securities in accordance with rule 120719 of the listing manual, which prohibits dealings in the company’s securities by directors, kmp and employees of the group and their connected persons from dealing in the company's shares within a certain trading periods, being the period beginning one month before the date of the announcement of the half-year and full year results and ending on the date of the announcement of the relevant results.
 the company is not required to, and does not announce quarterly financial statements.
 in addition, the officers of the company are reminded i not to deal with the company's securities on short-term considerations or if they are in possession of unpublished material price-sensitive information; and ii that they are required to report on their dealings in shares of the company.
 the directors, kmp and employees are also advised to observe the insider trading laws at all times even when dealing in securities within the permitted trading periods.
-the company confirms that it and its officers have not dealt in the company's securities during the blackout periods as stipulated above.
-8.
+the company confirms that it and its officers have not dealt in the company's securities during the blackout periods as stipulated above. 8.
 interested person transactions the group has established procedures to ensure that all transactions with interested persons are reported in a timely manner to the ac and that transactions are conducted on an arm’s length basis that are not prejudicial to the interests of the shareholders.
 when a potential conflict of interest occurs, the director concerned will be excluded from discussions and refrain from exercising any influence over other members of the board.
 during the financial period under review, the group did not have a shareholders’ mandate pursuant to rule 920 of the listing manual.
@@ -705,8 +691,7 @@ the effects of any revision are recognised in profit or loss when the changes ar
 fully depreciated plant and equipment are retained in the financial statements until they are no longer in use.
 c subsequent expenditure subsequent expenditure relating to plant and equipment that has already been recognised is added to the carrying amount of the asset only when it is probable that future economic benefits associated with the item will flow to the group and the cost of the item can be measured reliably.
 all other repair and maintenance expenses are recognised in profit or loss when incurred.
-d disposal on disposal of an item of plant and equipment, the differences between the net disposal proceeds and its carrying amount is recognised in profit or loss within “other income”.
-2.6 investments in subsidiary corporations investments in subsidiary corporations are carried at cost less accumulated impairment losses in the company’s balance sheet.
+d disposal on disposal of an item of plant and equipment, the differences between the net disposal proceeds and its carrying amount is recognised in profit or loss within “other income”. 2.6 investments in subsidiary corporations investments in subsidiary corporations are carried at cost less accumulated impairment losses in the company’s balance sheet.
 on disposal of such investments, the differences between disposal proceeds and the carrying amounts of the investments are recognised in profit or loss.
 no content was generated for page 74.
 notes to the financial statements for the financial year ended 31 december 2022 2 summary of significant accounting policies continued 2.8 financial assets continued a classification and measurement continued debt instruments at subsequent measurement debt instruments mainly comprise of cash and cash equivalents, trade and other receivables and other current assets excluding prepayments.
@@ -728,8 +713,7 @@ no content was generated for page 78.
 no content was generated for page 79.
 no content was generated for page 80.
 no content was generated for page 81.
-notes to the financial statements for the financial year ended 31 december 2022 2 summary of significant accounting policies continued 2.18 dividends to company’s shareholders dividends to the company’s shareholders are recognised when the dividends are approved for payment.
-3 critical accounting estimates, assumptions and judgements estimates, assumptions and judgements are continually evaluated and are based on historical experience and other factors, including expectations of future events that are believed to be reasonable under the circumstances.
+notes to the financial statements for the financial year ended 31 december 2022 2 summary of significant accounting policies continued 2.18 dividends to company’s shareholders dividends to the company’s shareholders are recognised when the dividends are approved for payment. 3 critical accounting estimates, assumptions and judgements estimates, assumptions and judgements are continually evaluated and are based on historical experience and other factors, including expectations of future events that are believed to be reasonable under the circumstances.
 areas involving a higher degree of judgement or complexity, or area where estimates and assumptions are significant to the financial statements are disclosed below.
 revenue from contract with customers the group recognises revenue from contracts with customers when the outcome of a transaction involving the rendering of services can be estimated reliably.
 significant judgement and estimation are required in determining the method and amount of revenue to recognise.
@@ -744,22 +728,19 @@ the amount of revenue recognised for the financial year is disclosed in note 4 t
 no content was generated for page 83.
 annual report 2022 forise international limited notes to the financial statements for the financial year ended 31 december 2022 5.
 other income : , 2022: , 2021: : interest income on bank deposits, 2022: 20, 2021: 6 : rental income note 18, 2022: 14, 2021: 4 : government grants – job support schemea, 2022: 6, 2021: 10 ajob support scheme “jss” is a temporary scheme introduced in the singapore budget 2020 to help enterprises retain local employees.
-under the jss, employers will receive cash grants in relation to the gross monthly wages of eligible employees.
-6.
+under the jss, employers will receive cash grants in relation to the gross monthly wages of eligible employees. 6.
 employee compensation : , 2022: , 2021: : salaries and bonuses, 2022: 1,016, 2021: 905 : employer’s contribution to defined contribution plans,, 2022: 63, 2021: 65 : including central provident fund “cpf” and employees provident fund “eppf”, 2022: -, 2021: 8 : other short-term benefits, 2022: 63, 2021: 8 : total, 2022: 1,079, 2021: 978 7.
 tax expense : , 2022: , 2021: : tax expense attributable to loss/profit is made up of:, 2022: -, 2021: 39 : current income tax – singapore, 2022: 1, 2021: 32 : under provision of income tax in prior financial years, 2022: 1, 2021: 71 : total, 2022: 1, 2021: 71 tax charges on profits assessable elsewhere have been calculated at the rates of tax prevailing in the countries, in which the group operates, based on existing legislation, interpretation and practices in respect thereof.
 notes to the financial statements for the financial year ended 31 december 2022 7 tax expense continued the tax on the group’s loss/profit before income tax differs from the theoretical amount that would arise using singapore dollar’s statutory rate of income tax as follows: table: tax expense by year : , 2022: , 2021: : , 2022: singapore dollar’000, 2021: singapore dollar’000 : loss/profit before tax, 2022: 2,381, 2021: 194 : tax at domestic income tax rate of 17% 2021: 17%, 2022: , 2021: : - expenses not deductible for tax purpose, 2022: 405, 2021: 33 : - income not subject to tax, 2022: 9, 2021: 2 : - deferred tax assets not recognised, 2022: -, 2021: 7 : - utilisation of deferred tax assets not recognised, 2022: -, 2021: 60 : - statutory stepped income exemption, 2022: 401, 2021: 16 : - effect of different tax rates in other countries, 2022: -, 2021: 21 : - under provision of taxation in prior years, 2022: 5, 2021: 12 : , 2022: 1, 2021: 32 : total, 2022: 1, 2021: 71 deferred income tax assets are recognised for tax losses carried forward to the extent that realisation of the related tax benefits through future taxable profits is probable.
 as at 31 december 2022, the group’s unutilised tax losses amounted to sgd3,434,000 2021: sgd1,076,000 which can be carried forward to offset against future taxable income subject to compliance with the provisions of the income tax act and meeting certain statutory requirements in the respective jurisdictions in which the group operates.
-the tax losses have no expiry date.
-8 loss per share basic loss per share is calculated by dividing the net loss attributable to equity holders of the company by the weighted average number of ordinary shares outstanding during the financial year.
+the tax losses have no expiry date. 8 loss per share basic loss per share is calculated by dividing the net loss attributable to equity holders of the company by the weighted average number of ordinary shares outstanding during the financial year.
 for the purpose of calculating diluted loss per share, loss attributable to equity holders of the company and the weighted average number of ordinary shares outstanding are adjusted for the effects of all potential dilutive ordinary shares.
 table: loss per share by year : , 2022: , 2021: : , 2022: singapore dollar’000, 2021: singapore dollar’000 : net loss attributable to equity holders of the company singapore dollar’000, 2022: 1,625, 2021: 18 : weighted average number of ordinary shares outstanding for basic and diluted loss per share ‘000, 2022: 42,599, 2021: 42,599 : basic and diluted loss per share singapore dollar singapore cents, 2022: 3.81, 2021: 0.04 notes to the financial statements for the financial year ended 31 december 2022 9 cash and cash equivalents : , group: , company: disposal of subsidiary corporation on 22 november 2022, the group disposed of its subsidiary corporation, raffles neobank solutions pte.
 ltd.
 the effects of the disposal on the cash flows of the group were: group: at group: 22 november group: 2022 group: singapore dollar'000 carrying amount of assets and liabilities as at the date of disposal: trade and other receivables other current assets total assets trade and other payables net assets derecognised less: non-controlling interests net assets disposed of cash inflow arising from disposal: net assets disposed of as above non-cash consideration - other payables written off net cash inflows on disposal amount less than sgd1,000.
 : , at: : , at: 22 november : , at: 2022 : , at: singapore dollar'000 : trade and other receivables, at: 164 : other current assets, at: - : total assets, at: 164 : trade and other payables, at: 62 : net assets derecognised, at: 102 : less: non-controlling interests, at: 50 : net assets disposed of, at: 52 : net assets disposed of as above, at: 52 : non-cash consideration - other payables written off, at: 51 : net cash inflows on disposal, at: 1 notes to the financial statements for the financial year ended 31 december 2022 10 trade and other receivables table: trade and other receivables : , group: , company: : , group: 937, company: 882 the non-trade receivables from subsidiary corporations and a related party are unsecured, interest-free and are repayable on demand.
 the loans to an associated company by one of the subsidiary corporations were unsecured, bore interest rates ranging from 8% to 9% per annum and were due on 30 november 2019.
-in the previous financial year ended 31 december 2019, the group had provided an expected credit loss allowance of sgd4,095,000 relating to the loans to an associated company and in the current financial year ended 31 december 2022, management did not reasonably expect the group to recover the loans to an associated company and consequently, the allowance of sgd4,095,000 has been written off as disclosed in note 19biv to the financial statements.
-11 other current assets table: other current assets : , group: , company: notes to the financial statements for the financial year ended 31 december 2022 12.
+in the previous financial year ended 31 december 2019, the group had provided an expected credit loss allowance of sgd4,095,000 relating to the loans to an associated company and in the current financial year ended 31 december 2022, management did not reasonably expect the group to recover the loans to an associated company and consequently, the allowance of sgd4,095,000 has been written off as disclosed in note 19biv to the financial statements. 11 other current assets table: other current assets : , group: , company: notes to the financial statements for the financial year ended 31 december 2022 12.
 investment in an associated company group : , 2022 singapore dollar'000: , 2021 singapore dollar'000: : cost:, 2022 singapore dollar'000: , 2021 singapore dollar'000: : beginning and end of financial year, 2022 singapore dollar'000: 243, 2021 singapore dollar'000: 243 : allowance for impairment:, 2022 singapore dollar'000: , 2021 singapore dollar'000: : beginning and end of financial year, 2022 singapore dollar'000: 243, 2021 singapore dollar'000: 243 : carrying amount:, 2022 singapore dollar'000: , 2021 singapore dollar'000: : end of financial year, 2022 singapore dollar'000: -, 2021 singapore dollar'000: - set out below is the associated company of the group as at 31 december 2022 and 2021.
 the associated company has a share capital consisting solely of ordinary shares, which are held directly by the group; its country of incorporation is also its principal place of business.
 name of entity: , principal activity: , country of business/ incorporation: , % of ownership interest: the group accounts for its investment in le rong as an associated company as the group holds more than 20% of the issued share capital of le rong and the group is able to exercise significant influence over the investment due to the group's voting power both through its equity holding and its representation on the board.
@@ -807,12 +788,10 @@ of ordinary shares: , amount singapore dollar'000: : beginning of financial year
 of ordinary shares: 42,599,999, amount singapore dollar'000: 33,347 : 2021, no.
 of ordinary shares: , amount singapore dollar'000: : beginning of financial year and end of financial year, no.
 of ordinary shares: 42,599,999, amount singapore dollar'000: 33,347 all issued ordinary shares are fully paid.
-there is no par value for these ordinary shares and carry one vote per share and a right to dividends as and when declared by the company.
-17 currency translation reserve : , group: , company: 94 forise international limited annual report 2022 for the financial year ended 31 december 2022 notes to the financial statements 18 leases - the group as a lessor nature of the group’s leasing activities – group as an intermediate lessor sublease – classified as operating lease the group acts as an intermediate lessor under an arrangement in which it subleases its office space to a related party for monthly lease payments.
+there is no par value for these ordinary shares and carry one vote per share and a right to dividends as and when declared by the company. 17 currency translation reserve : , group: , company: 94 forise international limited annual report 2022 for the financial year ended 31 december 2022 notes to the financial statements 18 leases - the group as a lessor nature of the group’s leasing activities – group as an intermediate lessor sublease – classified as operating lease the group acts as an intermediate lessor under an arrangement in which it subleases its office space to a related party for monthly lease payments.
 the sublease periods do not form a major part of the remaining lease terms under the head lease and accordingly, the sub-lease is classified as an operating lease.
 income from subleasing the office space recognised during the financial year ended 31 december 2022 was sgd14,000 2021: sgdnil note 5.
-the sublease has been terminated on 31 december 2022 and the group will not receive any lease payments subsequent to the reporting date.
-19 financial risk management financial risk factors the group’s activities expose it to market risk including currency risk and interest rate risk, credit risk, liquidity risk and capital risk.
+the sublease has been terminated on 31 december 2022 and the group will not receive any lease payments subsequent to the reporting date. 19 financial risk management financial risk factors the group’s activities expose it to market risk including currency risk and interest rate risk, credit risk, liquidity risk and capital risk.
 the group’s overall risk management strategy seeks to minimise adverse effects from the unpredictability of financial markets on the group’s financial performance.
 the board of directors is responsible for setting the objectives and underlying principles of financial risk management for the group.
 this includes establishing policies such as authority levels, oversight responsibilities, risk identification and measurement and exposure limits.
@@ -945,9 +924,7 @@ of ordinary shares: 8,946,000, %: 21.00, indirect interest: - name: healing spri
 of ordinary shares: 4,686,000, %: 11.00, indirect interest: - name: weng wenwei3, direct interest: -, %: -, no.
 of ordinary shares: 3,230,000, %: 7.58, indirect interest: - notes: 1 the 7,242,000 ordinary shares are held by goh kui lian's nominee, cimb securities singapore pte ltd.
 goh kui lian is also deemed to be interested in the 1,704,000 ordinary shares held by kendek products co., ltd., a company incorporated in the british virgin islands and wholly-owned by ms goh kui lian, and registered under its nominee, uob kay hian pte.
-ltd.
-2 the 4,686,000 are held by healing spring group limited’s nominee, kgi securities singapore pte ltd.
-3 weng wenwei is deemed to be interested in the 2,000,000 shares held by g&w investment management co., ltd “g&w” by virtue of his interest in 100% of the shares in g&w and 1,230,000 shares held by his spouse, cai an'e.
+ltd. 2 the 4,686,000 are held by healing spring group limited’s nominee, kgi securities singapore pte ltd. 3 weng wenwei is deemed to be interested in the 2,000,000 shares held by g&w investment management co., ltd “g&w” by virtue of his interest in 100% of the shares in g&w and 1,230,000 shares held by his spouse, cai an'e.
 registered in the name of dbs nominees private limited.
 free float as at 27 march 2023, approximately 52.91% of the issued ordinary shares of the company were held in the hands of the public on the basis of information available to the company.
 accordingly, the company has complied with rule 723 of the listing manual of the singapore exchange securities trading limited.
@@ -958,8 +935,7 @@ printed copies of these documents will not be despatched to members of the compa
 the agm will be held for the following purposes: - as ordinary business 1.
 to receive and, if approved, adopt the audited accounts for the financial year ended 31 december 2022 together with the directors' statement and independent auditors' report thereon.
 resolution 1 2.
-to approve the payment of directors' fees of s$99,000 for the financial year ending 31 december 2023, to be paid half-yearly in arrears.
-2022: s$99,000 resolution 2 3.
+to approve the payment of directors' fees of s$99,000 for the financial year ending 31 december 2023, to be paid half-yearly in arrears. 2022: s$99,000 resolution 2 3.
 to re-elect mr.
 wan jin woei in accordance with regulation 117 of the company's constitution, as director of the company.
 see explanatory note ii resolution 3 4.
@@ -986,20 +962,16 @@ heng chee song peter will be an independent non-executive director of the compan
 iv ordinary resolution 7 proposed in item 8 above, if passed, will empower the directors of the company, effective from the date of this agm until the conclusion of the next agm of the company, or the date by which the next agm of the company is required by law to be held or such authority is varied or revoked by the company, in a general meeting, with effect from the date of the next agm of the company, to allot and issue shares and/or convertible securities in the company up to a maximum of fifty per cent 50% of the total number of issued shares excluding treasury shares and subsidiary holdings of which the aggregate number of shares and convertible securities to be issued other than on a pro-rata basis to existing shareholders shall not exceed twenty per cent 20% of the total issued shares excluding treasury shares and subsidiary holdings.
 notes:- 1.
 printed copies of this notice of agm and the accompanying proxy form will not be sent to members.
-instead, these documents are electronically disseminated to members and may be accessed on sgxnet at .
-2.
-the agm will be convened and held by electronic means.
-3.
+instead, these documents are electronically disseminated to members and may be accessed on sgxnet at . 2.
+the agm will be convened and held by electronic means. 3.
 alternative arrangements are put in place to allow members to participate in the agm by: a.
 attending, asking questions and communicating "live" in real-time at the virtual agm via electronic means.
 members who wish to participate in the agm in such manner will have to pre-register in the manner outlined in note 5 below; b.
 submitting questions to the company in advance of or "live", at the virtual agm.
 please refer to note 6 below for further details; c.
 voting by proxy or "live" in real-time at the virtual agm via electronic means.
-please refer to note 7 below for further details.
-4.
-in the case of shares entered in the depository register, a depositor's name must appear on the depository register maintained by cdp as at 72 hours of training per employee before the time fixed for holding the agm in order for the depositor to be entitled to attend and vote at the agm.
-5.
+please refer to note 7 below for further details. 4.
+in the case of shares entered in the depository register, a depositor's name must appear on the depository register maintained by cdp as at 72 hours of training per employee before the time fixed for holding the agm in order for the depositor to be entitled to attend and vote at the agm. 5.
 registration for virtual agm a member will be able to follow the proceedings of the agm by watching and/or listening to the "live" real-time webcast via mobile phone, tablet, computer or any such electronic device.
 members will also be able to ask questions and communicate "live".
 in order to do so, a member must pre-register at the url by no later than 2.30 p.meter.
@@ -1010,8 +982,7 @@ members who have registered by the registration deadline but did not receive ema
 on 26 april 2023 should contact the company by email at for assistance, including details of their particulars comprising full name for individuals/company name for corporates, nric/passport number/company registration number, contact number, shareholding type and number of shares held.
 members must not forward the abovementioned email instructions to other persons who are not members and who are not entitled to attend the agm.
 this is also to avoid any technical disruptions or overload to the agm platform.
-members are reminded that the agm proceedings are private, and recording of the proceedings in whatever form is strictly prohibited.
-6.
+members are reminded that the agm proceedings are private, and recording of the proceedings in whatever form is strictly prohibited. 6.
 srs investors who hold shares through relevant intermediaries as defined in section 181 of the companies act, including investors under the supplementary retirement scheme "srs investors", may attend and cast their votes at the agm by pre-registering.
 if they would like to vote but are unable to attend the agm, they should approach their respective agents, including srs operators, as soon as possible, so that the necessary arrangements can be made by the relevant agents to appoint the chairman to act as their proxy, in which case, the investor shall be precluded from attending the agm personally.
 notice of annual general meeting 6.
@@ -1024,8 +995,7 @@ any subsequent clarifications sought by members after the cut-off time will be a
 members may also ask questions during the agm.
 the minutes of the agm will be published on sgxnet within one 1 month after the date of the agm.
 investors who hold shares through relevant intermediaries as defined in section 181 of the companies act, including srs investors, can submit their questions in relation to any resolution set out in the notice of agm upon pre-registration.
-they should also inform their respective agents including srs operators, as soon as possible, so that the necessary arrangements can be made by the relevant agents for their participation in the agm.
-7.
+they should also inform their respective agents including srs operators, as soon as possible, so that the necessary arrangements can be made by the relevant agents for their participation in the agm. 7.
 proxy voting or voting “live” at the agm a member may personally attend and vote “live” at the agm.
 alternatively: a a member of the company entitled to attend and vote at the agm and who is not a relevant intermediary may appoint not more than two 2 proxies to attend and vote in his/her stead; and b a member of the company entitled to attend and vote at the agm and who is a relevant intermediary may appoint more than two 2 proxies provided that each proxy is appointed to exercise the rights attached to different shares held by such member.
 “relevant intermediary” has the meaning ascribed to it in section 181 of the companies act.
@@ -1054,8 +1024,7 @@ additional information on directors seeking re-election or new appointment pursu
 no ii whether he has ever, to his knowledge, been concerned with the management or conduct, in singapore or elsewhere, of the affairs of:- no i any corporation which has been investigated for a breach of any law or regulatory requirement governing corporations in singapore or elsewhere; or no ii any entity not being a corporation which has been investigated for a breach of any law or regulatory requirement governing such entities in singapore or elsewhere; or no iii any business trust which has been investigated for a breach of any law or regulatory requirement governing business trusts in singapore or elsewhere; or no no content was generated for page 123.
 no content was generated for page 124.
 this page has been intentionally left blank.
-forise international limited incorporated in the republic of singapore company registration no.
-200804077w proxy form annual general meeting please see notes overleaf before completing this form this proxy form has been made available on sgxnet.
+forise international limited incorporated in the republic of singapore company registration no. 200804077w proxy form annual general meeting please see notes overleaf before completing this form this proxy form has been made available on sgxnet.
 a printed copy of this proxy form will not be despatched to members.
 i/we , being a member of forise international limited the "company", hereby appoint: name: , nric/passport/registration no.: , proportion of shareholdings: and/or: name: , nric/passport/registration no.: , proportion of shareholdings: or, if no proxy is named, the chairman of the annual general meeting "agm", as my/our proxy/proxies to attend and vote on my/our behalf at the agm to be convened and held by way of electronic means on thursday, 27 april 2023 at 2.30 p.meter.
 and at any adjournment thereof.
@@ -1100,18 +1069,15 @@ if no specific direction as to voting is given, the proxy/proxies except where t
 in the absence of specific direction in respect of a resolution, the appointment of the chairman of the agm as my/our proxy for that resolution will be treated as invalid.
 dated this of , 2023.
 total number of shares in : , number of shares: : a cdp register, number of shares: : b register of members, number of shares: important: please read notes overleaf important 1.
-a relevant intermediary may appoint more than two proxies to attend and vote at the agm please see note 2 for the definition of "relevant intermediary".
-2.
+a relevant intermediary may appoint more than two proxies to attend and vote at the agm please see note 2 for the definition of "relevant intermediary". 2.
 investors who hold shares under the supplementary retirement scheme "srs investors" may attend and cast their votes at the virtual agm personally.
-if they are unable to attend personally but would like to vote, they should inform their srs operators to appoint the chairman of the agm to act as their proxy, in which case, the srs investor shall be precluded from attending the agm.
-3.
+if they are unable to attend personally but would like to vote, they should inform their srs operators to appoint the chairman of the agm to act as their proxy, in which case, the srs investor shall be precluded from attending the agm. 3.
 this proxy form is not valid for use by srs investors and shall be ineffective for all intents and purposes if used or is purported to be used by them.
 name nric/passport/company registration number address notes: 1.
 please insert the total number of shares held by you.
 if you have shares entered against your name in the depositary register as defined in section 81sf of the securities and futures act 2001 of singapore, you should insert that number of shares.
 if you have shares registered in your name in the register of members, you should insert that number of shares.
-if you have shares entered against your name in the depositary register and shares registered in your name in the register of members, you should insert the aggregate number to all the shares held by you.
-2.
+if you have shares entered against your name in the depositary register and shares registered in your name in the register of members, you should insert the aggregate number to all the shares held by you. 2.
 the agm will be convened and held by electronic means.
 a member of the company whether individual or corporate “member” may personally attend and vote at the agm, or: a.
 a member who is not a relevant intermediary is entitled to appoint not more than two 2 proxies to attend and vote in his stead at the agm of the company.
@@ -1119,27 +1085,18 @@ where such member appoints more than one 1 proxy, he/she shall specify the propo
 if no percentage is specified, the first named proxy shall be deemed to be an alternate to the first named proxy; and b.
 a member of the company who is a relevant intermediary is entitled to appoint more than two 2 proxies to attend and vote at the agm of the company, but each proxy must be a member of the company, but each proxy must be appointed by the relevant intermediary.
 in such event, the relevant intermediary is entitled to appoint a different share 2 proxy, the number of shares in relation to which each proxy has been appointed shall be specified in the proxy form.
-in such event, the relevant intermediary shall submit a list of its proxies together with the information required in this proxy form to the company.
-3.
+in such event, the relevant intermediary shall submit a list of its proxies together with the information required in this proxy form to the company. 3.
 in appointing a proxy, if no specific direction as to voting is given by a member, the proxy/proxies except where the chairman of the agm is appointed as the member’s proxy will vote or abstain from voting at his/her/their discretion on any matter arising at the agm and at any adjournment thereof.
-in the absence of specific direction as to voting is given by a member, the appointment of the chairman of the agm as the member’s proxy for the relevant resolutions will be treated as invalid.
-4.
+in the absence of specific direction as to voting is given by a member, the appointment of the chairman of the agm as the member’s proxy for the relevant resolutions will be treated as invalid. 4.
 srs investors who wish to appoint the chairman of the agm as proxy should approach their respective srs operators to submit their votes by 5:00 p.meter.
-on 17 april 2023 that is, at least seven 7 working days before the date of the agm in order to allow sufficient time for their respective srs operators to in turn submit a proxy form to appoint the chairman of the agm to vote on their behalf by the cut-off date.
-5.
-a proxy need not be a member of the company.
-6.
-the duly executed proxy form must be submitted to the company in the following manner: a by email to contact@foriseinternational.com; or b in hard copy by post to the company's registered office at 15 scotts, 15 scotts road, 04-08, suite 22, singapore 228218.
-7.
+on 17 april 2023 that is, at least seven 7 working days before the date of the agm in order to allow sufficient time for their respective srs operators to in turn submit a proxy form to appoint the chairman of the agm to vote on their behalf by the cut-off date. 5.
+a proxy need not be a member of the company. 6.
+the duly executed proxy form must be submitted to the company in the following manner: a by email to contact@foriseinternational.com; or b in hard copy by post to the company's registered office at 15 scotts, 15 scotts road, 04-08, suite 22, singapore 228218. 7.
 this instrument of proxy must be signed by the appointor or his/her/its attorney duly authorised in writing.
-where the instrument appointing a proxy is executed by a corporation, it must be executed either under its common seal or under the hand of any officer or attorney duly authorised.
-8.
-where this instrument appointing a proxy or proxies is signed on behalf of the appointor by an attorney, copy thereof failing previous registration with the company must be lodged with this instrument of proxy, failing which this instrument of proxy may be treated as invalid.
-9.
-a corporation which is a member may authorise by a resolution of its directors or other governing body such person as it thinks fit to act as its representative at the agm, in accordance with section 179 of the companies act 1967 of singapore.
-10.
-the company shall be entitled to reject the instrument of proxy if it is incomplete, improperly complete, illegible or where the true intentions of the appointor are not ascertainable from the instructions of the appointor specified in the instrument such as in the case where the appointor submits more than one instrument of proxy.
-11.
+where the instrument appointing a proxy is executed by a corporation, it must be executed either under its common seal or under the hand of any officer or attorney duly authorised. 8.
+where this instrument appointing a proxy or proxies is signed on behalf of the appointor by an attorney, copy thereof failing previous registration with the company must be lodged with this instrument of proxy, failing which this instrument of proxy may be treated as invalid. 9.
+a corporation which is a member may authorise by a resolution of its directors or other governing body such person as it thinks fit to act as its representative at the agm, in accordance with section 179 of the companies act 1967 of singapore. 10.
+the company shall be entitled to reject the instrument of proxy if it is incomplete, improperly complete, illegible or where the true intentions of the appointor are not ascertainable from the instructions of the appointor specified in the instrument such as in the case where the appointor submits more than one instrument of proxy. 11.
 in the case of shares entered in the depositary register, a depositor's name must appear on the depositary register maintained by the central depository pte limited as at 72 hours of training per employee before the time fixed for holding the agm in order for the depositor to be entitled to appoint the proxy.
 otherwise, the company shall be entitled to reject the instrument of proxy.
 personal data privacy by submitting an instrument appointing a proxyies and/or representatives, the member accepts and agrees to the personal data privacy terms set out in the notice of agm dated 12 april 2023.
@@ -1147,5 +1104,4 @@ corporate information board of directors executive directors peng weile leo wan 
 hons share registrar and share transfer in.corp corporate services pte.
 ltd.
 formerly known as rht corporate advisory pte.
-ltd.
-30 cecil street 19-08 prudential tower singapore 049712 independent auditor cla global ts public accounting corporation formerly nexia ts public accounting corporation 80 robinson road 25-00 singapore 068898 director-in-charge: hock xiu min, sandy appointed since financial year ended 31 december 2022 principal banker united overseas bank forise international limited 15 scotts, 15 scotts road 04-08, suite 22 singapore 228218 tel: 6716 9780 fax: 6336 6933 www.foriseinternational.comdollar
+ltd. 30 cecil street 19-08 prudential tower singapore 049712 independent auditor cla global ts public accounting corporation formerly nexia ts public accounting corporation 80 robinson road 25-00 singapore 068898 director-in-charge: hock xiu min, sandy appointed since financial year ended 31 december 2022 principal banker united overseas bank forise international limited 15 scotts, 15 scotts road 04-08, suite 22 singapore 228218 tel: 6716 9780 fax: 6336 6933 www.foriseinternational.comdollar

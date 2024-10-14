@@ -142,10 +142,20 @@ def tokenize_text(text):
     return tokens
 
 
-def split_text_into_sentences(text):
+"""def split_text_into_sentences(text):
     # 使用正则表达式分割句子
     # 句子结束符包括 . ! ? 
     sentences = re.split(r'(?<=[.!?]) +', text)
+    content = ''
+    for sentence in sentences:
+        content = content + sentence + '\n'
+    return content"""
+
+def split_text_into_sentences(text):
+    # Split sentences with regular expressions, retaining sentence terminators
+    # Sentence terminators include . ! ! 
+    # Ensure that part such as "No. 1" are not splitted
+    sentences = re.split(r'(?<=[.!?]) +(?=\D)', text)
     content = ''
     for sentence in sentences:
         content = content + sentence + '\n'
