@@ -7,6 +7,7 @@ import os
 import time
 import concurrent.futures
 import json
+import datetime
 
 # Load configuration
 with open('config/demo_config.yaml', 'r') as config_file:
@@ -157,6 +158,20 @@ def txt_to_json(txt_content):
     return json_content
 
 if __name__ == '__main__':
+    # Create log directory if it doesn't exist
+    log_dir = 'src/log/llm_label'
+    os.makedirs(log_dir, exist_ok=True)
+
+    # Set up logging
+    current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = os.path.join(log_dir, f'llm_label_{current_time}.log')
+    logging.basicConfig(level=logging.INFO,
+                        format='%(asctime)s - %(levelname)s - %(message)s',
+                        handlers=[
+                            logging.FileHandler(log_file),
+                            logging.StreamHandler()
+                        ])
+    
     texts = []
     
     folder_path = "data/esg_filtered_report/" # filepath to the folder to be processed
