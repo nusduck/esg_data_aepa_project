@@ -50,7 +50,7 @@ def see_scores(results, thresholds):
 def filter_txt(input_file_path, thresholds = 0.9, max = 510, view = False):
     ## thresholds设置所取置信分数阈值
     ## max设置每句话最大字符数
-    ## plot设置是否查看分数分布图和分数相应保留句子个数
+    ## view设置是否查看分数分布图和分数相应保留句子个数
     
     
     try:
