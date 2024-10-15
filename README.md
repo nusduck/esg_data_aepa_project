@@ -45,7 +45,7 @@
    conda install transformers
    ```
 
-3. View and run 'src/filterdata/SimpleFilter.ipynb'
+3. View and run `src/filterdata/SimpleFilter.ipynb`
 
 
 
