@@ -165,8 +165,8 @@ def split_text_into_sentences(text):
 
 if __name__ == "__main__":
     
-    json_file = 'esg_data_aepa_project/data/unit_formatting_dict.json'
-    folder_path = "esg_data_aepa_project/data/esg_parse_result/" # 待清洗的文件夹路径
+    json_file = '/data/unit_formatting_dict.json'
+    folder_path = "/data/esg_parse_result/" # 待清洗的文件夹路径
     for filename in os.listdir(folder_path):
         print(filename)
         markdown_filepath = os.path.join(folder_path, f"{filename}/output.md")
@@ -180,7 +180,7 @@ if __name__ == "__main__":
         split_content = split_text_into_sentences(plain_text_content)
         
         
-        processed_file_path = os.path.join('esg_data_aepa_project/data/esg_cleaned_report', f'{filename}.txt')
+        processed_file_path = os.path.join('/data/esg_cleaned_report', f'{filename}.txt')
         os.makedirs(os.path.dirname(processed_file_path), exist_ok=True)
         with open(processed_file_path, "w", encoding="utf-8") as processed_file:
             processed_file.write(split_content)
