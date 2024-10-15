@@ -30,7 +30,7 @@
    python3 src/pdf_parse/llm_parse_esg_reports_pdf.py
    ```
 
-### filtered ESG report txt file
+### Filtered ESG report txt file
 
 1. Download the pytoch for your GPU (Download to your desired virtual environment）
    
