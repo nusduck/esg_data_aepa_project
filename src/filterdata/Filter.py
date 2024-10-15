@@ -36,11 +36,11 @@ def see_scores(results, thresholds):
     k = [0,0,0]
     for i in range(len(results)):
         if results[i][0].get('label') != 'None':
-            #得分0.9以上个数
+            #得分thresholds以上个数
             if results[i][0].get('score') > thresholds:
                 k[0] += 1
-            #得分0.8以上个数
-            if results[i][0].get('score') > 0.8:
+            #得分thresholds - 0.1以上个数
+            if results[i][0].get('score') > thresholds - 0.1:
                 k[1] += 1
             #所有非None类句子个数
             k[2] += 1
