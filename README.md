@@ -44,7 +44,7 @@
 
 ### Filter the report
 
-### NER_Label
+### BIO_Label
 
 - All filtered txt report are stored in `data/esg_filterd_report`
 
