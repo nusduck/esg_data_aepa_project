@@ -7,7 +7,7 @@ import os
 import time
 import concurrent.futures
 import json
-import datetime
+from datetime import datetime
 
 # Load configuration
 with open('config/demo_config.yaml', 'r') as config_file:
@@ -25,7 +25,7 @@ safety_settings = {
 
 
 
-with open('data/prompt/label_prompt.txt', 'r') as file:
+with open('data/prompt/label_prompt.txt', 'r', encoding='utf-8') as file:
     DEFAULT_PROMPT = file.read()
 
 def configure_ner_model():
