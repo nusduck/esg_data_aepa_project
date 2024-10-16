@@ -40,11 +40,11 @@ def see_scores(results, thresholds):
             if results[i][0].get('score') > thresholds:
                 k[0] += 1
             #得分thresholds - 0.1以上个数
-            if results[i][0].get('score') > thresholds - 0.1:
+            if results[i][0].get('score') > thresholds - 0.05:
                 k[1] += 1
             #所有非None类句子个数
             k[2] += 1
-    print(f'得分{thresholds}以上句子数{k[0]},得分{thresholds - 0.1}以上句子数{k[1]},非None类句子数{k[2]}')
+    print(f'得分{thresholds}以上句子数{k[0]},得分{thresholds - 0.05}以上句子数{k[1]},非None类句子数{k[2]}')
 
 
 def filter_txt(input_file_path, thresholds = 0.9, max = 510, view = False):
@@ -73,10 +73,14 @@ def filter_txt(input_file_path, thresholds = 0.9, max = 510, view = False):
         #设置最大文本长度
         max_text_length = max
 
+        #检查超出最大文本长度
+        over = []
+
         for t in text:
             t = t.strip()
             if len(t) > 512:
                 result = nlp(t[:max_text_length])
+                over.append(t)
             else:
                 result = nlp(t)
             results.append(result)
@@ -84,6 +88,7 @@ def filter_txt(input_file_path, thresholds = 0.9, max = 510, view = False):
         if view == True:
             see_scores(results, thresholds)
             Plot(results)
+            print(f'超出最大文本长度句子共{len(over)}')
         
         r = []
         for i in range(len(results)):
