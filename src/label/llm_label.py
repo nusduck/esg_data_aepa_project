@@ -28,10 +28,13 @@ safety_settings = {
 with open('data/prompt/label_prompt.txt', 'r', encoding='utf-8') as file:
     DEFAULT_PROMPT = file.read()
 
+with open('data/prompt/system_prompt_label.txt', 'r', encoding='utf-8') as file:
+    DEFAULT_ROLE_PROMPT = file.read()
+    
 def configure_ner_model():
     global current_api_key_index
     genai.configure(api_key=api_keys[current_api_key_index])
-    return genai.GenerativeModel(config['google']['model'], safety_settings=safety_settings, system_instruction=DEFAULT_PROMPT)
+    return genai.GenerativeModel(config['google']['model'], safety_settings=safety_settings, system_instruction=DEFAULT_ROLE_PROMPT)
 
 
 def _gemini_annotate_text(
