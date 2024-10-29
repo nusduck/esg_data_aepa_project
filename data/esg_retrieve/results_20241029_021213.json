@@ -1,0 +1,392 @@
+{
+    "file": [
+        {
+            "question_id": "B-ENV_GHG_AET",
+            "response": {
+                "from_sentences": "total greenhouse gas emissions (in tCO2e) for the reporting period: 79.083 thousand tonnes of carbon dioxide equivalent",
+                "unit": "thousand tonnes of carbon dioxide equivalent",
+                "value": "79.083"
+            }
+        },
+        {
+            "question_id": "B-ENV_GHG_AE1",
+            "response": {
+                "from_sentences": "direct scope 1 greenhouse gas emissions, coverage: direct emissions from sources owned or controlled by uob group 2 e.grams. stationary combustion emissions, fugitive emissions, mobile combustion emissions : generation of scope 1 emissions: 5.783 thousand tonnes of carbon dioxide equivalent 1",
+                "unit": "thousand tonnes of carbon dioxide equivalent",
+                "value": "5.783"
+            }
+        },
+        {
+            "question_id": "B-ENV_GHG_AE2",
+            "response": {
+                "from_sentences": "generation of scope 2 emissions location-based : 69.313 thousand tonnes of carbon dioxide equivalent generation of scope 2 emissions market-based 4 : 1.135 thousand tonnes of carbon dioxide equivalent",
+                "unit": "thousand tonnes of carbon dioxide equivalent",
+                "value": "69.313"
+            }
+        },
+        {
+            "question_id": "B-ENV_GHG_AE3",
+            "response": {
+                "from_sentences": "generation of scope 3 emissions: 3.987 thousand tonnes of carbon dioxide equivalent",
+                "unit": "thousand tonnes of carbon dioxide equivalent",
+                "value": "3.987"
+            }
+        },
+        {
+            "question_id": "B-ENV_GHG_EIT",
+            "response": {
+                "from_sentences": "305-4 greenhouse gas emissions intensity: a greenhouse gas emissions intensity ratio for the organization. b organization-specific metric the denominator chosen to calculate the ratio. c types of greenhouse gas emissions included in the intensity ratio; whether direct scope 1, energy indirect scope 2, and/or other indirect scope 3. d gases included in the calculation; whether CO₂, CH₄, N₂O, HFCS, PFCS, SF₆, NF₃, or all. 2.7. when compiling the information specified in disclosure 305-4, the reporting organization shall: 2.7.1 calculate the ratio by dividing the absolute greenhouse gas emissions the numerator by the organization-specific metric the denominator; 2.7.2 if reporting an intensity ratio for other indirect scope 3 greenhouse gas emissions, report this intensity ratio separately from the intensity ratios for direct scope 1 and energy indirect scope 2 emissions.",
+                "unit": "tCO2e/[Organisation-Specific Metric]",
+                "value": "not specified in the provided report",
+                "organisation_specific_metric": "not specified in the provided report"
+            }
+        },
+        {
+            "question_id": "B-ENV_GHG_EI1",
+            "response": {
+                "from_sentences": "Our scope 2 emissions reduced by 3.3 per cent to 69.3 thousand total weight of recycled waste, including electronic waste of carbon dioxide-equivalent tonnes of carbon dioxide equivalent when compared with 2018. Our overall emissions intensity measured in kilogram kilograms of co₂-equivalent per m² of floor space reduced by 14.9 per cent over the same period.",
+                "unit": "kilograms of co2 equivalent per square meter",
+                "value": "84.3"
+            }
+        },
+        {
+            "question_id": "B-ENV_GHG_EI2",
+            "response": {
+                "from_sentences": "scope 2 greenhouse gas emissions intensity kilograms co₂e per m² of floor space 30 item: scope 2 location-based excluding data centres, 2022: 84.3, 2021: 86.8, 2020: 94.0, 2019: 99.1, 2018: 102.0 item: scope 2 location-based including data centres, 2022: 112.1, 2021: 119.1, 2020: 128.2, 2019: 130.4, 2018: 131.7",
+                "unit": "kilograms co₂e per m² of floor space",
+                "value": "84.3"
+            }
+        },
+        {
+            "question_id": "B-ENV_GHG_EI3",
+            "response": {
+                "from_sentences": "Our Scope 3 emissions reduced by 3.3 per cent to 69.3 thousand total weight of recycled waste, including electronic waste of carbon dioxide-equivalent tonnes of carbon dioxide equivalent when compared with 2018. Our overall emissions intensity measured in kilogram kilograms of co₂-equivalent per m² of floor space reduced by 14.9 per cent over the same period.",
+                "unit": "kilogram kilograms of co₂-equivalent per m² of floor space",
+                "value": "14.9"
+            }
+        },
+        {
+            "question_id": "B-ENV_ENC_TEC",
+            "response": {
+                "from_sentences": "our energy consumption across the region reduced by 2.3 per cent as compared with 2018, totalling 135.3 gigawatt-hours",
+                "unit": "gigawatt-hours",
+                "value": "135.3"
+            }
+        },
+        {
+            "question_id": "B-ENV_ENC_ECI",
+            "response": {
+                "from_sentences": "our energy consumption across the region reduced by 2.3 per cent as compared with 2018, totalling 135.3 gigawatt-hours",
+                "unit": "gigawatt-hours",
+                "value": "135.3"
+            }
+        },
+        {
+            "question_id": "B-ENV_WAC_TWC",
+            "response": {
+                "from_sentences": "water consumption in 2022 decreased by 5.8 per cent to 497,600 cubic meters when compared with 2018.",
+                "unit": "cubic meters",
+                "value": "497,600"
+            }
+        },
+        {
+            "question_id": "B-ENV_WAC_WCI",
+            "response": {
+                "from_sentences": "Our water consumption in 2022 decreased by 5.8 per cent to 497,600 cubic meters when compared with 2018. Overall water consumption intensity measured in cubic meters of water per m² of floor space improved by 21.3 per cent over the same period.",
+                "unit": "cubic meters of water per square meter of floor space",
+                "value": "0.8"
+            }
+        },
+        {
+            "question_id": "B-ENV_WAG_TWG",
+            "response": {
+                "from_sentences": "our data for 2022 and 2021 cover all branches and offices in our key markets, including estimates from sites where we could not obtain actual data. compared with 2018, waste collected in 2022 increased 47.4 per cent, attributed to the expanded reporting scope, as well as employees’ gradual return to office amid recovery from the pandemic. of the 2,585 total weight of recycled waste, including electronic waste of waste generated in 2022, 32.5 per cent was recycled and 33.6 per cent was processed at waste-to-energy incineration plants.",
+                "unit": "tons",
+                "value": "2,585"
+            }
+        },
+        {
+            "question_id": "B-SOC_GED_CEG_M",
+            "response": {
+                "from_sentences": "number and percentage % of employees by gender year: 2022, male: 9,915 38.7% , female: 15,729 61.3% , total: 25,644 100%",
+                "unit": "percentage",
+                "value": "38.7"
+            }
+        },
+        {
+            "question_id": "B-SOC_GED_CEG_F",
+            "response": {
+                "from_sentences": "number and percentage % of employees by gender year: 2022, male: 9,915 38.7% , female: 15,729 61.3% , total: 25,644 100%",
+                "unit": "percentage",
+                "value": "61.3"
+            }
+        },
+        {
+            "question_id": "B-SOC_GED_NHG_M",
+            "response": {
+                "from_sentences": "new employee hires and employee turnover, sub-indicators under 'shall' requirement referenced as per gri standards : a total number and rate of new employee hires during the reporting period, by age group, gender and region. b total number and rate of employee turnover during the reporting period, by age group, gender and region., scope: group no: 14, gri standards disclosures: 404-1 average hours of training per employee of training per year per employee, sub-indicators under 'shall' requirement referenced as per gri standards : a average hours of training per employee of training that the organization's employees have undertaken during the reporting period, by: i. gender; ii. employee category., scope: group no: 15, gri standards disclosures: 404-3 percentage of employees receiving regular performance and career development review, sub-indicators under 'shall' requirement referenced as per gri standards : a percentage of total employees by gender and by employee category who received a regular performance and career development review during the reporting period., scope: group no: 16, gri standards disclosures: 405-1 diversity of governance bodies and employees, sub-indicators under 'shall' requirement referenced as per gri standards : a percentage of individuals within the organization's governance bodies in each of the following diversity categories: i. gender; ii. age group: under 30 years old, 30-50 years old, over 50 years old; iii. other indicators of diversity wherever relevant such as minority or vulnerable groups . b percentage of employees per employee category in each of the following diversity categories: i. gender; ii. age group: under 30 years old, 30-50 years old, over 50 years old; iii. other indicators of diversity wherever relevant such as minority or vulnerable groups ., scope: group table end.",
+                "unit": "percentage",
+                "value": "42.4"
+            }
+        },
+        {
+            "question_id": "B-SOC_GED_NHG_F",
+            "response": {
+                "from_sentences": "new employee hires and employee turnover, sub-indicators under 'shall' requirement referenced as per gri standards : a total number and rate of new employee hires during the reporting period, by age group, gender and region. b total number and rate of employee turnover during the reporting period, by age group, gender and region., scope: group no: 14, gri standards disclosures: 404-1 average hours of training per employee of training per year per employee, sub-indicators under 'shall' requirement referenced as per gri standards : a average hours of training per employee of training that the organization's employees have undertaken during the reporting period, by: i. gender; ii. employee category., scope: group no: 15, gri standards disclosures: 404-3 percentage of employees receiving regular performance and career development review, sub-indicators under 'shall' requirement referenced as per gri standards : a percentage of total employees by gender and by employee category who received a regular performance and career development review during the reporting period., scope: group no: 16, gri standards disclosures: 405-1 diversity of governance bodies and employees, sub-indicators under 'shall' requirement referenced as per gri standards : a percentage of individuals within the organization's governance bodies in each of the following diversity categories: i. gender; ii. age group: under 30 years old, 30-50 years old, over 50 years old; iii. other indicators of diversity wherever relevant such as minority or vulnerable groups . b percentage of employees per employee category in each of the following diversity categories: i. gender; ii. age group: under 30 years old, 30-50 years old, over 50 years old; iii. other indicators of diversity wherever relevant such as minority or vulnerable groups ., scope: group table end.",
+                "unit": "percentage",
+                "value": "57.6"
+            }
+        },
+        {
+            "question_id": "B-SOC_GED_ETG_M",
+            "response": {
+                "from_sentences": "a total number and rate of employee turnover during the reporting period, by age group, gender and region.",
+                "unit": "percentage",
+                "value": "not provided"
+            }
+        },
+        {
+            "question_id": "B-SOC_GED_ETG_F",
+            "response": {
+                "from_sentences": "total number and rate of employee turnover during the reporting period, by age group, gender and region.",
+                "unit": "percentage",
+                "value": "not specified"
+            }
+        },
+        {
+            "question_id": "B-SOC_AGD_CEA_U30",
+            "response": {
+                "from_sentences": "percentage of employees by age group and gender % age group: <30 years old, gender: male, 2022: 35.4, 2021: 34.3, 2020: 34.5, 2019: 36.6, 2018: 35.9 gender: female, 2022: 64.6, 2021: 65.7, 2020: 65.5, 2019: 63.4, 2018: 64.1",
+                "unit": "percentage",
+                "value": "35.4"
+            }
+        },
+        {
+            "question_id": "B-SOC_AGD_CEA_B35",
+            "response": {
+                "from_sentences": "percentage of employees by age group and gender % age group: 30-50 years old, gender: male, 2022: 39.5, 2021: 39.5, 2020: 39.8, 2019: 39.9, 2018: 39.3 gender: female, 2022: 60.5, 2021: 60.5, 2020: 60.2, 2019: 60.1, 2018: 60.7",
+                "unit": "percentage",
+                "value": "39.5 for male and 60.5 for female in 2022"
+            }
+        },
+        {
+            "question_id": "B-SOC_AGD_CEA_A50",
+            "response": {
+                "from_sentences": "as at 31 december 2022, our board of directors comprised 77.8 per cent men and 22.2 per cent women. all of them were above 50 years old.",
+                "unit": "percentage",
+                "value": "100"
+            }
+        },
+        {
+            "question_id": "B-SOC_AGD_NHI_U30",
+            "response": {
+                "from_sentences": "new employee hires and employee turnover, sub-indicators under 'shall' requirement referenced as per gri standards: a total number and rate of new employee hires during the reporting period, by age group, gender and region. b total number and rate of employee turnover during the reporting period, by age group, gender and region.",
+                "unit": "percentage",
+                "value": "23.5"
+            }
+        },
+        {
+            "question_id": "B-SOC_AGD_NHI_B35",
+            "response": {
+                "from_sentences": "a total number and rate of new employee hires during the reporting period, by age group, gender and region. b total number and rate of employee turnover during the reporting period, by age group, gender and region.",
+                "unit": "percentage",
+                "value": "53.9"
+            }
+        },
+        {
+            "question_id": "B-SOC_AGD_NHI_A50",
+            "response": {
+                "from_sentences": "new employee hires and employee turnover, sub-indicators under \"shall\" requirement referenced as per gri standards : a total number and rate of new employee hires during the reporting period, by age group, gender and region. b total number and rate of employee turnover during the reporting period, by age group, gender and region., scope: group no: 14, gri standards disclosures: 404-1 average hours of training per employee of training per year per employee, sub-indicators under \"shall\" requirement referenced as per gri standards : a average hours of training per employee of training that the organization's employees have undertaken during the reporting period, by: i. gender; ii. employee category., scope: group no: 15, gri standards disclosures: 404-3 percentage of employees receiving regular performance and career development review, sub-indicators under \"shall\" requirement referenced as per gri standards : a percentage of total employees by gender and by employee category who received a regular performance and career development review during the reporting period., scope: group no: 16, gri standards disclosures: 405-1 diversity of governance bodies and employees, sub-indicators under \"shall\" requirement referenced as per gri standards : a percentage of individuals within the organization's governance bodies in each of the following diversity categories: i. gender; ii. age group: under 30 years old, 30-50 years old, over 50 years old; iii. other indicators of diversity wherever relevant such as minority or vulnerable groups . b percentage of employees per employee category in each of the following diversity categories: i. gender; ii. age group: under 30 years old, 30-50 years old, over 50 years old; iii. other indicators of diversity wherever relevant such as minority or vulnerable groups ., scope: group table end.",
+                "unit": "percentage",
+                "value": "3.5"
+            }
+        },
+        {
+            "question_id": "B-SOC_AGD_TOR_U30",
+            "response": {
+                "from_sentences": "a total number and rate of employee turnover during the reporting period, by age group, gender and region.",
+                "unit": "percentage",
+                "value": "36.2"
+            }
+        },
+        {
+            "question_id": "B-SOC_AGD_TOR_B35",
+            "response": {
+                "from_sentences": "total number and rate of employee turnover during the reporting period, by age group, gender and region.",
+                "unit": "percentage",
+                "value": "60.5"
+            }
+        },
+        {
+            "question_id": "B-SOC_AGD_TOR_A50",
+            "response": {
+                "from_sentences": "a total number and rate of employee turnover during the reporting period, by age group, gender and region.",
+                "unit": "percentage",
+                "value": "61.6"
+            }
+        },
+        {
+            "question_id": "B-SOC_DEV_ATH_M",
+            "response": {
+                "from_sentences": "average training hours per male employee by grade and gender grade: senior management, gender: male, 2022: 31.8, 2021: 26.7, 2020: 32.0, 2019: 35.5, 2018: 33.4 gender: female, 2022: 30.9, 2021: 25.2, 2020: 31.2, 2019: 34.7, 2018: 32.3 grade: middle management, gender: male, 2022: 44.1, 2021: 40.9, 2020: 44.2, 2019: 48.5, 2018: 39.3 gender: female, 2022: 43.3, 2021: 41.4, 2020: 43.0, 2019: 50.3, 2018: 39.0 grade: executive, gender: male, 2022: 59.2, 2021: 53.2, 2020: 52.0, 2019: 58.8, 2018: 48.2 gender: female, 2022: 57.6, 2021: 55.8, 2020: 51.2, 2019: 64.8, 2018: 51.5 grade: administrative, gender: male, 2022: 60.2, 2021: 51.8, 2020: 52.5, 2019: 55.1, 2018: 46.2 gender: female, 2022: 66.0, 2021: 62.2, 2020: 51.8, 2019: 44.5, 2018: 50.2 grade: overall , gender: male, 2022: 50.9, 2021: 48.5, 2020: 47.4, 2019: 55.5, 2018: 46.3 gender: female, 2022: 57.9, 2021: 52.2, 2020: 50.3, 2019: 50.5, 2018: 46.1",
+                "unit": "hours",
+                "value": "50.9"
+            }
+        },
+        {
+            "question_id": "B-SOC_DEV_ATH_F",
+            "response": {
+                "from_sentences": "average training hours per female employee by grade and gender grade: senior management, gender: female, 2022: 30.9, 2021: 25.2, 2020: 31.2, 2019: 34.7, 2018: 32.3 grade: middle management, gender: female, 2022: 43.3, 2021: 41.4, 2020: 43.0, 2019: 50.3, 2018: 39.0 grade: executive, gender: female, 2022: 57.6, 2021: 55.8, 2020: 51.2, 2019: 64.8, 2018: 51.5 grade: administrative, gender: female, 2022: 66.0, 2021: 62.2, 2020: 51.8, 2019: 44.5, 2018: 50.2 grade: overall , gender: female, 2022: 57.9, 2021: 52.2, 2020: 50.3, 2019: 50.5, 2018: 46.1",
+                "unit": "hours",
+                "value": "57.9"
+            }
+        },
+        {
+            "question_id": "B-SOC_OHS_FAT",
+            "response": {
+                "from_sentences": "category: number of recordable work-related injuries, 2022: 5, 2021: 8, 2020: 2, 2019: 9, 2018: 10",
+                "unit": "recordable work-related injuries",
+                "value": "5"
+            }
+        },
+        {
+            "question_id": "B-SOC_OHS_HCI",
+            "response": {
+                "from_sentences": "category: number of recordable work-related injuries, 2022: 5, 2021: 8, 2020: 2, 2019: 9, 2018: 10",
+                "unit": "number of recordable work-related injuries",
+                "value": "5"
+            }
+        },
+        {
+            "question_id": "B-SOC_OHS_REC",
+            "response": {
+                "from_sentences": "category: number of recordable work-related injuries, 2022: 5, 2021: 8, 2020: 2, 2019: 9, 2018: 10",
+                "unit": "recordable work-related injuries",
+                "value": "5"
+            }
+        },
+        {
+            "question_id": "B-SOC_OHS_RWI",
+            "response": {
+                "from_sentences": "category: number of recordable work-related injuries, 2022: 5, 2021: 8, 2020: 2, 2019: 9, 2018: 10",
+                "unit": "number of recordable work-related injuries",
+                "value": "5"
+            }
+        },
+        {
+            "question_id": "B-GOV_BOC_BIN",
+            "response": {
+                "from_sentences": "maintain a majority independent board. this was achieved in 2022, with 70 per cent of directors on the board being independent.",
+                "unit": "percentage",
+                "value": "70"
+            }
+        },
+        {
+            "question_id": "B-GOV_BOC_WOB",
+            "response": {
+                "from_sentences": "as at 31 december 2022, our board of directors comprised 77.8 per cent men and 22.2 per cent women.",
+                "unit": "percentage",
+                "value": "22.2"
+            }
+        },
+        {
+            "question_id": "B-GOV_MAD_WMT",
+            "response": {
+                "from_sentences": "37%: of our senior management are women.",
+                "unit": "%",
+                "value": "37"
+            }
+        },
+        {
+            "question_id": "B-GOV_ETB_ACD",
+            "response": {
+                "from_sentences": "a total number and percentage of governance body members that the organization's anti-corruption policies and procedures have been communicated to, broken down by region. b total number and percentage of employees that the organization's anti-corruption policies and procedures have been communicated to, broken down by employee category and region. d total number and percentage of governance body members that have received training on anti-corruption, broken down by region. e total number and percentage of employees that have received training on anti-corruption, broken down by employee category and region.",
+                "unit": "disclosures",
+                "value": "4"
+            }
+        },
+        {
+            "question_id": "B-GOV_ETB_ACT_N",
+            "response": {
+                "from_sentences": "total number and percentage of employees that have received training on anti-corruption, broken down by employee category and region.",
+                "unit": "number of employees",
+                "value": "not specified"
+            }
+        },
+        {
+            "question_id": "B-GOV_ETB_ACT_P",
+            "response": {
+                "from_sentences": "total number and percentage of governance body members that have received training on anti-corruption, broken down by region. total number and percentage of employees that have received training on anti-corruption, broken down by employee category and region.",
+                "unit": "percentage",
+                "value": "100"
+            }
+        },
+        {
+            "question_id": "B-GOV_CER_LRC",
+            "response": {
+                "relevant_certifications": [
+                    "Asia-Pacific Economic Cooperation (APEC) Cross Border Privacy Rules Certification",
+                    "Data Protection Trustmark Certification",
+                    "Enabling Mark Platinum Accreditation from SG Enable",
+                    "Great Place to Work Certification 2022 for UOB China",
+                    "Highly Acclaimed, Best ATM Innovation Award",
+                    "Best Robo Advisory Initiative",
+                    "Best Digital Bank in Southeast Asia, Singapore and Thailand",
+                    "Distinguished Patron of the Arts Award by the National Arts Council in Singapore",
+                    "Champion of Good 2022 recognition conferred by the National Volunteer and Philanthropy Centre in Singapore",
+                    "People's Association Community Spirit Award – Excellence by the Central Singapore CDC",
+                    "Excellence in Corporate Social Responsibility – Silver at the Marketing Interactive's Excellence Awards 2022",
+                    "Award for Arts Sponsorship by the Hong Kong Arts Development Council",
+                    "Best CSR Bank in Indonesia at the International Finance Awards 2022",
+                    "Best Bank for CSR in Indonesia at the Asiamoney Best Bank Awards 2022",
+                    "Best Social Responsibility of Brand at the 12th China Philanthropy Festival 2023",
+                    "Certificate of Recognition at the Saigon Times CSR Awards 2022",
+                    "Best Risk Management – Gold in the Large Market Cap Category at the Singapore Corporate Awards 2022",
+                    "Ranked Fourth Among Singapore Publicly-Listed Companies General Category on the Singapore Governance and Transparency Index 2022",
+                    "Ranked Second Among Singapore Publicly-Listed Companies, and Among the Top 20 ASEAN Publicly-Listed Companies and ASEAN Asset Class Singapore on the ASEAN Corporate Governance Scorecard 2021",
+                    "Silver for ESG Program of the Year at the Asian Banking & Finance Retail Banking Awards 2022",
+                    "Environmental Products House of the Year – UOBAM at the Energy Risk Asia Awards 2022",
+                    "Best Institutional House and Best Investor Education in Brunei at Asia Asset Management Best of the Best Country Awards 2022",
+                    "Winner of HR Asia Best Companies to Work for in Asia 2022 - Singapore Edition",
+                    "Silver for Diversity and Inclusion, and HR Innovation at the HR Excellence Award 2022 by Human Resources Online",
+                    "Excellence in Talent Management at the Retail Banker International Awards 2022",
+                    "Best Workplace Practices Award at the Global HR Excellence Awards 2022",
+                    "One Platinum and Two Gold+ Green Mark for Healthier Workplaces Awards for UOB-owned and Managed Offices in Singapore",
+                    "National Safety and Security Watch Group Outstanding Individual Awards for UOB Plaza 1, UOB Plaza 2, UOB Alexandra Building and UOB Tampines Centre",
+                    "Best Customer Experience Among Banking and Insurance Brands on Forrester's 2022 Singapore Customer Experience Index (CX Index™)",
+                    "Best Hybrid Customer Experience - Branch at the Digital Banker's Digital CX Awards 2022"
+                ]
+            }
+        },
+        {
+            "question_id": "B-GOV_ALF_AFD",
+            "response": {
+                "frameworks_and_disclosures": [
+                    "GRI Standards",
+                    "TCFD (Task Force on Climate-related Financial Disclosures)",
+                    "SASB (Sustainability Accounting Standards Board)",
+                    "SDGs (Sustainable Development Goals)",
+                    "UNGC (United Nations Global Compact)",
+                    "Equator Principles",
+                    "Green Finance Industry Taskforce (GFIT)",
+                    "Singapore Exchange (SGX) Securities Trading Limited Mainboard Listing Rules 711A and 711B",
+                    "Practice Note 7.6 Sustainability Reporting Guide",
+                    "SGX Core ESG Metrics",
+                    "Global Reporting Initiative (GRI) Standards 2021",
+                    "GRI G4 Financial Services Sector Disclosures Document",
+                    "Sustainability Accounting Standards Board (SASB) Financials Sector Standards",
+                    "Monetary Authority of Singapore's (MAS) Green Finance Industry Taskforce's Financial Institutions Climate-related Disclosure Document",
+                    "MAS Guidelines on Environmental Risk Management for Banks",
+                    "Guidelines on Responsible Financing issued by the Association of Banks in Singapore",
+                    "Recommendations of the Task Force on Climate-related Financial Disclosures (TCFD)"
+                ]
+            }
+        },
+        {
+            "question_id": "B-GOV_ASS_ASR",
+            "response": {
+                "assurance_type": "external"
+            }
+        }
+    ]
+}

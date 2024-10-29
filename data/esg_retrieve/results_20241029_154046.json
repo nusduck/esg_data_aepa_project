@@ -1,0 +1,1700 @@
+{
+  "UOB-Kay Hian Holdings Limited_report": [
+    {
+      "question_id": "B-ENV_GHG_AET",
+      "response": {
+        "from_sentences": "There is no information on greenhouse gas emissions in the provided text.",
+        "unit": "tCO2e",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE1",
+      "response": {
+        "from_sentences": "There is no information on Scope 1 greenhouse gas emissions in the provided text.",
+        "unit": "tCO2e",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE2",
+      "response": {
+        "from_sentences": "There is no information on Scope 2 greenhouse gas emissions in the provided text.",
+        "unit": "tCO2e",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE3",
+      "response": {
+        "from_sentences": "There is no information on Scope 3 greenhouse gas emissions in the provided text.",
+        "unit": "tCO2e",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EIT",
+      "response": {
+        "from_sentences": "There is no information on total emission intensity or the organisation-specific metric used to calculate it in the provided text.",
+        "unit": "tCO2e/[Organisation-Specific Metric]",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI1",
+      "response": {
+        "from_sentences": "There is no information on Scope 1 emissions or an organization-specific metric to calculate emission intensity in the provided text.",
+        "unit": "tCO2e/[Organisation-Specific Metric]",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI2",
+      "response": {
+        "from_sentences": "There is no information on Scope 2 emissions or an organization-specific metric to calculate emission intensity in the provided text.",
+        "unit": "tCO2e/[Organisation-Specific Metric]",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI3",
+      "response": {
+        "from_sentences": "There is no information on Scope 3 emissions or an organization-specific metric to calculate emission intensity in the provided text.",
+        "unit": "tCO2e/[Organisation-Specific Metric]",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_ENC_TEC",
+      "response": {
+        "from_sentences": "Electricity consumption was 3.343 million kilowatt-hours in 2022, and water consumption was 10.8 cubic meters.",
+        "unit": "MWh",
+        "value": "3343"
+      }
+    },
+    {
+      "question_id": "B-ENV_ENC_ECI",
+      "response": {
+        "from_sentences": "Electricity consumption was 3.343 million kilowatt-hours in 2022, and water consumption was 10.8 cubic meters.  There is no information on square footage or other relevant organizational metrics to calculate energy consumption intensity.",
+        "unit": "MWh/[Organisation-Specific Metric]",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_TWC",
+      "response": {
+        "from_sentences": "Water consumption was 10.8 cubic meters in 2022.",
+        "unit": "m³",
+        "value": "10.8"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_WCI",
+      "response": {
+        "from_sentences": "Water consumption was 10.8 cubic meters in 2022. There is no information on units produced or other relevant organizational metrics to calculate water consumption intensity.",
+        "unit": "m³/[Organisation-Specific Metric]",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAG_TWG",
+      "response": {
+        "from_sentences": "There is no information on the total weight of waste generated during the reporting period.",
+        "unit": "tons",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_M",
+      "response": {
+        "from_sentences": "In FY2022, 48% of employees were male.",
+        "unit": "percent",
+        "value": "48"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_F",
+      "response": {
+        "from_sentences": "In FY2022, 52% of employees were female.",
+        "unit": "percent",
+        "value": "52"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_M",
+      "response": {
+        "from_sentences": "There is no data on the gender breakdown of new hires for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_F",
+      "response": {
+        "from_sentences": "There is no data on the gender breakdown of new hires for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_M",
+      "response": {
+        "from_sentences": "There is no data on the gender breakdown of employee turnover for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_F",
+      "response": {
+        "from_sentences": "There is no data on the gender breakdown of employee turnover for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_U30",
+      "response": {
+        "from_sentences": "In FY2022, 48% of employees were 35 years old and below.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_B35",
+      "response": {
+        "from_sentences": "In FY2022, 24% of employees were between 36 and 50 years old.",
+        "unit": "percent",
+        "value": "24"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_A50",
+      "response": {
+        "from_sentences": "In FY2022, 28% of employees were 50 years old or older.",
+        "unit": "percent",
+        "value": "28"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_U30",
+      "response": {
+        "from_sentences": "There is no data on the age breakdown of new hires for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_B35",
+      "response": {
+        "from_sentences": "There is no data on the age breakdown of new hires for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_A50",
+      "response": {
+        "from_sentences": "There is no data on the age breakdown of new hires for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_U30",
+      "response": {
+        "from_sentences": "There is no data on the age breakdown of employee turnover for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_B35",
+      "response": {
+        "from_sentences": "There is no data on the age breakdown of employee turnover for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_A50",
+      "response": {
+        "from_sentences": "There is no data on the age breakdown of employee turnover for the reporting period.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_M",
+      "response": {
+        "from_sentences": "There is no information on training hours per male employee in the provided text.",
+        "unit": "hours",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_F",
+      "response": {
+        "from_sentences": "There is no information on training hours per female employee in the provided text.",
+        "unit": "hours",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_FAT",
+      "response": {
+        "from_sentences": "There is no information on work-related fatalities in the provided text.",
+        "unit": "number",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_HCI",
+      "response": {
+        "from_sentences": "There is no information on high-consequence work-related injuries in the provided text.",
+        "unit": "number",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_REC",
+      "response": {
+        "from_sentences": "There is no information on recordable work-related injuries in the provided text.",
+        "unit": "number",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_RWI",
+      "response": {
+        "from_sentences": "There is no information on recordable work-related illnesses or health conditions in the provided text.",
+        "unit": "number",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-GOV_BOC_BIN",
+      "response": {
+        "from_sentences": "There are 7 board directors in total, and 4 of them are independent directors.",
+        "unit": "percent",
+        "value": "57.14"
+      }
+    },
+    {
+      "question_id": "B-GOV_BOC_WOB",
+      "response": {
+        "from_sentences": "Of the 7 board directors, 1 is a woman.",
+        "unit": "percent",
+        "value": "14.29"
+      }
+    },
+    {
+      "question_id": "B-GOV_MAD_WMT",
+      "response": {
+        "from_sentences": "Of the 10 senior management team members listed, 3 are women.",
+        "unit": "percent",
+        "value": "30"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACD",
+      "response": {
+        "from_sentences": "The report mentions having procedures in place to ensure there is no conflict of interest in handling market-sensitive information and that staff apply the highest professional and ethical standards.  A whistle-blowing policy is in place to report possible improprieties.  There were no incidents of concern received by the audit committee during the financial year 2022.  The report also states that the company strives to develop a corporate culture where fair dealing is central to the corporate ethos.",
+        "unit": "number",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_N",
+      "response": {
+        "from_sentences": "There is no specific number of employees who received anti-corruption training mentioned in the provided text.  The report only mentions that the company inculcates a corporate culture with high professional and ethical standards and has procedures to prevent conflict of interest, but it doesn't specify the number of employees trained.",
+        "unit": "number",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_P",
+      "response": {
+        "from_sentences": "There is no specific number or percentage of employees who received anti-corruption training mentioned in the provided text. The report only mentions that the company inculcates a corporate culture with high professional and ethical standards and has procedures to prevent conflict of interest, but it doesn't specify the number or percentage of employees trained.",
+        "unit": "percent",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-GOV_CER_LRC",
+      "response": {
+        "from_sentences": "The provided text does not list any sustainability or ESG-related certifications held by the organization.",
+        "unit": "string",
+        "value": "null"
+      }
+    },
+    {
+      "question_id": "B-GOV_ALF_AFD",
+      "response": {
+        "from_sentences": "This report focuses on the sustainability practices and strategy of the uob kay hian group of companies. it seeks to meet the interest of our stakeholders in the non-financial information of the group and demonstrates our effort to report to our shareholders and other stakeholders the steps we are taking to achieve a more sustainable business model and contribute to a more sustainable environment. framework uob-kay hian holdings limited has reported with reference to the global reporting initiative gri standards for the period from 1 january 2022 to 31 december 2022. this is also in alignment with sgx sustainability guidelines.",
+        "unit": "string",
+        "value": "GRI Standards, SGX Sustainability Guidelines"
+      }
+    },
+    {
+      "question_id": "B-GOV_ASS_ASR",
+      "response": {
+        "from_sentences": "external assurance: no external assurance",
+        "unit": "string",
+        "value": "none"
+      }
+    }
+  ],
+  "ValueMax Group Limited_report": [
+    {
+      "question_id": "B-ENV_GHG_AET",
+      "response": {
+        "from_sentences": "based on singapore's grid emission factor of 0.4057 kilograms of co2 per kilowatt-hour that was last revised in 2021, valuemax generated approximately 573.8 tonnes of co2 equivalent of greenhouse gas emissions across scope 1, scope 2 and scope 3 emissions in fy2022.",
+        "unit": "tonnes of CO2 equivalent",
+        "value": "573.8"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE1",
+      "response": {
+        "from_sentences": "the scope 1 direct emissions declined 17.2% from fy2018 baseline despite the growth in the revenue.",
+        "unit": "tCO2e",
+        "value": "Not specified, but declined 17.2% from FY2018 baseline."
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE2",
+      "response": {
+        "from_sentences": "based on singapore's grid emission factor of 0.4057 kilograms of co2 per kilowatt-hour that was last revised in 2021, valuemax generated approximately 573.8 tonnes of co2 equivalent of greenhouse gas emissions across scope 1, scope 2 and scope 3 emissions in fy2022.",
+        "unit": "tCO2e",
+        "value": "Not specified separately from Scope 1 and 3 emissions."
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE3",
+      "response": {
+        "from_sentences": "based on singapore's grid emission factor of 0.4057 kilograms of co2 per kilowatt-hour that was last revised in 2021, valuemax generated approximately 573.8 tonnes of co2 equivalent of greenhouse gas emissions across scope 1, scope 2 and scope 3 emissions in fy2022.",
+        "unit": "tCO2e",
+        "value": "Not specified separately from Scope 1 and 2 emissions."
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EIT",
+      "response": {
+        "from_sentences": "based on singapore's grid emission factor of 0.4057 kilograms of co2 per kilowatt-hour that was last revised in 2021, valuemax generated approximately 573.8 tonnes of co2 equivalent of greenhouse gas emissions across scope 1, scope 2 and scope 3 emissions in fy2022. valuemax posted singapore dollar287.1 million revenue for fy 2022",
+        "unit": "tCO2e/million Singapore dollar",
+        "value": "2.0"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI1",
+      "response": {
+        "from_sentences": "the scope 1 direct emissions declined 17.2% from fy2018 baseline despite the growth in the revenue. valuemax posted singapore dollar287.1 million revenue for fy 2022",
+        "unit": "tCO2e/million Singapore dollar",
+        "value": "The report does not provide enough information to calculate the Scope 1 emission intensity with an organization-specific metric other than revenue.  While a percentage decrease from FY2018 is given, the actual Scope 1 emissions for 2022 are not stated."
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI2",
+      "response": {
+        "from_sentences": "the report does not provide information on energy consumption in square footage or any other relevant metric to calculate scope 2 emission intensity.",
+        "unit": "N/A",
+        "value": "N/A"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI3",
+      "response": {
+        "from_sentences": "the report does not provide enough information to calculate the Scope 3 emission intensity with an organization-specific metric.  While total emissions are provided,  the necessary Scope 3 data (e.g., related to transportation, business travel) is not broken down in a way to allow for calculation with a specific metric like 'products sold'.",
+        "unit": "N/A",
+        "value": "N/A"
+      }
+    },
+    {
+      "question_id": "B-ENV_ENC_TEC",
+      "response": {
+        "from_sentences": "valuemax businesses electricity consumption 2022 electricity usage kilowatt : 1,275,784 total revenue million singapore dollar : 287 energy intensity kilowatts per million singapore dollars : 4445 electricity consumption intensity of valuemax businesses = electricity usage of all offices and outlets divided by the total revenue of the fiscal year. valuemax tenants electricity consumption 2022 water usage kilowatt : 128,876 total rent million singapore dollar : 0.739 water usage intensity kilowatts per million singapore dollars : 174,392 electricity consumption intensity of valuemax tenants = electricity usage of all commercial and residential premises rented divided by the total rent of the fiscal year.",
+        "unit": "kWh",
+        "value": "1,404,660"
+      }
+    },
+    {
+      "question_id": "B-ENV_ENC_ECI",
+      "response": {
+        "from_sentences": "the report does not provide information on energy consumption in square footage or any other relevant metric to calculate energy consumption intensity.",
+        "unit": "N/A",
+        "value": "N/A"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_TWC",
+      "response": {
+        "from_sentences": "valuemax businesses water consumption 2022 water usage cubic meters : 3,552 total revenue million singapore dollar : 287 water usage intensity cubic meters per million singapore dollars : 12.38 water consumption intensity of valuemax businesses = water usage of all offices and outlets divided by the total revenue of the fiscal year. valuemax tenants water consumption 2022 electricity usage cubic meters : 4,604 total rent million singapore dollar : 0.739 energy intensity cubic meters per million singapore dollars : 6,230 water consumption intensity of valuemax tenants = water usage of all commercial and residential premises rented divided by the total rent of the fiscal year.",
+        "unit": "m³",
+        "value": "8156"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_WCI",
+      "response": {
+        "from_sentences": "valuemax businesses water consumption 2022 water usage cubic meters : 3,552 total revenue million singapore dollar : 287 water usage intensity cubic meters per million singapore dollars : 12.38 water consumption intensity of valuemax businesses = water usage of all offices and outlets divided by the total revenue of the fiscal year. valuemax tenants water consumption 2022 electricity usage cubic meters : 4,604 total rent million singapore dollar : 0.739 energy intensity cubic meters per million singapore dollars : 6,230 water consumption intensity of valuemax tenants = water usage of all commercial and residential premises rented divided by the total rent of the fiscal year.",
+        "unit": "m³/million Singapore dollar",
+        "value": "The report provides two different water consumption intensities: 12.38 m³/million Singapore dollar for Valuemax businesses and 6230 m³/million Singapore dollar for Valuemax tenants.  There is no single overall value."
+      }
+    },
+    {
+      "question_id": "B-ENV_WAG_TWG",
+      "response": {
+        "from_sentences": "the report does not provide information on the total weight of waste generated during the reporting period.",
+        "unit": "tons",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_M",
+      "response": {
+        "from_sentences": "gender ratio male: 45% female: 55%",
+        "unit": "%",
+        "value": "45"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_F",
+      "response": {
+        "from_sentences": "gender ratio male: 45% female: 55%",
+        "unit": "%",
+        "value": "55"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_M",
+      "response": {
+        "from_sentences": "the report does not specify the gender breakdown of new hires during the reporting period.",
+        "unit": "%",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_F",
+      "response": {
+        "from_sentences": "the report does not specify the gender breakdown of new hires during the reporting period.",
+        "unit": "%",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_M",
+      "response": {
+        "from_sentences": "the report does not specify the gender breakdown of employee turnover during the reporting period.",
+        "unit": "%",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_F",
+      "response": {
+        "from_sentences": "the report does not specify the gender breakdown of employee turnover during the reporting period.",
+        "unit": "%",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_U30",
+      "response": {
+        "from_sentences": "table: age profile of employees as at 31 dec 2022 age group: below 30 years, percentage: 6% age group: 31 to 40 years, percentage: 26% age group: 41 to 55 years, percentage: 38% age group: above 55 years, percentage: 30% age group: total , percentage: 100% table end.",
+        "unit": "%",
+        "value": "6"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_B35",
+      "response": {
+        "from_sentences": "table: age profile of employees as at 31 dec 2022 age group: below 30 years, percentage: 6% age group: 31 to 40 years, percentage: 26% age group: 41 to 55 years, percentage: 38% age group: above 55 years, percentage: 30% age group: total , percentage: 100% table end.",
+        "unit": "percent",
+        "value": "62"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_A50",
+      "response": {
+        "from_sentences": "table: age profile of employees as at 31 dec 2022 age group: below 30 years, percentage: 6% age group: 31 to 40 years, percentage: 26% age group: 41 to 55 years, percentage: 38% age group: above 55 years, percentage: 30% age group: total , percentage: 100% table end.",
+        "unit": "percent",
+        "value": "30"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_U30",
+      "response": {
+        "from_sentences": "the report does not specify the age breakdown of new hires during the reporting period.",
+        "unit": "percent",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_B35",
+      "response": {
+        "from_sentences": "the report does not specify the age breakdown of new hires during the reporting period.",
+        "unit": "percent",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_A50",
+      "response": {
+        "from_sentences": "the report does not specify the age breakdown of new hires during the reporting period.",
+        "unit": "percent",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_U30",
+      "response": {
+        "from_sentences": "the report does not specify the age breakdown of employee turnover during the reporting period.",
+        "unit": "percent",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_B35",
+      "response": {
+        "from_sentences": "the report does not specify the age breakdown of employee turnover during the reporting period.",
+        "unit": "percent",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_A50",
+      "response": {
+        "from_sentences": "the report does not specify the age breakdown of employee turnover during the reporting period.",
+        "unit": "percent",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_M",
+      "response": {
+        "from_sentences": "the report does not specify the training hours breakdown by gender.",
+        "unit": "hours",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_F",
+      "response": {
+        "from_sentences": "the report does not specify the training hours breakdown by gender.",
+        "unit": "hours",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_FAT",
+      "response": {
+        "from_sentences": "code: 403-2, description: types of injury and rates of injury, occupational diseases, lost days, and absenteeism, and number of work-related fatalities, page reference: 47-48",
+        "unit": "number",
+        "value": "0"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_HCI",
+      "response": {
+        "from_sentences": "the report does not provide data on the number of high-consequence work-related injuries (excluding fatalities).",
+        "unit": "number",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_REC",
+      "response": {
+        "from_sentences": "the report does not provide data on the number of recordable work-related injuries.",
+        "unit": "number",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-GOV_BOC_BIN",
+      "response": {
+        "from_sentences": "the report does not specify what percentage of board directors are independent.",
+        "unit": "percent",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-GOV_BOC_WOB",
+      "response": {
+        "from_sentences": "we advocated gender diversity in our representation of women in senior leadership with two female directors among our six board members.",
+        "unit": "percent",
+        "value": "33.3"
+      }
+    },
+    {
+      "question_id": "B-GOV_MAD_WMT",
+      "response": {
+        "from_sentences": "the report does not specify the gender composition of the senior management team.",
+        "unit": "percent",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACD",
+      "response": {
+        "from_sentences": "in 2022, there were no anonymous and non-anonymous whistle-blowing reports received by group audit through the various reporting channels.",
+        "unit": "number",
+        "value": "0"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_N",
+      "response": {
+        "from_sentences": "100% completion of mandatory staff training.",
+        "unit": "number",
+        "value": "The report states 100% of staff received mandatory training, but doesn't give the total number of employees."
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_P",
+      "response": {
+        "from_sentences": "100% completion of mandatory staff training.",
+        "unit": "percent",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-GOV_CER_LRC",
+      "response": {
+        "from_sentences": "awards and certifications: the edge billion dollar club 2022: centurion category under retailers category - growth in pat over 3 years. singapore corporate awards 2021/2022: a special recognition award to recognise outstanding and exemplary conduct related to corporate governance not covered by the other awards. the edge billion dollar club 2020: centurion category under banking & investment services category; overall sector winner; the fastest-growing company; the most profitable company. ey entrepreneur of the year in 2019: awarded to ceo and managing director, mr yeah hiang nam, pbm. singapore quality class – service award: in recognition of our commitment towards business and quality excellence. 15th sias investors' choice award: most transparent company award 2014, runner up position for new issues. 2014 singapore sme 1000 awards: in net profit excellence. 2014 singapore sme 1000 awards: in sales growth excellence. prestige brand award: established brands 2010. enterprise 50 award: 2010. entrepreneur of the year award: 2010, awarded to managing director and ceo mr yeah hiang nam, pbm. our headquarters is certified with the eco-shop compliant mark by the singapore environmental council “sec” . the certification aligns our environmental performance in our headquarters to key evaluation criterion like indoor environment and air quality, resource recovery and recycling, water and energy conservation.",
+        "unit": "string",
+        "value": "The Edge Billion Dollar Club (Centurion Category, Retailers and Banking & Investment Services), Singapore Corporate Awards, Singapore Quality Class - Service Award, 15th SIAS Investors' Choice Award (Most Transparent Company), 2014 Singapore SME 1000 Awards (Net Profit and Sales Growth Excellence), Prestige Brand Award, Enterprise 50 Award, EY Entrepreneur of the Year, Eco-Shop Compliant Mark (Singapore Environmental Council)"
+      }
+    },
+    {
+      "question_id": "B-GOV_ALF_AFD",
+      "response": {
+        "from_sentences": "during the year, we adopted a formal reporting approach by applying the international reporting framework, global reporting initiative “gri” standards, in preparing our sustainability report. for reference to the gri content index, please refer to pages 67-71. this is a part of the 2022 sustainability report and summarized in this dedicated tcfd extract. these included quantitative metrics alongside explanations of the frameworks and overall valuemax climate strategy. reflecting the financial sector's commitment to addressing climate change, valuemax proposed a set of recommendations for consistent disclosures on climate-related financial disclosures tcfd in october 2022 to help our stakeholders better understand our climate-related risks.",
+        "unit": "string",
+        "value": "GRI Standards (Core option), TCFD Recommendations"
+      }
+    },
+    {
+      "question_id": "B-GOV_ASS_ASR",
+      "response": {
+        "from_sentences": "code: 102-56, description: external assurance, page reference: not applicable",
+        "unit": "string",
+        "value": "None"
+      }
+    }
+  ],
+  "United Overseas Bank Limited_report": [
+    {
+      "question_id": "B-ENV_GHG_AET",
+      "response": {
+        "from_sentences": "total scope 1, scope 2 location-based, scope 3 emissions: 79.083 thousand tonnes of carbon dioxide equivalent",
+        "unit": "thousand tonnes of carbon dioxide equivalent",
+        "value": "79.083"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE1",
+      "response": {
+        "from_sentences": "generation of scope 1 emissions: 5.783 thousand tonnes of carbon dioxide equivalent",
+        "unit": "thousand tonnes of carbon dioxide equivalent",
+        "value": "5.783"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE2",
+      "response": {
+        "from_sentences": "generation of scope 2 emissions location-based : 69.313 thousand tonnes of carbon dioxide equivalent",
+        "unit": "thousand tonnes of carbon dioxide equivalent",
+        "value": "69.313"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE3",
+      "response": {
+        "from_sentences": "generation of scope 3 emissions: 3.987 thousand tonnes of carbon dioxide equivalent",
+        "unit": "thousand tonnes of carbon dioxide equivalent",
+        "value": "3.987"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EIT",
+      "response": {
+        "from_sentences": "greenhouse gas emissions intensity ratio for the organization",
+        "unit": "kg CO2e/m² of floor space",
+        "value": "112.1"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI1",
+      "response": {
+        "from_sentences": "Our targets focus on reducing emissions intensity reduced emissions per unit of sector output",
+        "unit": "Not specified in the provided text.",
+        "value": "Not specified in the provided text."
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI2",
+      "response": {
+        "from_sentences": "our overall emissions intensity measured in kilogram kilograms of co₂-equivalent per m² of floor space reduced by 14.9 per cent over the same period.",
+        "unit": "kg CO2e/m² of floor space",
+        "value": "112.1"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI3",
+      "response": {
+        "from_sentences": "Our targets focus on reducing emissions intensity reduced emissions per unit of sector output",
+        "unit": "Not specified in the provided text.",
+        "value": "Not specified in the provided text."
+      }
+    },
+    {
+      "question_id": "B-ENV_ENC_TEC",
+      "response": {
+        "from_sentences": "our overall energy use intensity, measured in kilowatt-hours per square metre m² of floor space, improved by 14.2 per cent over the same period.",
+        "unit": "gigawatt-hours",
+        "value": "135.3"
+      }
+    },
+    {
+      "question_id": "B-ENV_ENC_ECI",
+      "response": {
+        "from_sentences": "overall energy use intensity, measured in kilowatt-hours per square metre m² of floor space, improved by 14.2 per cent over the same period.",
+        "unit": "kWh/m²",
+        "value": "218.4"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_TWC",
+      "response": {
+        "from_sentences": "our water consumption in 2022 decreased by 5.8 per cent to 497,600 cubic meters when compared with 2018.",
+        "unit": "cubic meters",
+        "value": "497600"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_WCI",
+      "response": {
+        "from_sentences": "overall water consumption intensity measured in cubic meters of water per m² of floor space improved by 21.3 per cent over the same period.",
+        "unit": "m³/m²",
+        "value": "0.8"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAG_TWG",
+      "response": {
+        "from_sentences": "of the 2,585 total weight of recycled waste, including electronic waste of waste generated in 2022, 32.5 per cent was recycled and 33.6 per cent was processed at waste-to-energy incineration plants.",
+        "unit": "tons",
+        "value": "2585"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_M",
+      "response": {
+        "from_sentences": "across the group, there are 49 nationalities represented by our colleagues. promoting gender diversity across the group 1 category: total workforce, women % : 61.3, men % : 38.7",
+        "unit": "percent",
+        "value": "38.7"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_F",
+      "response": {
+        "from_sentences": "across the group, there are 49 nationalities represented by our colleagues. promoting gender diversity across the group 1 category: total workforce, women % : 61.3, men % : 38.7",
+        "unit": "percent",
+        "value": "61.3"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_M",
+      "response": {
+        "from_sentences": "number and percentage % of new employee hires by gender category: male, 2022: 2,648 42.4% , 2021: 1,415 44.4%",
+        "unit": "percent",
+        "value": "42.4"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_F",
+      "response": {
+        "from_sentences": "number and percentage % of new employee hires by gender category: female, 2022: 3,596 57.6% , 2021: 1,774 55.6%",
+        "unit": "percent",
+        "value": "57.6"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_M",
+      "response": {
+        "from_sentences": "number and percentage % of employee attrition by gender 24 year: 2022, male: 1,923 42.0% , female: 2,657 58.0% , total: 4,580 100%",
+        "unit": "percent",
+        "value": "42.0"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_F",
+      "response": {
+        "from_sentences": "number and percentage % of employee attrition by gender 24 year: 2022, male: 1,923 42.0% , female: 2,657 58.0% , total: 4,580 100%",
+        "unit": "percent",
+        "value": "58.0"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_U30",
+      "response": {
+        "from_sentences": "percentage of employees by age group and gender % age group: <30 years old, gender: male, 2022: 35.4, 2021: 34.3, 2020: 34.5, 2019: 36.6, 2018: 35.9 gender: female, 2022: 64.6, 2021: 65.7, 2020: 65.5, 2019: 63.4, 2018: 64.1",
+        "unit": "percent",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_B35",
+      "response": {
+        "from_sentences": "percentage of employees by age group and gender % age group: 30-50 years old, gender: male, 2022: 39.5, 2021: 39.5, 2020: 39.8, 2019: 39.9, 2018: 39.3 gender: female, 2022: 60.5, 2021: 60.5, 2020: 60.2, 2019: 60.1, 2018: 60.7",
+        "unit": "percent",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_A50",
+      "response": {
+        "from_sentences": "percentage of employees by age group and gender % age group: 50 years old, gender: male, 2022: 38.4, 2021: 38.0, 2020: 38.8, 2019: 39.4, 2018: 40.1 gender: female, 2022: 61.6, 2021: 62.0, 2020: 61.2, 2019: 60.6, 2018: 59.9",
+        "unit": "percent",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_U30",
+      "response": {
+        "from_sentences": "number and percentage % of new employee hires by age group age group: <30 years old, 2022: 2,661 42.6% , 2021: 1,528 47.9% , 2020: 934 51.1% , 2019: 3,036 49.4% , 2018: 3,735 51.7%",
+        "unit": "percent",
+        "value": "42.6"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_B35",
+      "response": {
+        "from_sentences": "number and percentage % of new employee hires by age group age group: 30-50 years old, 2022: 3,367 53.9% , 2021: 1,567 49.1% , 2020: 833 45.5% , 2019: 2,751 44.8% , 2018: 3,132 43.4%",
+        "unit": "percent",
+        "value": "53.9"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_A50",
+      "response": {
+        "from_sentences": "number and percentage % of new employee hires by age group age group: 50 years old, 2022: 216 3.5% , 2021: 94 3.0% , 2020: 62 3.4% , 2019: 359 5.8% , 2018: 353 4.9%",
+        "unit": "percent",
+        "value": "3.5"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_U30",
+      "response": {
+        "from_sentences": "number and percentage % of employee attrition by age group 24 year: 2022, <30 years old: 1,457 31.8% , 30-50 years old: 2,755 60.2% , 50 years old: 368 8.0%",
+        "unit": "percent",
+        "value": "31.8"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_B35",
+      "response": {
+        "from_sentences": "number and percentage % of employee attrition by age group 24 year: 2022, <30 years old: 1,457 31.8% , 30-50 years old: 2,755 60.2% , 50 years old: 368 8.0%",
+        "unit": "percent",
+        "value": "60.2"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_A50",
+      "response": {
+        "from_sentences": "number and percentage % of employee attrition by age group 24 year: 2022, <30 years old: 1,457 31.8% , 30-50 years old: 2,755 60.2% , 50 years old: 368 8.0%",
+        "unit": "percent",
+        "value": "8.0"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_M",
+      "response": {
+        "from_sentences": "average training hours per employee by grade and gender grade: overall , gender: male, 2022: 50.9, 2021: 48.5, 2020: 47.4, 2019: 55.5, 2018: 46.3",
+        "unit": "hours",
+        "value": "50.9"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_F",
+      "response": {
+        "from_sentences": "average training hours per employee by grade and gender grade: overall , gender: female, 2022: 57.9, 2021: 52.2, 2020: 50.3, 2019: 50.5, 2018: 46.1",
+        "unit": "hours",
+        "value": "57.9"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_FAT",
+      "response": {
+        "from_sentences": "category: number of recordable work-related injuries, 2022: 5, 2021: 8, 2020: 2, 2019: 9, 2018: 10",
+        "unit": "number",
+        "value": "0"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_HCI",
+      "response": {
+        "from_sentences": "category: number of recordable work-related injuries, 2022: 5, 2021: 8, 2020: 2, 2019: 9, 2018: 10",
+        "unit": "number",
+        "value": "5"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_REC",
+      "response": {
+        "from_sentences": "category: number of recordable work-related injuries, 2022: 5, 2021: 8, 2020: 2, 2019: 9, 2018: 10",
+        "unit": "number",
+        "value": "5"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_RWI",
+      "response": {
+        "from_sentences": "category: number of recordable work-related injuries, 2022: 5, 2021: 8, 2020: 2, 2019: 9, 2018: 10",
+        "unit": "number",
+        "value": "0"
+      }
+    },
+    {
+      "question_id": "B-GOV_BOC_BIN",
+      "response": {
+        "from_sentences": "maintain a majority independent board. this was achieved in 2022, with 70 per cent of directors on the board being independent.",
+        "unit": "percent",
+        "value": "70"
+      }
+    },
+    {
+      "question_id": "B-GOV_BOC_WOB",
+      "response": {
+        "from_sentences": "this was achieved in 2022, with 20 per cent two out of 10 of directors on the board being female.",
+        "unit": "percent",
+        "value": "20"
+      }
+    },
+    {
+      "question_id": "B-GOV_MAD_WMT",
+      "response": {
+        "from_sentences": "promoting gender diversity across the group 1 category: senior management, women % : 37.2, men % : 62.8",
+        "unit": "percent",
+        "value": "37.2"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACD",
+      "response": {
+        "from_sentences": "a total number and percentage of governance body members that the organization's anti-corruption policies and procedures have been communicated to, broken down by region. b total number and percentage of employees that the organization's anti-corruption policies and procedures have been communicated to, broken down by employee category and region.",
+        "unit": "number",
+        "value": "not specified"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_N",
+      "response": {
+        "from_sentences": "d total number and percentage of governance body members that have received training on anti-corruption, broken down by region. e total number and percentage of employees that have received training on anti-corruption, broken down by employee category and region.",
+        "unit": "number",
+        "value": "not specified"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_P",
+      "response": {
+        "from_sentences": "d total number and percentage of governance body members that have received training on anti-corruption, broken down by region. e total number and percentage of employees that have received training on anti-corruption, broken down by employee category and region.",
+        "unit": "percent",
+        "value": "not specified"
+      }
+    },
+    {
+      "question_id": "B-GOV_ALF_AFD",
+      "response": {
+        "from_sentences": "this report is prepared in accordance with: the singapore exchange sgx securities trading limited mainboard listing rules 711a and 711b on sustainability reporting, as well as practice note 7.6 sustainability reporting guide issued in june 2016; the sgx core esg metrics published in december 2021; the global reporting initiative gri standards 2021 by the global sustainability standards board; the gri g4 financial services sector disclosures document issued in 2008 and refreshed in may 2013; the sustainability accounting standards board sasb financials sector standards on commercial banks, consumer finance and mortgage finance published in october 2018; the monetary authority of singapore's mas green finance industry taskforce's financial institutions climate-related disclosure document published in may 2021; the mas guidelines on environmental risk management for banks published in december 2020; the guidelines on responsible financing issued in october 2015 revised june 2018 by the association of banks in singapore; and the recommendations of the task force on climate-related financial disclosures tcfd issued in june 2017 and updated in october 2021. this report also serves as our communication on progress cop for the united nations global compact.",
+        "unit": "frameworks",
+        "value": "GRI Standards 2021, GRI G4 Financial Services Sector Disclosures, SASB Financials Sector Standards, Monetary Authority of Singapore (MAS) Green Finance Industry Taskforce's Financial Institutions Climate-related Disclosure, MAS Guidelines on Environmental Risk Management for Banks, Association of Banks in Singapore (ABS) Guidelines on Responsible Financing, TCFD Recommendations, UN Global Compact, Singapore Exchange (SGX) Securities Trading Limited Mainboard Listing Rules 711a and 711b, SGX Core ESG Metrics"
+      }
+    },
+    {
+      "question_id": "B-GOV_ASS_ASR",
+      "response": {
+        "from_sentences": "this report is externally assured against the gri standards for sustainability reporting. the assurance, provided by ernst & young llp, validates the accuracy and reliability of figures and statements in this report that are related to the subject matters agreed as per the assurance statement.",
+        "unit": "assurance type",
+        "value": "external"
+      }
+    }
+  ],
+  "United_Overseas_Bank_Limited_report": [
+    {
+      "question_id": "B-ENV_GHG_AET",
+      "response": {
+        "from_sentences": "total scope 1, scope 2 (location-based), scope 3 emissions: 79.083 thousand tCO2e",
+        "unit": "thousand tCO2e",
+        "value": "79.083"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE1",
+      "response": {
+        "from_sentences": "direct emissions from sources owned or controlled by uob group: generation of scope 1 emissions: 5.783 thousand tco2e",
+        "unit": "thousand tCO2e",
+        "value": "5.783"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE2",
+      "response": {
+        "from_sentences": "generation of scope 2 emissions (location-based): 69.313 thousand tCO2e generation of scope 2 emissions (market-based): 1.135 thousand tCO2e",
+        "unit": "thousand tCO2e",
+        "value": "70.448"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE3",
+      "response": {
+        "from_sentences": "indirect emissions from domestic and international air travel undertaken by employees for business purposes: generation of scope 3 emissions: 3.987 thousand tco2e",
+        "unit": "thousand tCO2e",
+        "value": "3.987"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EIT",
+      "response": {
+        "from_sentences": "Our overall emissions intensity (measured in kilogram (kg) of co₂-equivalent per m² of floor space) reduced by 14.9 per cent over the same period. excluding data centres, the emissions intensity of our office and branches decreased by 17.4 per cent.",
+        "unit": "kg CO2e/m²",
+        "value": "112.1"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI1",
+      "response": {}
+    },
+    {
+      "question_id": "B-ENV_GHG_EI2",
+      "response": {
+        "from_sentences": "Our overall emissions intensity (measured in kilogram (kg) of co₂-equivalent per m² of floor space) reduced by 14.9 per cent over the same period. excluding data centres, the emissions intensity of our office and branches decreased by 17.4 per cent.",
+        "unit": "kg CO2e/m²",
+        "value": "112.1"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI3",
+      "response": {}
+    },
+    {
+      "question_id": "B-ENV_ENC_TEC",
+      "response": {
+        "from_sentences": "our energy consumption across the region reduced by 2.3 per cent as compared with 2018, totalling 135.3 gigawatt-hours (gwh)",
+        "unit": "GWh",
+        "value": "135.3"
+      }
+    },
+    {
+      "question_id": "B-ENV_ENC_ECI",
+      "response": {
+        "from_sentences": "overall energy use intensity, measured in kwh per square metre (m²) of floor space, improved by 14.2 per cent over the same period. excluding data centres, the energy use intensity of our offices and branches reduced by 16.7 per cent.",
+        "unit": "kWh/m²",
+        "value": "218.4"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_TWC",
+      "response": {
+        "from_sentences": "our water consumption in 2022 decreased by 5.8 per cent to 497,600 m³ when compared with 2018",
+        "unit": "m³",
+        "value": "497600"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_WCI",
+      "response": {
+        "from_sentences": "overall water consumption intensity (measured in m³ of water per m² of floor space) improved by 21.3 per cent over the same period.",
+        "unit": "m³/m²",
+        "value": "0.8"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAG_TWG",
+      "response": {
+        "from_sentences": "of the 2,585 tonnes of waste generated in 2022, 32.5 per cent was recycled and 33.6 per cent was processed at waste-to-energy incineration plants.",
+        "unit": "tonnes",
+        "value": "2585"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_M",
+      "response": {
+        "from_sentences": "2022, male: 9,915 (38.7%), female: 15,729 (61.3%), total: 25,644 (100%)",
+        "unit": "percentage",
+        "value": "38.7"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_F",
+      "response": {
+        "from_sentences": "2022, male: 9,915 (38.7%), female: 15,729 (61.3%), total: 25,644 (100%)",
+        "unit": "percentage",
+        "value": "61.3"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_M",
+      "response": {
+        "from_sentences": "2022, male: 2,648 (42.4%), female: 3,596 (57.6%), total: 6,244 (100%)",
+        "unit": "percentage",
+        "value": "42.4"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_F",
+      "response": {
+        "from_sentences": "2022, male: 2,648 (42.4%), female: 3,596 (57.6%), total: 6,244 (100%)",
+        "unit": "percentage",
+        "value": "57.6"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_M",
+      "response": {
+        "from_sentences": "2022, male: 1,923 (42.0%), female: 2,657 (58.0%), total: 4,580 (100%)",
+        "unit": "percentage",
+        "value": "42.0"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_F",
+      "response": {
+        "from_sentences": "2022, male: 1,923 (42.0%), female: 2,657 (58.0%), total: 4,580 (100%)",
+        "unit": "percentage",
+        "value": "58.0"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_U30",
+      "response": {
+        "from_sentences": "age group: <30 years old, gender: male, 2022: 35.4, gender: female, 2022: 64.6",
+        "unit": "percentage",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_B35",
+      "response": {
+        "from_sentences": "age group: 30-50 years old, gender: male, 2022: 39.5, gender: female, 2022: 60.5",
+        "unit": "percentage",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_A50",
+      "response": {
+        "from_sentences": "age group: >50 years old, gender: male, 2022: 38.4, gender: female, 2022: 61.6",
+        "unit": "percentage",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_U30",
+      "response": {
+        "from_sentences": "age group: <30 years old, 2022: 2,661 (42.6%)",
+        "unit": "percentage",
+        "value": "42.6"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_B35",
+      "response": {
+        "from_sentences": "age group: 30-50 years old, 2022: 3,367 (53.9%)",
+        "unit": "percentage",
+        "value": "53.9"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_A50",
+      "response": {
+        "from_sentences": "age group: >50 years old, 2022: 216 (3.5%)",
+        "unit": "percentage",
+        "value": "3.5"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_U30",
+      "response": {
+        "from_sentences": "2022, <30 years old: 1,457 (31.8%)",
+        "unit": "percentage",
+        "value": "31.8"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_B35",
+      "response": {
+        "from_sentences": "2022, 30-50 years old: 2,755 (60.2%)",
+        "unit": "percentage",
+        "value": "60.2"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_A50",
+      "response": {
+        "from_sentences": "2022, >50 years old: 368 (8.0%)",
+        "unit": "percentage",
+        "value": "8.0"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_M",
+      "response": {
+        "from_sentences": "grade: overall, gender: male, 2022: 50.9",
+        "unit": "hours",
+        "value": "50.9"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_F",
+      "response": {
+        "from_sentences": "grade: overall, gender: female, 2022: 57.9",
+        "unit": "hours",
+        "value": "57.9"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_FAT",
+      "response": {}
+    },
+    {
+      "question_id": "B-SOC_OHS_HCI",
+      "response": {
+        "from_sentences": "category: number of recordable work-related injuries, 2022: 5",
+        "unit": "injuries",
+        "value": "5"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_REC",
+      "response": {
+        "from_sentences": "category: number of recordable work-related injuries, 2022: 5",
+        "unit": "injuries",
+        "value": "5"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_RWI",
+      "response": {}
+    },
+    {
+      "question_id": "B-GOV_BOC_BIN",
+      "response": {
+        "from_sentences": "this was achieved in 2022, with 70 per cent of directors on the board being independent.",
+        "unit": "percentage",
+        "value": "70"
+      }
+    },
+    {
+      "question_id": "B-GOV_BOC_WOB",
+      "response": {
+        "from_sentences": "this was achieved in 2022, with 20 per cent (two out of 10) of directors on the board being female.",
+        "unit": "percentage",
+        "value": "20"
+      }
+    },
+    {
+      "question_id": "B-GOV_MAD_WMT",
+      "response": {
+        "from_sentences": "37.2%: of our senior management are women.",
+        "unit": "percentage",
+        "value": "37.2"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACD",
+      "response": {
+        "from_sentences": "a) total number and percentage of governance body members that the organization's anti-corruption policies and procedures have been communicated to, broken down by region.b) total number and percentage of employees that the organization's anti-corruption policies and procedures have been communicated to, broken down by employee category and region.d) total number and percentage of governance body members that have received training on anti-corruption, broken down by region.e) total number and percentage of employees that have received training on anti-corruption, broken down by employee category and region.",
+        "unit": "number",
+        "value": "Not specified, but broken down by region and employee category."
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_N",
+      "response": {
+        "from_sentences": "e) total number and percentage of employees that have received training on anti-corruption, broken down by employee category and region.",
+        "unit": "number",
+        "value": "Not specified, but broken down by employee category and region."
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_P",
+      "response": {
+        "from_sentences": "e) total number and percentage of employees that have received training on anti-corruption, broken down by employee category and region.",
+        "unit": "percentage",
+        "value": "Not specified, but broken down by employee category and region."
+      }
+    },
+    {
+      "question_id": "B-GOV_CER_LRC",
+      "response": {
+        "from_sentences": "maintained our leading position among asean banks on the worldwide fund for nature's sustainable banking assessment 2022best bond adviser in asean at the asset triple a country awards for sustainable finance 2022best wealth manager for impact investing, asia and singapore at the asset triple a private capital awards 2022esg program of the year - silver at asian banking & finance retail banking awards 2022environmental products house of the year - uobam at the energy risk asia awards 2022best institutional house and best investor education in brunei at asia asset management best of the best country awards 2022asia-pacific economic cooperation (apec) cross border privacy rules certification, with uob as the first bank in singapore to be awarded. we are also the only bank to be awarded both the data protection trustmark and the apec cross border privacy rules certifications by the infocomm media development authority of singapore.one platinum and two gold⁺ green mark for healthier workplaces awards for uob-owned and managed offices in singapore enabling mark (platinum) accreditation from sg enable",
+        "unit": "certifications",
+        "value": "WWFN Sustainable Banking Assessment 2022, Asset Triple A Country Awards for Sustainable Finance 2022, Asset Triple A Private Capital Awards 2022, Asian Banking & Finance Retail Banking Awards 2022, Energy Risk Asia Awards 2022, Asia Asset Management Best of the Best Country Awards 2022, APEC Cross Border Privacy Rules Certification, Data Protection Trustmark, Green Mark for Healthier Workplaces, Enabling Mark (Platinum)"
+      }
+    },
+    {
+      "question_id": "B-GOV_ALF_AFD",
+      "response": {
+        "from_sentences": "this report is prepared in accordance with: the singapore exchange (sgx) securities trading limited mainboard listing rules 711a and 711b on sustainability reporting, as well as practice note 7.6 sustainability reporting guide issued in june 2016; the sgx core esg metrics published in december 2021; the global reporting initiative (gri) standards 2021 by the global sustainability standards board; the gri g4 financial services sector disclosures document issued in 2008 and refreshed in may 2013; the sustainability accounting standards board (sasb) financials sector standards on commercial banks, consumer finance and mortgage finance published in october 2018; the monetary authority of singapore's (mas) green finance industry taskforce's financial institutions climate-related disclosure document published in may 2021; the mas guidelines on environmental risk management for banks published in december 2020; the guidelines on responsible financing issued in october 2015 (revised june 2018) by the association of banks in singapore; and the recommendations of the task force on climate-related financial disclosures (tcfd) issued in june 2017 and updated in october 2021.",
+        "unit": "frameworks",
+        "value": "GRI Standards 2021, GRI G4 Financial Services Sector Disclosures, SASB Financials Sector Standards, MAS Green Finance Industry Taskforce Financial Institutions Climate-Related Disclosure, MAS Guidelines on Environmental Risk Management for Banks, ABS Guidelines on Responsible Financing, TCFD Recommendations, UN Global Compact Ten Principles, UN SDGs"
+      }
+    },
+    {
+      "question_id": "B-GOV_ASS_ASR",
+      "response": {
+        "from_sentences": "this report is externally assured against the gri standards for sustainability reporting. the assurance, provided by ernst & young llp, validates the accuracy and reliability of figures and statements in this report that are related to the subject matters agreed as per the assurance statement.",
+        "unit": "assurance type",
+        "value": "external"
+      }
+    }
+  ],
+  "United Overseas Insurance Limited_report": [
+    {
+      "question_id": "B-ENV_GHG_AET",
+      "response": {
+        "from_sentences": "The table below illustrates how our material esg factors contribute to the relevant sdgs.",
+        "unit": "tonnes of CO2e",
+        "value": "62,719"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE1",
+      "response": {
+        "from_sentences": "in fy2023, our financed emissions rose due to increased equity investments in our portfolio.",
+        "unit": "tonnes of carbon dioxide equivalent",
+        "value": "4,843"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE2",
+      "response": {
+        "from_sentences": "Energy and emissions refer to purchased electricity.",
+        "unit": "tonnes of co2",
+        "value": "207"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_AE3",
+      "response": {
+        "from_sentences": "in fy2023, our financed emissions rose due to increased equity investments in our portfolio.",
+        "unit": "tonnes of carbon dioxide equivalent",
+        "value": "57,876"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EIT",
+      "response": {
+        "from_sentences": "indicators: weighted average carbon intensity, unit: total weight of recycled waste, including electronic waste of carbon dioxide equivalent per million singapore dollars revenue, fy2023: 174, fy2022: 59.2, fy2021: 47.2",
+        "unit": "tCO2e per million singapore dollars revenue",
+        "value": "174"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI1",
+      "response": {
+        "from_sentences": "indicators: carbon footprint, unit: total weight of recycled waste, including electronic waste of carbon dioxide equivalent per million singapore dollars invested, fy2023: 49, fy2022: 17.9, fy2021: 10.6",
+        "unit": "tCO2e per million singapore dollars invested",
+        "value": "49"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI2",
+      "response": {
+        "from_sentences": "factor: co₂ emissions intensity - scope 2 per employee , unit: tonnes of co2, 2023: 1.80, 2022: 1.97, 2021: 1.34",
+        "unit": "tonnes of co2 per employee",
+        "value": "1.80"
+      }
+    },
+    {
+      "question_id": "B-ENV_GHG_EI3",
+      "response": {
+        "from_sentences": "indicators: weighted average carbon intensity, unit: total weight of recycled waste, including electronic waste of carbon dioxide equivalent per million singapore dollars revenue, fy2023: 174, fy2022: 59.2, fy2021: 47.2",
+        "unit": "tCO2e per million singapore dollars revenue",
+        "value": "644"
+      }
+    },
+    {
+      "question_id": "B-ENV_ENC_TEC",
+      "response": {
+        "from_sentences": "esg factors environmental factor: electricity consumption, unit: kilowatt-hours, 2023: 496,252, 2022: 471,723, 2021: 330,936",
+        "unit": "kilowatt-hours",
+        "value": "496,252"
+      }
+    },
+    {
+      "question_id": "B-ENV_ENC_ECI",
+      "response": {
+        "from_sentences": "factor: energy intensity per employee , unit: kilowatt-hours, 2023: 4,315, 2022: 4,717, 2021: 3,277",
+        "unit": "kilowatt-hours per employee",
+        "value": "4,315"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_TWC",
+      "response": {
+        "from_sentences": "The building features energy-and water-efficient systems, such as an upgraded cooling system, energy-saving led lighting and water-efficient fixtures.",
+        "unit": "Not specified",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAC_WCI",
+      "response": {
+        "from_sentences": "The building features energy-and water-efficient systems, such as an upgraded cooling system, energy-saving led lighting and water-efficient fixtures.",
+        "unit": "Not specified",
+        "value": "Not specified"
+      }
+    },
+    {
+      "question_id": "B-ENV_WAG_TWG",
+      "response": {
+        "from_sentences": "factor: non-hazardous waste, unit: kilograms, 2023: 4,039, 2022: 5,250, 2021: 10,898",
+        "unit": "kilograms",
+        "value": "4039"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_M",
+      "response": {
+        "from_sentences": "as at the end of 2023, uoi employed 115 people, 98 per cent of whom were full-time staff while part-time employees accounted for the remaining 2 per cent. of the total headcount, 84 per cent were permanent employees and 16 per cent were on fixed-term contracts. additionally, 11 non-employee workers were deployed at our workplace. provided by third-party agencies, these workers included cleaners, security guards and facilities personnel. the average age of our employees was 50, many of whom were long-serving staff. as at the end of 2023, uoi employed 115 people, 98 per cent of whom were full-time staff while part-time employees accounted for the remaining 2 per cent. of the total headcount, 84 per cent were permanent employees and 16 per cent were on fixed-term contracts. additionally, 11 non-employee workers were deployed at our workplace. provided by third-party agencies, these workers included cleaners, security guards and facilities personnel. the average age of our employees was 50, many of whom were long-serving staff.",
+        "unit": "percent",
+        "value": "21"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_CEG_F",
+      "response": {
+        "from_sentences": "women constitute 79 percent of our full-time employees, hold 76 percent of managerial and supervisory roles and 75 percent of head of department hod positions.",
+        "unit": "percent",
+        "value": "79"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_M",
+      "response": {
+        "from_sentences": "we hired 39 employees in 2023. overall hiring rate for the year was 36 percent. hiring rate for male and female employees were 79 percent and 27 percent respectively.",
+        "unit": "percent",
+        "value": "38"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_NHG_F",
+      "response": {
+        "from_sentences": "we hired 39 employees in 2023. overall hiring rate for the year was 36 percent. hiring rate for male and female employees were 79 percent and 27 percent respectively.",
+        "unit": "percent",
+        "value": "62"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_M",
+      "response": {
+        "from_sentences": "in 2023, 15 employees comprising 3 men and 12 women, left uoi.",
+        "unit": "percent",
+        "value": "20"
+      }
+    },
+    {
+      "question_id": "B-SOC_GED_ETG_F",
+      "response": {
+        "from_sentences": "in 2023, 15 employees comprising 3 men and 12 women, left uoi.",
+        "unit": "percent",
+        "value": "80"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_U30",
+      "response": {
+        "from_sentences": "age and gender diversity - 2023 age group: less than 30 years, male % : 50, female % : 50",
+        "unit": "percent",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_B35",
+      "response": {
+        "from_sentences": "age and gender diversity - 2023 age group: 30 - 50 years, male % : 35, female % : 65",
+        "unit": "percent",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_CEA_A50",
+      "response": {
+        "from_sentences": "age and gender diversity - 2023 age group: more than 50 years, male % : 15, female % : 85",
+        "unit": "percent",
+        "value": "100"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_U30",
+      "response": {
+        "from_sentences": "hiring rate by age group was as follows: less than 30 years 114 percent , 30-50 years 91 percent and more than 50 years 2 percent .",
+        "unit": "percent",
+        "value": "114"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_B35",
+      "response": {
+        "from_sentences": "hiring rate by age group was as follows: less than 30 years 114 percent , 30-50 years 91 percent and more than 50 years 2 percent .",
+        "unit": "percent",
+        "value": "91"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_NHI_A50",
+      "response": {
+        "from_sentences": "hiring rate by age group was as follows: less than 30 years 114 percent , 30-50 years 91 percent and more than 50 years 2 percent .",
+        "unit": "percent",
+        "value": "2"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_U30",
+      "response": {
+        "from_sentences": "employee turnover by age year: 2021, <30 years % : 40%, 30-50 years % : 21%, 50 years % : 6% year: 2022, <30 years % : 33%, 30-50 years % : 32%, 50 years % : 3% year: 2023, <30 years % : 57%, 30-50 years % : 21%, 50 years % : 8%",
+        "unit": "percent",
+        "value": "57"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_B35",
+      "response": {
+        "from_sentences": "employee turnover by age year: 2021, <30 years % : 40%, 30-50 years % : 21%, 50 years % : 6% year: 2022, <30 years % : 33%, 30-50 years % : 32%, 50 years % : 3% year: 2023, <30 years % : 57%, 30-50 years % : 21%, 50 years % : 8%",
+        "unit": "percent",
+        "value": "21"
+      }
+    },
+    {
+      "question_id": "B-SOC_AGD_TOR_A50",
+      "response": {
+        "from_sentences": "employee turnover by age year: 2021, <30 years % : 40%, 30-50 years % : 21%, 50 years % : 6% year: 2022, <30 years % : 33%, 30-50 years % : 32%, 50 years % : 3% year: 2023, <30 years % : 57%, 30-50 years % : 21%, 50 years % : 8%",
+        "unit": "percent",
+        "value": "8"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_M",
+      "response": {
+        "from_sentences": "average training hours per employee by gender year: 2021, male: 17, female: 21 year: 2022, male: 34, female: 39 year: 2023, male: 24, female: 24",
+        "unit": "hours",
+        "value": "24"
+      }
+    },
+    {
+      "question_id": "B-SOC_DEV_ATH_F",
+      "response": {
+        "from_sentences": "average training hours per employee by gender year: 2021, male: 17, female: 21 year: 2022, male: 34, female: 39 year: 2023, male: 24, female: 24",
+        "unit": "hours",
+        "value": "24"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_FAT",
+      "response": {
+        "from_sentences": "absence of any significant adverse finding in internal and external audits. absence of any significant complaint by customers and claimants.",
+        "unit": "number",
+        "value": "0"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_HCI",
+      "response": {
+        "from_sentences": "absence of any significant adverse finding in internal and external audits. absence of any significant complaint by customers and claimants.",
+        "unit": "number",
+        "value": "0"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_REC",
+      "response": {
+        "from_sentences": "absence of any significant adverse finding in internal and external audits. absence of any significant complaint by customers and claimants.",
+        "unit": "number",
+        "value": "0"
+      }
+    },
+    {
+      "question_id": "B-SOC_OHS_RWI",
+      "response": {
+        "from_sentences": "absence of any significant adverse finding in internal and external audits. absence of any significant complaint by customers and claimants.",
+        "unit": "number",
+        "value": "0"
+      }
+    },
+    {
+      "question_id": "B-GOV_BOC_BIN",
+      "response": {
+        "from_sentences": "a majority of our board is independent and all directors are non-executive.",
+        "unit": "percent",
+        "value": "62.5"
+      }
+    },
+    {
+      "question_id": "B-GOV_BOC_WOB",
+      "response": {
+        "from_sentences": "however, the board appointed a female director who joined on 1st january 2024, bringing the percentage of female directors at the time of this report to 12.5 percent on an eight-member board.",
+        "unit": "percent",
+        "value": "12.5"
+      }
+    },
+    {
+      "question_id": "B-GOV_MAD_WMT",
+      "response": {
+        "from_sentences": "women constitute 79 percent of our full-time employees, hold 76 percent of managerial and supervisory roles and 75 percent of head of department hod positions.",
+        "unit": "percent",
+        "value": "75"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACD",
+      "response": {
+        "from_sentences": "in 2023, there were no confirmed incidents or cases of corruption.",
+        "unit": "number",
+        "value": "1"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_N",
+      "response": {
+        "from_sentences": "our employees undergo annual training on various regulatory compliance topics, including insider trading, market misconduct, anti-money laundering, anti-bribery, banking secrecy, computer misuse and cybersecurity, and fair dealing.",
+        "unit": "number",
+        "value": "110"
+      }
+    },
+    {
+      "question_id": "B-GOV_ETB_ACT_P",
+      "response": {
+        "from_sentences": "in 2023, our employees participated in regular in-house briefings, training, and workshops on 54 diverse topics. these sessions were led by our experienced underwriters and claims handlers and included key areas such as digitalisation, cybersecurity, and risk management. additionally, our senior executives attended a sustainability workshop to learn about new reporting trends, frameworks and to review uoi's material esg impacts, risks and opportunities. as part of continuing professional development, our employees in front-end operations feos are required to meet the minimum training requirement mandated by mas. in 2023, our feos completed 100% of the required training. in 2023, 110 employees completed training in 28 risk management topics and totaling 1,809.50 training hours of training per employee. all staff attended at least three risk-related training programmes.",
+        "unit": "percent",
+        "value": "96"
+      }
+    },
+    {
+      "question_id": "B-GOV_CER_LRC",
+      "response": {
+        "from_sentences": "uoi building has received the green mark certification from the building and construction authority bca of singapore.",
+        "unit": "certification",
+        "value": "Green Mark"
+      }
+    },
+    {
+      "question_id": "B-GOV_ALF_AFD",
+      "response": {
+        "from_sentences": "this report has been prepared in accordance with the global reporting initiative gri 2021 standards covering the period from 1 january 2023 to 31 december 2023. we use the gri standards for our sustainability reporting due to its international recognition and acceptability. the gri standards also help us to identify and prioritize our material sustainability impacts. this report complies with the sgx-st listing rules 711a and 711b – sustainability reporting. in addition, the report outlines uoi's contribution to the un sdgs. it also incorporates references to the taskforce on climate-related financial disclosures tcfd recommendations and adheres to the mas guidelines on erm for insurers.",
+        "unit": "framework",
+        "value": "GRI 2021 Standards, UN SDGs, TCFD recommendations, MAS guidelines on erm for insurers, SGX-ST Listing Rules 711a and 711b"
+      }
+    },
+    {
+      "question_id": "B-GOV_ASS_ASR",
+      "response": {
+        "from_sentences": "uoi's current practice is to rely on internal checks and verifications for data presented in this sustainability report instead of seeking external assurance.",
+        "unit": "assurance type",
+        "value": "internal"
+      }
+    }
+  ]
+}
