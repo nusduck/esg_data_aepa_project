@@ -2,6 +2,7 @@ import seaborn as sns
 from transformers import BertTokenizer, BertForSequenceClassification, pipeline
 import os
 import torch
+import matplotlib.pyplot as plt
 
 def get_result_path(input_file_path):
     # 获取输入文件的目录、文件名和扩展名
@@ -50,7 +51,7 @@ def see_scores(results, thresholds):
 def filter_txt(input_file_path, thresholds = 0.9, max = 510, view = False):
     ## thresholds设置所取置信分数阈值
     ## max设置每句话最大字符数
-    ## view设置是否查看分数分布图和分数相应保留句子个数
+    ## plot设置是否查看分数分布图和分数相应保留句子个数
     
     
     try:
@@ -72,7 +73,7 @@ def filter_txt(input_file_path, thresholds = 0.9, max = 510, view = False):
 
         #设置最大文本长度
         max_text_length = max
-
+        
         #检查超出最大文本长度
         over = []
 
