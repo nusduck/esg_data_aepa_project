@@ -1,4 +1,5 @@
-Please follow the instructions below to help me annotate the sentences you receive and only return the annotate result as step 3 format
+Please follow the instructions below to help me annotate the sentences you receive and only return the annotate result as designated format.
+
 # ESG Metrics BIO Tagging Scheme (English)
 
 ## Tag Format
@@ -222,8 +223,9 @@ Apply the appropriate BIO tags:.
 
 ## Annotation Guidelines
 
-1. **Focus on 2022 Data**:
+1. **All tags must come from the given scheme; you cannot create your own.**
 
+2. **Focus on 2022 Data**:
    - **Only annotate data explicitly associated with the year **2022**. Information from other years should be labeled as **O**.
    - **Explicit Association**: Numerical values and units should be annotated **only** if they are directly preceded by "fy2022" or clearly associated with the year 2022 in context.
    - **Examples**:
@@ -231,7 +233,7 @@ Apply the appropriate BIO tags:.
      - "fy2021: 5,062.00" → Label `5,062.00` as **O**
      - "2022: 3433" → Annotate `3433` as **B-VALUE**
 
-2. **Value and Unit Annotations**:
+3. **Value and Unit Annotations**:
 
    - **Each pair of value and unit corresponds to a metric tag; find the most appropriate value and unit for labeling.**
 
@@ -242,12 +244,12 @@ Apply the appropriate BIO tags:.
    - **Combined words**: If a value and unit are combined (e.g., "5,000MWh"), split them into separate words before annotation.
      - Example: "5,000MWh" → "5,000" **B-VALUE**, "MWh" **B-UNIT**
 
-3. **Frameworks and Disclosure Practices**:
+4. **Frameworks and Disclosure Practices**:
    - Annotate recognized frameworks and their abbreviations using **B-GOV_ALF_AFD** and **I-GOV_ALF_AFD** tags.
    - Common frameworks include SDGs, TCFD, GRI, and SGX.
-   - Example: "aligned with TCFD standards" → "TCFD standards" **B-GOV_ALF_AFD**, **I-GOV_ALF_AFD**
+   - Example: "aligned with TCFD standards" → "TCFD" **B-GOV_ALF_AFD**, "standards" **I-GOV_ALF_AFD**
 
-4. **Word-Level Annotation**:
+5. **Word-Level Annotation**:
 
    - Each word (word) in the sentence should be annotated individually.
    - Use spaces and punctuation marks to words appropriately.
@@ -255,41 +257,41 @@ Apply the appropriate BIO tags:.
      - "total energy consumption" → "total" **B-ENV_ENC_TEC**, "energy" **I-ENV_ENC_TEC**, "consumption" **I-ENV_ENC_TEC**
      - "Tom's" → **O**
 
-5. **Proper wordization**:
+6. **Proper wordization**:
 
    - **Hyphenated Words**: Treat hyphenated words as single words.
      - Example: "high-consequence" → "high-consequence" **B-SOC_OHS_HCI** (if applicable)
    - **Punctuation**: Ensure punctuation marks are labeled as **O**.
      - Example: "," → **O**, "." → **O**
 
-6. **Hierarchy in Tagging**:
+7. **Hierarchy in Tagging**:
 
    - **Do not annotate the subcategories to a higher-level metric**.
    - **Example**:
      - Do not annotate "indirect energy consumption" , "electricity" or "fuel" the subset group to the **B-ENV_ENC_TEC** tag.
      - Do not annotate "male supervisors or managers" or "female supervisors or managers" to the higher level metrics like **B-SOC_GED_CEG_F**.
 
-7. **Accurancy in Tagging:**
+8. **Accurancy in Tagging:**
 
    - **Do not annotate the excluded content for the metric.**
    - **Example**:
      - Do not tag the male relative description with the female related tag like "male supervisors or managers" should not be tagged as "B-GOV_MAD_WMT".
 
-8. **Consistency in Tagging**:
+9. **Consistency in Tagging**:
 
    - Maintain a consistent labeling pattern across similar entities.
    - Avoid overlapping or conflicting tags.
 
-9. **Handling Multi-Word Units**:
+10. **Handling Multi-Word Units**:
 
-   - Annotate each part of multi-word units with appropriate **B-UNIT** and **I-UNIT** tags.
-   - Example: "metric tons of CO2" → 
-     - "metric" **B-UNIT**
-     - "tons" **I-UNIT**
-     - "of" **I-UNIT**
-     - "CO2" **I-UNIT**
+    - Annotate each part of multi-word units with appropriate **B-UNIT** and **I-UNIT** tags.
+    - Example: "metric tons of CO2" → 
+      - "metric" **B-UNIT**
+      - "tons" **I-UNIT**
+      - "of" **I-UNIT**
+      - "CO2" **I-UNIT**
 
-10. **Assurance Annotation:**
+11. **Assurance Annotation:**
 
     - Annotate whether the sustainability report has undertaken:
       - (a) External independent assurance
@@ -299,6 +301,15 @@ Apply the appropriate BIO tags:.
     - Example: "this report is externally assured against the GRI standards for sustainability reporting" → 
       - "externally" **B-GOV_ASS_ASR**
       - "assured" **I-GOV_ASS_ASR**
+12. **Output Format:**
+
+   - Use this format:
+
+   ```
+word tag
+word1 tag1
+word2 tag2
+   ```
 
 ## Example Annotation
 
@@ -398,7 +409,6 @@ Let’s walk through an example sentence to demonstrate the BIO tagging process.
 ✓ Units correctly split and tagged  
 ✓ All punctuation marked as O  
 ✓ Assurance status properly captured
-✓ Ensure each word for a line
 
 ## Step 5: word-Level BIO Annotation and Output
 

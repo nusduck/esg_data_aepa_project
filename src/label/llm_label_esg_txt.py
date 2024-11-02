@@ -10,6 +10,7 @@ import json
 from datetime import datetime
 from dataclasses import dataclass
 from pathlib import Path
+from tqdm import tqdm
 
 @dataclass
 class AnnotationConfig:
@@ -75,11 +76,11 @@ class GeminiAnnotator:
     def _configure_model(self) -> genai.GenerativeModel:
         genai.configure(api_key=self.config.api_keys[self.current_api_key_index])
         generation_config = {
-        "temperature": 0,
-        "top_p": 0.95,
-        "top_k": 40,
-        "max_output_tokens": 8192,
-        "response_mime_type": "text/plain",
+            "temperature": 0,
+            "top_p": 0.95,
+            "top_k": 40,
+            "max_output_tokens": 8192,
+            "response_mime_type": "text/plain",
         }
         return genai.GenerativeModel(
             self.config.model_name,
@@ -95,25 +96,41 @@ class GeminiAnnotator:
     @staticmethod
     def _convert_to_json(text_content: str) -> str:
         """Convert BIO labeled text to JSON format"""
-        lines = [line for line in text_content.split('\n') if len(line.split()) >= 2]
+        lines = []
+        for line in text_content.split('\n'):
+            # Skip empty lines and ensure proper splitting
+            line = line.strip()
+            if not line:
+                continue
+            # Handle cases where there might be multiple spaces
+            parts = line.split()
+            if len(parts) >= 2:
+                word = ' '.join(parts[:-1])  # All but the last part is the word
+                label = parts[-1]  # Last part is the label
+                lines.append((word, label))
+        
+        if not lines:
+            raise ValueError("No valid labeled lines found in the response")
+            
         current_text = []
         entity_spans = []
+        current_position = 0
         
-        for line in lines:
-            word, label = line.rsplit(' ', 1)
-            word = word.strip()
-            label = label.strip()
+        for word, label in lines:
+            if current_text:
+                # Add a space before the word if it's not the first word
+                current_position += 1  # Account for the space
+                
             current_text.append(word)
             
-            start_idx = len(' '.join(current_text)) - len(word)
-            end_idx = start_idx + len(word)
-            
             entity_spans.append({
-                "start": start_idx,
-                "end": end_idx,
+                "start": current_position,
+                "end": current_position + len(word),
                 "text": word,
                 "labels": [label]
             })
+            
+            current_position += len(word)
         
         return json.dumps({
             "text": ' '.join(current_text),
@@ -124,10 +141,9 @@ class GeminiAnnotator:
         """Process a single text with retries"""
         for attempt in range(self.config.max_retries):
             try:
-                # response = model.generate_content([self.prompts['default'], text])
                 chat = model.start_chat(
-                history=[
-                    {"role": "user", "parts": self.prompts['default']},
+                    history=[
+                        {"role": "user", "parts": self.prompts['default']},
                     ]
                 )
                 response = chat.send_message(text)
@@ -138,7 +154,7 @@ class GeminiAnnotator:
                 content = response.candidates[0].content.parts[0].text
                 if '```' in content:
                     content = content.replace('```', '')
-                # logging.info(f"Text{index}:\n {text} content:\n {content}")
+                
                 return index, self._convert_to_json(content)
                 
             except Exception as e:
@@ -149,7 +165,6 @@ class GeminiAnnotator:
                     time.sleep(self.config.retry_delay)
                 else:
                     return index, json.dumps({"error": f"Failed to process text {index}"})
-                
 
     def process_texts(self, texts: List[str], output_dir: str, filename: str, 
                      max_workers: int = 1) -> None:
@@ -160,16 +175,19 @@ class GeminiAnnotator:
         model = self._configure_model()
         results = [None] * len(texts)
         
-        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-            future_to_text = {
-                executor.submit(self._process_single_text, text, idx, model): idx 
-                for idx, text in enumerate(texts)
-            }
-            
-            for future in concurrent.futures.as_completed(future_to_text):
-                idx, content = future.result()
-                results[idx] = content
+        logging.info(f"Processing file: {filename}")
+        with tqdm(total=len(texts), desc=f"Processing {filename}") as pbar:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                future_to_text = {
+                    executor.submit(self._process_single_text, text, idx, model): idx 
+                    for idx, text in enumerate(texts)
+                }
                 
+                for future in concurrent.futures.as_completed(future_to_text):
+                    idx, content = future.result()
+                    results[idx] = content
+                    pbar.update(1)
+        
         # Write results to file
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write('[\n' + ',\n'.join(result for result in results if result) + '\n]')
@@ -179,12 +197,20 @@ def process_folder(folder_path: str, config_path: str, output_dir: str, max_work
     annotator = GeminiAnnotator(config_path)
     folder_path = Path(folder_path)
     
-    for file_path in folder_path.glob('*.txt'):
+    # Get total number of files
+    files = list(folder_path.glob('*.txt'))
+    total_files = len(files)
+    
+    logging.info(f"Found {total_files} files to process")
+    
+    for i, file_path in enumerate(files, 1):
         texts = []
         with open(file_path, 'r', encoding='utf-8') as f:
             texts.extend(line for line in f.read().split('\n') if line.strip())
         
         output_filename = file_path.stem + '.json'
+        logging.info(f"Processing file {i}/{total_files}: {file_path.name}")
+        
         annotator.process_texts(
             texts=texts,
             output_dir=output_dir,
@@ -194,8 +220,8 @@ def process_folder(folder_path: str, config_path: str, output_dir: str, max_work
 
 if __name__ == '__main__':
     process_folder(
-        folder_path="data/esg_cleaned_data/",
+        folder_path="data/esg_filter_data/",
         config_path="config/config.yaml",
         output_dir="data/esg_label_result",
-        max_workers=1
+        max_workers=20
     )

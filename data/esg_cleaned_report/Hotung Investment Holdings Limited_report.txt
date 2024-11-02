@@ -1,0 +1,239 @@
+sustainability report board statement hotung investment holdings limited “hihl” is committed to building a sustainable business by adopting environmental, social, and governance “esg” targets.
+the board, together with the group's management team, oversees the group's sustainability strategy, including climate-related material issues.
+hihl uses the gri standards for its sustainability report framework, considering business impact on the economy and people, including human rights.
+this report is the first attempt to disclose the group's approach to managing climate risks and opportunities, guided by the task force on climate-related disclosures tcfd recommendations.
+the management is responsible for implementing, monitoring, and reporting on esg factors, including climate-related material issues, targets, and performance.
+hihl acknowledges the need for global action to address rising temperatures and reduce climate change threats.
+it invests in technologies and innovations to tackle global problems and meet societal needs, aiming to improve living standards.
+hihl avoids investments in companies with negative social or environmental practices.
+the group is working on strategies to enhance climate resilience, considering corporate governance, strategies, risk management, and policies as integral pillars to its business resilience.
+this is the sixth sustainability report, providing information on the group's performance against targets to help stakeholders understand its approach to managing material esg factors.
+about the report scope the reporting scope covers the performance of hotung investment holdings limited "company" and its subsidiaries "group" from january 1, 2023, to december 31, 2023 "fy2023" , with data from previous financial years for comparison.
+the report incorporates environmental, economic, social, and governance data from the group's headquarters and employees in taipei, taiwan.
+approaching sustainability reporting this sustainability report follows the global reporting initiative standards "gri standards" and complies with singapore exchange securities trading limited "sgx-st" mainboard listing rules 711a and 711b on sustainability reporting and practice note 7.6. the gri standards were chosen for their longstanding international reputation and framework, enabling reporting on material economic, environmental, and social issues.
+the report is issued with the group's annual report.
+for a full list of references and disclosures, see the gri content index pages 69-70 . sustainability report the climate-related disclosures in the sustainability report are guided by the recommendations of the task force on climate-related financial disclosures “tcfd” , which have four overarching elements – governance, strategy, risk management, and metrics and targets.
+these elements are disclosed across various sections of this report.
+the tcfd content index is available on page 71. internal review : all data included in this sustainability report and tcfd disclosures have been submitted for an internal review by the management and the internal audit function.
+it was also approved by the board.
+the company will publish the sustainability report annually and monitor our sustainability progress through its performance of the key esg issues that matter to the stakeholders.
+for any queries or suggestions relating to this report, please reach out to us at hihl@equity.com.tw.
+approach to sustainability and sustainability governance the two fundamental principles of our approach are transparency and accountability.
+we conduct our operations and businesses in a sustainable and ethical way.
+the board also determines material esg factors, including climate-related metrics and targets.
+the board monitors and oversees progress against material esg factors, including climate goals and targets through regular updates by the management.
+within the board, the audit committee has oversight of effective management of all risks, which includes esg risks such as climate change.
+our management team is responsible for strategic planning, business-goal, risk management, and financial tracking overall firm governance and talent management.
+we delegated an employee the “in charge” who is responsible for the sustainability report and keeps track on the newer regulations that may impact the sustainability report.
+the in charge collaborates with different departments to facilitate assessments on an annual basis to identify, review and assess respective key stakeholders as well as sustainability their materiality impact on the group.
+stakeholder engagement the board adopts a balance between the needs and interests of key stakeholders, considering the best interests of the company.
+the group engages its stakeholders on a regular basis to gain better understanding of their concerns and expectations, and these interactions facilitate continuous improvements in all areas of the group's operations.
+the group has put in place several investment management policies which set out the process and mechanism to engage its key stakeholders and investee companies.
+table: stakeholder engagement modes and concerns key stakeholders: employees, modes of engagement: weekly management meetings and department meetings for business updates and discussions of important matters.
+seminars for training and development.
+annual performance review.
+annual audit., concerns and interests: organizational financial performance.
+health and safety of employees.
+training and education.
+key stakeholders: shareholders, modes of engagement: sgxnet announcements.
+annual general meetings: questions and answers session., concerns and interests: organizational financial performance, including dividend policy.
+key stakeholders: investee companies, modes of engagement: email/electronic communications: “contact us”.
+information on company website for shareholders.
+access to financial/annual reports for updates on performance.
+a board observer seat.
+site visit.
+regular meetings, teleconference, and email correspondences., concerns and interests: risk management.
+business ethics.
+corporate governance.
+key stakeholders: regulators, modes of engagement: compliance policy, rules, and regulation.
+correspondences via mail, email, or teleconference., concerns and interests: compliance with policies, rules, and regulations, including sustainability reporting.
+risk management.
+determining material topics for sustainability our sustainability work only has meaning and impact if it focuses on addressing the issues that matter the most.
+it is critical for us to assess risks and opportunities that key esg issues may have on our business, also considering views and expectations of our stakeholders around these esg issues.
+according to the above, we have applied four steps to assess points of focus in our esg analysis: identification, prioritization, validation, and review of material topics.
+sustainability report identification the group internally identifies material esg topics that are important to the group.
+since there are no other sgx-st main board listed companies whose core business is in venture investment, we referred to companies whose business is general investment.
+however, underlying investment strategies and business models may have variances.
+through internal consideration of regulatory requirements, esg rating and ranking methodologies, and sdgs and tcfd guidelines, we identified 22 material sustainability topics to the group.
+economy economic performance business resilience environment safeguarding a sustainable environment sustainable sourcing greenhouse gas emission “greenhouse gas” energy consumption water consumption waste generation social people/human rights staff training and education ethics and integrity cyber security diversity, equity and inclusion occupational health & safety human capital development governance corporate governance & regulatory compliance risk management business ethics board composition management diversity alignment with frameworks assurance tax transparency prioritization the in charge and its collaboration selected internal sustainability material topics by considering their likelihood and impact on the group's business.
+we excluded the material topics addressed in corporate governance report, such as board composition and risk management.
+the in charge evaluated the importance of each material topic to stakeholders and the impact to the group and shortening our material topics list.
+caption: a chart showing the significance of material topics to business and stakeholders.
+notes : the chart shows the relative importance of each topic to both business and stakeholders.
+the image shows a matrix with "importance to stakeholders" on the y-axis and "significance to business" on the x-axis.
+several numbered topics are plotted within the matrix.
+this is a description of what is missing in the markdown because it could not be extracted from the image.
+sustainability report validation the board had the final review and approved 7 material topics selected for sustainability reporting.
+table: material topics for sustainability reporting category: economy, topic: business resilience category: environment, topic: safeguarding a sustainable environment topic: staff training and education category: social, topic: occupational health & safety topic: diversity, equity, and inclusion category: governance, topic: corporate governance & regulatory compliance topic: business ethics table end.
+review the in charge and coworking departments track and review the ongoing progress of targets above.
+disclosures on material topics 1. business resilience sustainability sector: economic, environmental, social, governance definition: business resilience is the ability to adapt quickly to risks and disruptions, while maintaining key business workflows and safeguarding employees, assets, and brand reputation.
+risk: the risks include rapidly changing it and cyber threats, regulatory policies, impact from pandemic and natural disasters, and human errors that may cause business disruption.
+if the group cannot react and respond quickly, it may suffer financial loss, compliance issues, or reputational damage.
+opportunity: achieve and maintain a competitive advantage.
+improve financial performance and reduce volatility.
+protect the company's reputation.
+sustainability report alignment with international sustainability frameworks: gri 203-2 significant indirect economic impacts resilience is a company's ability to absorb stress, recover critical functionality, and thrive in new circumstances.
+policies and choices made today will determine the success in building a transition to a more resilient tomorrow.
+1 financial resilience: hihl balances short-term and long-term financial targets.
+a sufficient working capital position enables the group to weather potential volatility in revenue and expenses.
+risk management performance please refer to “financial risk management” of notes to financial statements in the annual report for more details.
+table: financial data ntthousands of singapore dollars item: current assets¹, 31 december 2023: 1,913,536, 31 december 2022: 1,648,466, 31 december 2021: 2,349,958 item: current liabilities¹, 31 december 2023: 148,857, 31 december 2022: 154,816, 31 december 2021: 214,982 item: working capital, 31 december 2023: 1,764,679, 31 december 2022: 1,493,650, 31 december 2021: 2,134,976 item: working capital ratio², 31 december 2023: 12.9, 31 december 2022: 10.6, 31 december 2021: 10.9 table end.
+notes: 1. please refer to the “statements of financial position” of the components of current assets and current liabilities.
+2. the working capital ratio, also known as the current ratio, measures the capability of a business to meet its short-term obligations that are due within a year.
+moreover, the formula is: current assets ÷ current liabilities = working capital ratio.
+target: to maintain a sufficient capital position to mitigate impact from market uncertainty and volatility.
+sustainability report 2 operational resilience: in 2023, although covid-19 has subsided, the company will still incorporate the management of highly contagious diseases similar to covid-19 into its sustainable business plan.
+this is a prudent measure to ensure the company maintains resilient operations in the face of future potential challenges.
+risk management business continuity plan: the group has set up and updated a business continuity plan "bcp" to guide the group to recover from an expected crisis and to minimize its impact on our business due to operational disruption.
+the framework covers aspects such as cyber incident response, it infrastructure restoration, as well as recovery of critical business functions to continue business functions.
+risk management: please refer to the “risk management and internal controls” of the corporate governance report in the annual report for more details.
+ethics policy performance in fy2023, the group successfully conducted bcp exercises, and there was no significant impact to business due to operational disruption.
+table: impact to business due to operational disruption year: significant impact, fy2023: nil, fy2022: nil, fy2021: nil table end.
+target: to avoid significant impact to business due to operational disruption by educating and training employees' professional knowledge, skills, and business ethics continuously.
+3 technological resilience: the group invested in strong, secure, and flexible infrastructure, including managing cyber threats and avoiding technology breakdown.
+risk management information security policy: principles stated and designed to protect networks, computing environment, programs, and data from attack, damage, or unauthorized access, as well as to maintain business resilience and continuity.
+information security practices and procedures: listed practices of detailed procedures for security events, including detection, monitoring, and responses to different scenarios of security risks as well as resilience risks.
+sustainability report performance no business disruption, reputation damage, and penalty happened and were it-related in 2023. year: fy2023, performance: strength sustainability through better collaboration in mixed cloud architecture.
+1. expand internet connections to mobile isp for better non-stop service and flexible network segmentation.
+2. enhanced cloud functions of firewall to get better and efficient cyber protection.
+3. planning upgrade backup to mixed cloud for quick recovery and easy accessibility.
+year: fy2022, performance: expand sustainability with better network and oa process 1. upgrade firewall gateway to manage mixed cloud architecture and network security.
+2. leverage cloud service of firewall to get better and more comprehensive cyber protection.
+3. changing from paper to digital forms to save time and resources in a secured and efficient way.
+year: fy2021, performance: enhance cloud architecture for better flexibility 1. expand hdd for on-premises cloud to relocate virtual machines on demand.
+2. tuning backup and restore mechanism for sustainability of on-premises cloud.
+3. tuning and monitoring external cloud services for better security.
+target to prevent technology errors and security breaches.
+2. safeguarding a sustainable environment sustainability sector economic environmental social governance definition encouraging and educating employees to be environmentally friendly.
+risk global warming will undermine food systems, physical assets, infrastructure, and natural habitats.
+opportunity achieve and maintain a competitive advantage.
+improve financial performance and reduce volatility.
+protect the company's reputation.
+alignment with international sustainability frameworks image showing icons for sustainable development goals 7, 11, 12, and 13 gri 302-1: energy consumption within the organization.
+gri 302-4: reduction of energy consumption; tcfd gri 305-1-a: direct scope 1 greenhouse gas emissions; tcfd gri 305-2-a: energy indirect scope 2 greenhouse gas emissions; tcfd gri 306-2: management of significant waste-related impacts; tcfd we strive to carry out our business operations in an environmentally and socially responsible manner.
+while our business does not heavily consume natural resources, we undertake initiatives to reduce our environmental footprint through practices in energy conservation, e-waste management, and comprehensive sorting and recycling.
+energy conservation energy is the main contributor to the group's environmental footprint in its day-to-day business operation.
+the administration department adopts several practices to contribute to energy conservation in the group's daily operation.
+using leds instead of incandescent light, the office minimizes its power consumption from lighting.
+we have used the cloud to reduce the energy burden of it infrastructure.
+apart from the above, our employees are also encouraged to conserve energy through switching off equipment not in use.
+the total energy consumption has maintained a similar consumption with fy2022.
+the energy consumption for 2023 was 54,496 kilowatt-hours, equivalent to scope 1 direct emission of about 27,326 kilograms co2.
+table: energy consumption and emissions fy2021-fy2023 year: fy2023, total energy consumption kilowatt-hours : 54,496, average energy consumption per employee kilowatt-hours : 1,822, carbon emissions kilograms : 27,326 year: fy2022, total energy consumption kilowatt-hours : 54,813, average energy consumption per employee kilowatt-hours : 1,768, carbon emissions kilograms : 27,674 year: fy2021, total energy consumption kilowatt-hours : 57,616, average energy consumption per employee kilowatt-hours : 1,859, carbon emissions kilograms : 29,242 table end.
+the group remains committed to reducing the level of energy consumption in the years to come.
+the group targets gradual reduction on the average energy consumption per employee and will start to undertake measures, including notices and reminder emails to encourage employees to reduce energy usage.
+sustainability report paper waste disposal it has become common knowledge that wide usage of paper is the culprit of massive deforestation and global warming.
+it is not only important to recycle but to reduce paper wastage.
+we have implemented the following measures to reduce paper consumption: permanent double-sided printing on all printer settings.
+implement digital forms and online leave request and approvals, removing the need to have hardcopy approvals since july 2022 and september 2022 respectively.
+physical copies of our annual report will only be mailed upon request from shareholders.
+physical copies of appendix of agm notice will only be printed and mailed upon request from shareholders.
+our target is to implement thorough recycling and to reduce wastage by using electronic facilities to minimize printing papers.
+water conservation awareness the group's operations do not involve water consumption.
+water consumption by the group is mainly from employees' day-to-day consumption and facility cleaning, which are not metered separately by the building management; thus, we are unable to disclose the group's water consumption data.
+the group will continue to stress the importance of water conservation and educate employees to be mindful of water wastage in the office.
+table: water and carbon emission data fy2021-fy2023 year: fy2023, total water consumption cubic meters : 726, average water consumption per employee cubic meters : 24, carbon emissions kilograms : 40 year: fy2022, total water consumption cubic meters : 618, average water consumption per employee cubic meters : 20, carbon emissions kilograms : 34.53 year: fy2021, total water consumption cubic meters : 656, average water consumption per employee cubic meters : 21, carbon emissions kilograms : 38.68 table end.
+investing in environmentally friendly business fund i, a series of mih capital, lp “fund i” is the first fund established by mylennium innovation hub capital management ltd “mihc” . mihc is a fund management company founded in 2020 and focuses climate and sustainability technology innovations.
+fund i invests mainly in climate and sustainability technology companies with prototype or minimum viable products.
+the focused industry categories will be related to climate and sustainability technologies, such as energy and storage hardware, food and agriculture, mobility components, heavy industrial technologies, chemical and material, consumer products and circular economy and decarbonization hardware.
+we believe that every bit of energy and resources saved counts and goes a long way in contributing to the environmental conservation and protection.
+3. staff training and education sustainability sector: economic, environmental, social, governance definition: develop and manage employee skills through training.
+risk: by neglecting to educate employees on trends, policies, and advancements, the organization may miss key innovations within the industry.
+by not training employees on new policies, mandates, requirements, and practices as they arise, the group may encounter legal litigations, which can be extremely costly.
+employees who have not been trained properly are less productive and produce lower-quality work.
+less knowledge and training lead to lower performance, resulting in sub-optimal business contribution.
+opportunity: employees need to develop new skills and more efficient work habits to adapt to rapidly changing conditions.
+developing employees' general capabilities, adaptability, and resilience will better prepare the group for future disruptions.
+alignment with international sustainability frameworks: icons representing un sdg goals 4, 5, 8, and 10 are shown here.
+gri 404-1 average hours of training per year per employee the quality of employees that companies are able to attract and retain is an important competitive advantage.
+the only sustainable competitive advantage is an organization's ability to meet current and future business needs.
+in a rapidly changing business environment, we will need to ensure that staff training needs are optimized and meet the purpose of upgrading the skillset of our workforce.
+this may include seminars, in-house training, and remote video training.
+these training programs are designed to provide employees with the relevant skills and knowledge to improve performance at their roles.
+the group has invested resources to provide employees with a series of courses to aid their professional and personal growth.
+there are no tables or charts in the provided image.
+sustainability report the covid-19 pandemic triggered new ways of learning, and the group acknowledges the importance of consistent knowledge building.
+we continued to upskill our employees during this period as they acquired new technical knowledge through video sessions.
+topics of courses course title: 1. persevering through adversity, all/partial employees: all, internal/external training: internal course title: 2. from ntu to nasdaq/my entrepreneurial journey, all/partial employees: partial, internal/external training: internal course title: 3. exploring the role of humanities in technology, all/partial employees: all, internal/external training: internal course title: 4. from million to 10 billion, all/partial employees: all, internal/external training: internal course title: 5. seminar on legal practices and operations of overseas private equity funds, all/partial employees: partial, internal/external training: external course title: 6. legal risks and responsibilities for serving as directors and supervisors of investee companies, all/partial employees: all, internal/external training: internal course title: 7. taiwan tax connect with international tax trends and industrial strategies, all/partial employees: partial, internal/external training: external course title: 8. beps 2.0 update or the new progress of beps 2.0 from the perspective of international tax trends, all/partial employees: partial, internal/external training: external course title: 9. controlled foreign company for profit-seeking enterprise seminar, all/partial employees: partial, internal/external training: external course title: 10. taiwan tax update seminar, all/partial employees: partial, internal/external training: external course title: 11. information security awareness and training, all/partial employees: all, internal/external training: internal course title: 12. network and firewall security, all/partial employees: partial, internal/external training: external course title: 13. cloud application and development, all/partial employees: partial, internal/external training: external course title: 14. cyber security, all/partial employees: partial, internal/external training: external course title: 15. database management, all/partial employees: partial, internal/external training: external course title: 16. how ai shapes our daily lives, all/partial employees: all, internal/external training: internal course title: 17. introduction and instructions of chatgpt, all/partial employees: all, internal/external training: internal table end.
+development & training hours per employee year: fy2023, average training hours per employee: 9.88hr year: fy2022, average training hours per employee: 5.86hr table end.
+we have recorded all required disclosure regarding training and development since fy2022.
+we will continue to invest in upskilling our employees and provide at least 2 half-year internal trainings in the upcoming year.
+4. occupational health & safety sustainability sector: economic, environmental, social, governance definition: create a safe work environment and offer healthy checks to support employees’ overall health.
+risk: not only will an unfortunate incident or case of work-related health issue cause harm to the individuals affected, but it will also damage reputation, negatively impact staff morale, and potentially come with crippling levels of direct and indirect financial costs.
+opportunity: implementing good occupational health and safety management can improve productivity, competitiveness, profitability, and motivation of employees.
+improved health and safety performance.
+reduced cost of accidents.
+better retention and talent acquisition.
+enhanced group reputation.
+alignment with international sustainability frameworks: goal 3: good health and well-being goal 5: gender equality goal 8: decent work and economic growth goal 10: reduced inequalities gri 403-1 occupational health and safety management system the group’s employees play a key role in long-term success and are therefore its most important asset, which is why employee health and safety is a fundamental prerequisite for the group.
+the group is morally, ethically, and legally responsible for occupational health and safety, which ensures the wellbeing of the group’s employees and contractors.
+the group complies with occupational safety and health act and the enforcement rules of the occupational safety and health act issued by ministry of labor republic of china taiwan . sustainability report response to covid-19 updated in fy2023 in 2023, although covid-19 has subsided, the company still incorporated the management of highly contagious diseases similar to covid-19 into its business continuity plan.
+this is a prudent measure to ensure the company maintains resilient operations in the face of future potential challenges.
+our goals are to achieve zero occupational injury and incident.
+5. diversity, equity, and inclusion sustainability sector: economic, environmental, social, governance definition: develop and maintain a diverse, equitable and inclusive workforce.
+risk: lack of infusion of diversity can create a hostile environment and lead to higher employee turnover.
+these cases can cause company severe reputational damages, substantial legal and defense costs, and d&o claims.
+opportunity: diversity in the workplace may enable the group to benefit from a wealth of diverse experiences, knowledge sets, and skills that could help the group to progress further.
+diversity and inclusivity may help retain top talent that is already within the group, while attracting more outside talent.
+stronger group reputation.
+alignment with international sustainability frameworks: gri 405-1: diversity of governance bodies and employees gri 406-1: incidents of discrimination and corrective actions taken sustainability report building and retaining talent are both crucial for the group.
+having a diverse workforce with equal opportunity is one of the ways to build and retain talent.
+the group is an equal opportunity employer, and its employees are recruited, promoted, and compensated based on merit, regardless of age, ethnicity, gender, marital status, and disability.
+we believe a diverse workforce, where a wide range of varying expertise and perspectives can be brought together to help the group to drive better performance over time.
+our diversity is not just limited to our employees but also represented in our board of directors.
+our directors come from different backgrounds which helps to expand the range of perspectives at the top and enables the board to better advise the group strategically.
+the profile of each director can be found in the "board of directors" and "board diversity" section of the corporate governance report in the annual report.
+current employees by gender year: fy2023, male % : 34%, female % : 66% year: fy2022, male % : 33%, female % : 67% year: fy2021, male % : 33%, female % : 67% table end.
+current employees by age groups year: fy2023, between 20 and 39 years old % : 17.24%, between 40 and 59 years old % : 77.42%, over 60 years old % : 3.23% year: fy2022, between 20 and 39 years old % : 19.35%, between 40 and 59 years old % : 79.31%, over 60 years old % : 3.23% year: fy2021, between 20 and 39 years old % : 16.13%, between 40 and 59 years old % : 80.65%, over 60 years old % : 3.45% table end.
+the group has pledged to install an inclusive and non-discriminatory culture that focuses on treating all employees fairly.
+we adopt a strong stance against discrimination on any biases and are committed to providing equal opportunities.
+incidents of discrimination and corrective actions taken year: fy2023, incidents: nil year: fy2022, incidents: nil year: fy2021, incidents: nil table end.
+6. corporate governance & regulatory compliance sustainability sector economic ○ environmental ○ social ● governance definition ensure adherence to laws, rules, and regulations in all jurisdictions where business is conducted.
+risk non-compliance with regulations may inflict both monetary and non-monetary penalties, negatively impacting the group's reputation, affecting its financial standing and business continuity.
+opportunity the group tends to respond faster to change and take advantages of new market opportunities.
+compliance will result in greater ability to manage risks and provide better organizational continuity.
+alignment with international sustainability frameworks: gri 2: general disclosures we strive to enhance our governance framework, anchored on a strong belief that good corporate governance is the cornerstone of a well-managed and efficient organization.
+the board of directors "board" remains committed to maintaining a high standard of corporate governance to safeguard the interest of all stakeholders.
+please refer to "corporate governance report" in the annual report for more details.
+the group remains committed to building a strong culture of compliance and has taken steps to ensure that its business practices are in alignment with applicable laws and regulations of the incorporation of group companies, including bermuda, bvi, cayman, and taiwan.
+at the company level, we also ensure that we are in compliance with the listing manual of singapore exchange securities trading limited, and relevant laws and regulations applicable to the company.
+our goal is to maintain zero cases of material non-compliance with laws.
+7. business ethics sustainability sector: economic ○ environmental ○ social ○ governance definition: business ethics includes organizational standards, principles, and values that meet a high standard of ethics and govern the actions of individuals to prevent corruption, extortion, and bribery in all markets in which the group operates or does business.
+risk: employee-related risks may also arise from violations of the group's code of conduct and related principles, such as practices related to bribery, fraud, corruption, and misconduct, which could impact the group's reputation and financial position.
+opportunity: ethical businesses have a good image in the eyes of the public, as people have confidence in the business, which leads towards greater success.
+established ethical guidelines would lead the company in times of change and distress.
+avoid lawsuits.
+enhance group reputation.
+alignment with international sustainability frameworks: goal 8: decent work and economic growth goal 10: reduced inequalities goal 16: peace, justice and strong institutions gri 2: general disclosures 2021 - policy commitments we commit to upholding the high standards of business ethics.
+employees are expected to comply with our "ethics policy," which outlines the standards of behavior in displaying responsible conduct, honesty, and integrity.
+the group also adopts the following policies to abide by relevant laws and regulations within the industry: 1 whistle-blowing policy: throughout 2023, we ensured that all employees had access to our whistle-blowing policy by ensuring that it is available on internal platforms and websites.
+we will continue to work towards our goal of strengthening our whistle-blowing policy.
+please refer to "whistle-blowing policy" of the corporate governance report in the annual report for more details.
+sustainability report 2 policy on dealings in the securities of hotung investment holdings limited “hihl” for directors of hihl and employees of the group: to comply with the listing manual, the company has put in place a policy and procedure executed by the legal department regularly to govern the personal trading of the securities of hihl.
+it's to ensure all employees' personal investments in hihl are lawful and free from conflicts of interest, including the prohibition on dealings with the company's securities on short-term considerations.
+please refer to the “securities transactions” of corporate governance report in the annual report for more details.
+our aim is to safeguard the sustainable development of the group.
+other climate related disclosures strategy our strategy is to ensure the group can withstand climate challenges in a zero-carbon future.
+our climate strategy focuses on identifying, evaluating, and mitigating risks related to physical impacts of climate change.
+as part of our short-term strategy, we are working on reducing greenhouse gas emissions across our operations.
+our medium- and long-term strategy will develop further as we gain deeper insights into risks and opportunities in the upcoming years.
+risks: with respect to our business, our initial, qualitative risk assessment highlights operational risks.
+acute weather events may also pose a risk to our physical assets, such as rising temperatures that can lead to sea level rise and persistent heat waves.
+these physical risks can potentially have a financial impact on business, including direct damage to assets and indirect disruptions to business operations.
+opportunities: getting to net zero will require tremendous, rapid change and large-scale technology deployment across industries.
+the transition will create massive opportunities to build entirely new businesses, and we can see them as new investment opportunities.
+we keep updating our business continuity plan to against the threat to operations that climate impacts can pose and create a variety of different plans and strategies to deal with those threats.
+climate risk management the board has set the tone from the top to strengthen the oversight for risks of climate changes.
+identification, assessment, and management of climate-related risks have included tcfd considerations and been integrated into processes of the current erm framework by adopting controls with different levels of climate risks, including transition risk and physical risk.
+under this integrated framework, quantitative metrics had also been considered on how to apply and manage results for improvement, such as conservation of greenhouse gas emissions, as shown in our sustainability report.
+sustainability report 2023 gri standards content index hotung investment holdings limited has reported in accordance with the gri standards for the period from 1 january 2023 to 31 december 2023. gri 1 used: gri 1: foundation 2021 applicable gri sector standard s : n/a table: gri 2: general disclosures 2021 reference no.: 2-1, disclosure: organizational detail, location: page 51 to 52 reference no.: 2-2, disclosure: entities included in the organization's sustainability reporting, location: page 51, page 77 reference no.: 2-3, disclosure: reporting period, frequency and contact point, location: page 51 to 52 reference no.: 2-4, disclosure: restatements of information, location: n.a. reference no.: 2-5, disclosure: external assurance, location: n.a. reference no.: 2-6, disclosure: activities, value chain and other business relationships, location: n.a. reference no.: 2-7, disclosure: employees, location: page 65. the group has 29 employees and 1 contractor who is the office cleaner as at the end of fy2023.
+reference no.: 2-8, disclosure: workers who are not employees, location: page 26 to 41 reference no.: 2-9, disclosure: governance structure and composition, location: page 52 reference no.: 2-10, disclosure: nomination and selection of the highest governance body, location: page 35 to 36 reference no.: 2-11, disclosure: chair of the highest governance body, location: page 26 reference no.: 2-12, disclosure: role of the highest governance body in overseeing the management of impacts, location: page 51 page 52 reference no.: 2-13, disclosure: delegation of responsibility for managing impacts, location: page 53 to 55 reference no.: 2-14, disclosure: role of the highest governance body in sustainability reporting, location: page 26 page 51 page 52 reference no.: 2-15, disclosure: conflicts of interest, location: page 29 page 49 to 50 reference no.: 2-16, disclosure: communication of critical concerns, location: page 68 reference no.: 2-17, disclosure: collective knowledge of the highest governance body, location: page 35 to 36 reference no.: 2-18, disclosure: evaluation of the performance of the highest governance body, location: page 32 to 34 reference no.: 2-19, disclosure: remuneration policies, location: page 38 to 39 reference no.: 2-20, disclosure: process to determine remuneration, location: page 39 to 40 reference no.: 2-21, disclosure: annual total compensation ratio, location: page 39 to 40 reference no.: 2-22, disclosure: statement on sustainable development strategy, location: page 130 reference no.: 2-23, disclosure: policy commitments, location: page 51 reference no.: 2-24, disclosure: embedding policy commitments, location: page 51 to 52 table end.
+sustainability report table: gri index and page locations reference no.: 2-25, disclosure: processes to remediate negative impacts, location: page 55 to 68 reference no.: 2-26, disclosure: mechanisms for seeking advice and raising concerns, location: page 48 to 49 location: page 52 to 53 reference no.: 2-27, disclosure: compliance with laws and regulations, location: page 66 reference no.: 2-28, disclosure: membership associations, location: n.a. reference no.: 2-29, disclosure: approach to stakeholder engagement, location: page 53 reference no.: 2-30, disclosure: collective bargaining agreements, location: page 63 to 66 reference no.: gri 3: material topics 2021 reference no.: 3-1, disclosure: process to determine material topics, location: page 53 to 55 reference no.: 3-2, disclosure: list of material topics, location: page 55 reference no.: gri 203: indirect economic impacts 2016 reference no.: 3-3, disclosure: management of material topics, location: page 55 reference no.: 203-2, disclosure: significant indirect economic impacts, location: page 56 to 58 reference no.: gri 302: energy 2016 reference no.: 3-3, disclosure: management of material topics, location: page 58 to 59 reference no.: 302-1, disclosure: energy consumption within the organization, location: page 58 to 60 reference no.: 302-4, disclosure: reduction of energy consumption, location: page 58 to 60 reference no.: gri 305: emissions 2016 reference no.: 3-3, disclosure: management of material topics, location: page 58 to 60 reference no.: 305-1, disclosure: direct scope 1 greenhouse gas emissions, location: page 58 to 59 reference no.: 305-2, disclosure: energy indirect scope 2 greenhouse gas emissions, location: page 58 to 59 reference no.: gri 306: waste 2020 reference no.: 3-3, disclosure: management of material topics, location: page 60 reference no.: 306-2, disclosure: management of significant waste-related impacts, location: page 60 reference no.: gri 403: occupational health and safety 2018 reference no.: 3-3, disclosure: management of material topics, location: page 63 to 64 reference no.: 403-1, disclosure: occupational health and safety management system, location: page 63 to 64 reference no.: gri 404: training and education 2016 reference no.: 3-3, disclosure: management of material topics, location: page 61 to 62 reference no.: 404-1, disclosure: average hours of training per employee of training per year per employee, location: page 62 reference no.: gri 405: diversity and equal opportunity 2016 reference no.: 3-3, disclosure: management of material topics, location: page 64 to 66 reference no.: 405-1, disclosure: diversity of governance bodies and employees, location: page 64 to 66 reference no.: gri 406: non-discrimination 2016 reference no.: 3-3, disclosure: management of material topics, location: page 64 reference no.: 406-1, disclosure: incidents of discrimination and corrective actions taken, location: page 65 to 66 table end.
+70 hotung investment holdings limited tcfd content index recommended disclosures, including supplemental guidance for financial sector pillars: governance , recommended disclosures: 1. describe the board's oversight of climate-related risks and opportunities.
+2. describe management's role in assessing and managing climate-related risks and opportunities., reference and response: page 51 pillars: strategy , recommended disclosures: 3. describe the climate-related risks and opportunities the group has identified over the short, medium, and long term.
+4. describe the impact of climate-related risks and opportunities on the organization's businesses, strategy, and financial planning.
+5. describe the resilience of the organization's strategy, taking into consideration different climate-related scenarios, including a 2°c or lower scenario., reference and response: page 68 pillars: risk management , recommended disclosures: 6. describe the organization's processes for identifying and assessing climate-related risks.
+7. describe the organization's processes for managing climate-related risks.
+8. describe how processes for identifying, assessing, and managing climate-related risks are integrated into the organization's overall risk management., reference and response: page 68 pillars: metrics & targets , recommended disclosures: 9. disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process.
+10. disclose scope 1, scope 2, and if appropriate scope 3 greenhouse gas greenhouse gas emissions, and the related risks.
+11. describe the targets used by the organization to manage climate-related risks and opportunities and performance against targets., reference and response: page 58 to 60 table end.
