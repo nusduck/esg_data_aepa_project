@@ -22,7 +22,7 @@ def create_directories():
 def setup_logging():
     current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
     log_dir = 'src/log/llm_retrieve'
-    log_file = os.path.join(log_dir, f'llm_retrieve_{current_time}.log')
+    log_file = os.path.join(log_dir, f'llm_parse_{current_time}.log')
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
@@ -48,7 +48,6 @@ def get_model_config():
     
     response_schema = content.Schema(
         type=content.Type.OBJECT,
-        required = ['value', 'unit', 'from_sentences'],
         properties={
             "value": content.Schema(type=content.Type.STRING),
             "unit": content.Schema(type=content.Type.STRING),
@@ -102,11 +101,11 @@ class ESGDataRetriever:
         )
     
     def read_txt_files(self):
-        data_folder = 'data/esg_cleaned_data'
+        data_folder = 'data/esg_reports_pdf'
         files = []
         file_contents = []
         
-        for file_path in Path(data_folder).glob('*.txt'):
+        for file_path in Path(data_folder).glob('*.pdf'):
             with open(file_path, 'rb') as f:
                 files.append(file_path.stem)  # Store filename without extension
                 file_contents.append(f.read())
@@ -126,7 +125,7 @@ class ESGDataRetriever:
         )
     )
     def retrieve_esg_data(self, file_content):
-        file = Part(inline_data={'mime_type': 'text/plain', 'data': file_content})
+        file = Part(inline_data={'mime_type': 'application/pdf', 'data': file_content})
         history = [{
             "role": "user",
             "parts": [
@@ -154,7 +153,7 @@ class ESGDataRetriever:
     def send_message(self, chat_session, question):
         try:
             return chat_session.send_message(
-                f"based on the reports answer the question: {question} If you can't find the proper answer please return N/A to the value."
+                f"based on the reports answer the question: {question}"
             )
         except Exception as e:
             logging.error(f'Error sending message: {str(e)}')
@@ -166,11 +165,7 @@ class ESGDataRetriever:
         questions = self.read_questions()
         results = {}
         
-        total_files = len(files)
-        logging.info(f"开始处理共 {total_files} 个文件")
-        
-        for i, (filename, content) in enumerate(zip(files, file_contents), 1):
-            logging.info(f"正在处理第 {i}/{total_files} 个文件: {filename}")
+        for i, (filename, content) in enumerate(zip(files, file_contents)):
             retry_count = 0
             while retry_count < self.max_retries:
                 try:
@@ -180,7 +175,6 @@ class ESGDataRetriever:
                         continue
 
                     file_results = []
-                    logging.info(f"开始处理 {filename} 的问题回答")
                     for j in range(len(questions)):
                         question_id = questions.iloc[j, 0]
                         question = questions.iloc[j, 1]
@@ -189,7 +183,7 @@ class ESGDataRetriever:
                             response = self.send_message(chat_session, question)
                             
                             if response:
-                                logging.info(f'文件 {filename}: 成功检索问题 {question_id}')
+                                logging.info(f'Retrieved data for {question_id}')
                                 try:
                                     response_data = json.loads(response.text)
                                     file_results.append({
@@ -197,34 +191,31 @@ class ESGDataRetriever:
                                         'response': response_data
                                     })
                                 except json.JSONDecodeError as e:
-                                    logging.error(f'文件 {filename}: 解析问题 {question_id} 的JSON响应时出错: {str(e)}')
+                                    logging.error(f'Error parsing JSON response for {question_id}: {str(e)}')
                             else:
-                                logging.error(f'文件 {filename}: 问题 {question_id} 未获得响应')
+                                logging.error(f'No response for {question_id}')
                                 
                         except Exception as e:
-                            logging.error(f'文件 {filename}: 处理问题 {question_id} 时出错: {str(e)}')
+                            logging.error(f'Error processing question {question_id}: {str(e)}')
                             continue
 
                     results[filename] = file_results
-                    logging.info(f"完成文件 {filename} 的处理 ({i}/{total_files})")
                     break  # Success, break the retry loop
                 
                 except Exception as e:
                     retry_count += 1
-                    logging.error(f'文件 {filename} 的第 {retry_count} 次尝试失败: {str(e)}')
+                    logging.error(f'Attempt {retry_count} failed for file {filename}: {str(e)}')
                     if retry_count < self.max_retries:
                         time.sleep(2 ** retry_count)  # Exponential backoff
                     else:
-                        logging.error(f'文件 {filename} 在 {self.max_retries} 次尝试后处理失败')
-        
-        logging.info(f"所有 {total_files} 个文件处理完成")
+                        logging.error(f'Failed to process file {filename} after {self.max_retries} attempts')
         
         # Save results to JSON file
         output_path = os.path.join('data/esg_retrieve', f'results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json')
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
         
-        logging.info(f'结果已保存至 {output_path}')
+        logging.info(f'Results saved to {output_path}')
 
 def main():
     create_directories()
