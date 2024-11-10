@@ -187,7 +187,7 @@ def main():
     CONFIG = {
         'unit_mapping_file': 'data/esg_unit_mapping/unit_formatting_dict.json',
         'input_folder': "data/esg_parse_result/",
-        'output_folder': "data/esg_cleaned_report/",
+        'output_folder': "data/esg_cleaned_data/",
     }
     
     try:
