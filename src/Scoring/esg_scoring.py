@@ -130,7 +130,7 @@ def extract_numeric_value(value_str):
     except (ValueError, TypeError):
         return 0.0
 
-# extract_company_data 函数
+# extract_company_data
 def extract_company_data(company_data):
     esg_data = {'ENV': {}, 'SOC': {}, 'GOV': {}}
     for entry in company_data:
