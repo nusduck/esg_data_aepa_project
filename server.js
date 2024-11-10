@@ -2,6 +2,8 @@ const express = require('express');
 const multer = require('multer');
 const fs = require('fs');
 const path = require('path');
+const csv = require('csv-parser');
+const { spawn } = require('child_process');
 const { exec } = require('child_process');
 const cors = require('cors');
 
@@ -91,6 +93,38 @@ app.get('/companies', (req, res) => {
     res.send(files);
   });
 });
+
+
+// Endpoint to get the score data from CSV files
+app.get('/score-data', (req, res) => {
+  const directoryPath = path.join(__dirname, 'data/esg_score');
+  const company = req.query.company;
+
+  const pythonProcess = spawn('python3', ['src/datafetch/get_score.py', directoryPath, company]);
+
+  let dataString = '';
+
+  console.log('company:', company)
+  pythonProcess.stdout.on('data', (data) => {
+    dataString += data.toString();
+  });
+
+  pythonProcess.stderr.on('data', (data) => {
+    console.error(`stderr: ${data}`);
+  });
+
+  pythonProcess.on('close', (code) => {
+    if (code !== 0) {
+      return res.status(500).send({ message: 'Error processing CSV files' });
+    }
+    const results = JSON.parse(dataString);
+    console.log(results);
+    res.json(results);
+  });
+
+  
+});
+
 
 // Serve static files from the uploads directory
 app.use('/uploads', express.static(path.join(__dirname, 'data/esg_reports_pdf')));
