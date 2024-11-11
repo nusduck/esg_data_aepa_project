@@ -50,9 +50,9 @@
    ### Finetune BERT
 1. Download the model.safetensors to `src/finetuned_model/`
 
-   link:
+   link: https://nusu-my.sharepoint.com/:u:/r/personal/e1351210_u_nus_edu/Documents/DSS5105-Project/model.safetensors?csf=1&web=1&e=7lomcZ
    
-   https://nusu-my.sharepoint.com/:u:/r/personal/e1351210_u_nus_edu/Documents/DSS5105-Project/model.safetensors?csf=1&web=1&e=7lomcZ
+3. View and run `src/FinetuneBERT/SimpleBERT.ipynb`
 
    ### Scoring
 
