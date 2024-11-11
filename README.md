@@ -48,12 +48,9 @@
 3. View and run `src/filterdata/SimpleFilter.ipynb`
 
 
+   ### Scoring
 
-
-
-   
-=======
-6. Run the script to generate ESG scores:
+1. Run the script to generate ESG scores:
 
    ```shell
    python3 src/Scoring/esg_scoring.py
