@@ -29,3 +29,32 @@
    ```shell
    python3 src/pdf_parse/llm_parse_esg_reports_pdf.py
    ```
+
+   ### Filtered ESG report txt file
+
+1. Download the pytoch for your GPU (Download to your desired virtual environment）
+   
+   Go to the official PyTorch website https://pytorch.org/get-started/locally/
+
+2. Download the transformers library in your virtual environment.
+   ```shell
+   pip install transformers
+   ```
+   ```shell
+   #If you have conda, you can run
+   conda install transformers
+   ```
+
+3. View and run `src/filterdata/SimpleFilter.ipynb`
+
+
+
+
+
+   
+=======
+6. Run the script to generate ESG scores:
+
+   ```shell
+   python3 src/Scoring/esg_scoring.py
+   ```
