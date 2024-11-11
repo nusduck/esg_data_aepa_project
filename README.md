@@ -29,9 +29,3 @@
    ```shell
    python3 src/pdf_parse/llm_parse_esg_reports_pdf.py
    ```
-
-6. Run the script to generate ESG scores:
-
-   ```shell
-   python3 src/Scoring/esg_scoring.py
-   ```
