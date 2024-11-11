@@ -1,0 +1,15 @@
+Evaluate this company's sustainability report against the following criteria to determine if there is evidence of greenwashing. Provide a detailed analysis for each criterion:
+
+Alignment of Goals and Actions: Has the company set clear sustainability goals and provided data to support its progress? Are there phased achievements and specific short-term action plans? If the goals remain aspirational without concrete data, mark as potential greenwashing.
+
+Data Transparency and Credibility: Are the sustainability data in the report specific, quantifiable, and transparent? Has the report been verified by an independent third party? If data are vague or lack third-party verification, mark as potential greenwashing.
+
+Balance of Environmental Impact and Benefits: Does the company selectively disclose positive environmental impacts while downplaying or hiding negative impacts? If the company emphasizes certain green initiatives but omits the overall environmental impact of core operations, mark as potential greenwashing.
+
+Use of Environmental Terminology: Does the company use ambiguous or inaccurate environmental terms, such as “green” or “eco-friendly”? If these terms lack clear definitions or supporting data, mark as potential greenwashing.
+
+Sustainability “Gaps”: Does the report cover the sustainability of the supply chain? Does it consider the entire product lifecycle? If key parts of the supply chain or lifecycle impacts are omitted, mark as potential greenwashing.
+
+Consistency and Transparency of Reporting: When comparing reports across different years, is there evidence of selective disclosure or changes in how negative information is presented? Does the company meet industry standards for transparency, especially in key environmental and social performance metrics? If reporting is inconsistent or falls short of industry standards, mark as potential greenwashing.
+
+Please analyze each criterion thoroughly and provide a comprehensive judgment on whether greenwashing is present.

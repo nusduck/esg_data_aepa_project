@@ -1,0 +1,171 @@
+Report Name,Group,Valid Count,Total Sum,"Sum in Range (97, 103)"
+Great Eastern Holdings Ltd_report,group_1,2,100.0,True
+Great Eastern Holdings Ltd_report,group_2,2,100.0,True
+Great Eastern Holdings Ltd_report,group_3,0,0.0,False
+Great Eastern Holdings Ltd_report,group_4,3,99.91000000000001,True
+Great Eastern Holdings Ltd_report,group_5,3,99.96000000000001,True
+Oversea-Chinese Banking Corporation Limited_report,group_1,2,100.0,True
+Oversea-Chinese Banking Corporation Limited_report,group_2,2,100.0,True
+Oversea-Chinese Banking Corporation Limited_report,group_3,3,100.0,True
+Oversea-Chinese Banking Corporation Limited_report,group_4,3,100.0,True
+Oversea-Chinese Banking Corporation Limited_report,group_5,3,100.0,True
+UOB-Kay Hian Holdings Limited_report,group_1,2,100.0,True
+UOB-Kay Hian Holdings Limited_report,group_2,0,0.0,False
+UOB-Kay Hian Holdings Limited_report,group_3,2,52.0,False
+UOB-Kay Hian Holdings Limited_report,group_4,0,0.0,False
+UOB-Kay Hian Holdings Limited_report,group_5,0,0.0,False
+ValueMax Group Limited_report,group_1,2,100.0,True
+ValueMax Group Limited_report,group_2,0,0.0,False
+ValueMax Group Limited_report,group_3,3,98.0,True
+ValueMax Group Limited_report,group_4,0,0.0,False
+ValueMax Group Limited_report,group_5,0,0.0,False
+Sing Investments & Finance Limited_report,group_1,2,100.0,True
+Sing Investments & Finance Limited_report,group_2,2,100.0,True
+Sing Investments & Finance Limited_report,group_3,3,102.0,True
+Sing Investments & Finance Limited_report,group_4,3,100.0,True
+Sing Investments & Finance Limited_report,group_5,3,101.0,True
+Hong Leong Finance Limited_report,group_1,2,100.0,True
+Hong Leong Finance Limited_report,group_2,2,32.0,False
+Hong Leong Finance Limited_report,group_3,3,100.0,True
+Hong Leong Finance Limited_report,group_4,3,100.0,True
+Hong Leong Finance Limited_report,group_5,3,100.0,True
+Singapore Exchange Limited_report,group_1,2,100.0,True
+Singapore Exchange Limited_report,group_2,2,100.0,True
+Singapore Exchange Limited_report,group_3,3,100.0,True
+Singapore Exchange Limited_report,group_4,3,100.0,True
+Singapore Exchange Limited_report,group_5,0,0.0,False
+IFS Capital Limited_report,group_1,2,99.97,True
+IFS Capital Limited_report,group_2,0,0.0,False
+IFS Capital Limited_report,group_3,0,0.0,False
+IFS Capital Limited_report,group_4,0,0.0,False
+IFS Capital Limited_report,group_5,0,0.0,False
+Hotung Investment Holdings Limited_report,group_1,2,100.0,True
+Hotung Investment Holdings Limited_report,group_2,0,0.0,False
+Hotung Investment Holdings Limited_report,group_3,2,97.89,True
+Hotung Investment Holdings Limited_report,group_4,0,0.0,False
+Hotung Investment Holdings Limited_report,group_5,0,0.0,False
+AF Global Limited_report,group_1,2,100.0,True
+AF Global Limited_report,group_2,0,0.0,False
+AF Global Limited_report,group_3,0,0.0,False
+AF Global Limited_report,group_4,0,0.0,False
+AF Global Limited_report,group_5,0,0.0,False
+Pine Capital Group Limited_report,group_1,2,100.0,True
+Pine Capital Group Limited_report,group_2,0,0.0,False
+Pine Capital Group Limited_report,group_3,0,0.0,False
+Pine Capital Group Limited_report,group_4,0,0.0,False
+Pine Capital Group Limited_report,group_5,0,0.0,False
+Transcorp Holdings Limited_report,group_1,2,100.0,True
+Transcorp Holdings Limited_report,group_2,0,0.0,False
+Transcorp Holdings Limited_report,group_3,0,0.0,False
+Transcorp Holdings Limited_report,group_4,0,0.0,False
+Transcorp Holdings Limited_report,group_5,0,0.0,False
+Uni-Asia Group Limited_report,group_1,0,0.0,False
+Uni-Asia Group Limited_report,group_2,2,100.0,True
+Uni-Asia Group Limited_report,group_3,0,0.0,False
+Uni-Asia Group Limited_report,group_4,3,99.0,True
+Uni-Asia Group Limited_report,group_5,2,100.0,True
+Courage Investment Group Limited_report,group_1,2,100.0,True
+Courage Investment Group Limited_report,group_2,0,0.0,False
+Courage Investment Group Limited_report,group_3,3,100.0,True
+Courage Investment Group Limited_report,group_4,0,0.0,False
+Courage Investment Group Limited_report,group_5,3,27.78,False
+Pacific Century Regional Developments Limited_report,group_1,2,100.0,True
+Pacific Century Regional Developments Limited_report,group_2,0,0.0,False
+Pacific Century Regional Developments Limited_report,group_3,0,0.0,False
+Pacific Century Regional Developments Limited_report,group_4,0,0.0,False
+Pacific Century Regional Developments Limited_report,group_5,0,0.0,False
+Forise International Limited_report,group_1,2,100.0,True
+Forise International Limited_report,group_2,2,13.0,False
+Forise International Limited_report,group_3,3,100.0,True
+Forise International Limited_report,group_4,3,10.0,False
+Forise International Limited_report,group_5,3,83.0,False
+DBS Group Holdings Limited_report,group_1,2,100.0,True
+DBS Group Holdings Limited_report,group_2,2,49.0,False
+DBS Group Holdings Limited_report,group_3,3,100.0,True
+DBS Group Holdings Limited_report,group_4,3,79.0,False
+DBS Group Holdings Limited_report,group_5,3,26.0,False
+GK Goh Holdings Limited_report,group_1,2,100.0,True
+GK Goh Holdings Limited_report,group_2,0,0.0,False
+GK Goh Holdings Limited_report,group_3,3,100.0,True
+GK Goh Holdings Limited_report,group_4,0,0.0,False
+GK Goh Holdings Limited_report,group_5,0,0.0,False
+British and Malayan Holdings Limited_report,group_1,0,0.0,False
+British and Malayan Holdings Limited_report,group_2,0,0.0,False
+British and Malayan Holdings Limited_report,group_3,0,0.0,False
+British and Malayan Holdings Limited_report,group_4,0,0.0,False
+British and Malayan Holdings Limited_report,group_5,0,0.0,False
+Singapura Finance Ltd_report,group_1,2,102.0,True
+Singapura Finance Ltd_report,group_2,2,100.0,True
+Singapura Finance Ltd_report,group_3,3,100.0,True
+Singapura Finance Ltd_report,group_4,3,100.0,True
+Singapura Finance Ltd_report,group_5,3,100.0,True
+Maxi-Cash Financial Services Corporation Ltd_report,group_1,2,100.0,True
+Maxi-Cash Financial Services Corporation Ltd_report,group_2,0,0.0,False
+Maxi-Cash Financial Services Corporation Ltd_report,group_3,0,0.0,False
+Maxi-Cash Financial Services Corporation Ltd_report,group_4,0,0.0,False
+Maxi-Cash Financial Services Corporation Ltd_report,group_5,0,0.0,False
+Singapore Reinsurance Corporation Limited_report,group_1,2,100.0,True
+Singapore Reinsurance Corporation Limited_report,group_2,2,100.0,True
+Singapore Reinsurance Corporation Limited_report,group_3,3,95.0,False
+Singapore Reinsurance Corporation Limited_report,group_4,3,100.0,True
+Singapore Reinsurance Corporation Limited_report,group_5,3,99.8,True
+Reenova Investment Holding Limited_report,group_1,2,100.0,True
+Reenova Investment Holding Limited_report,group_2,2,100.0,True
+Reenova Investment Holding Limited_report,group_3,3,99.0,True
+Reenova Investment Holding Limited_report,group_4,3,118.0,False
+Reenova Investment Holding Limited_report,group_5,3,118.0,False
+United Overseas Bank Limited_report,group_1,2,100.0,True
+United Overseas Bank Limited_report,group_2,2,100.0,True
+United Overseas Bank Limited_report,group_3,3,300.0,False
+United Overseas Bank Limited_report,group_4,3,100.0,True
+United Overseas Bank Limited_report,group_5,3,100.0,True
+Sunrise Shares Holdings Ltd_report,group_1,0,0.0,False
+Sunrise Shares Holdings Ltd_report,group_2,0,0.0,False
+Sunrise Shares Holdings Ltd_report,group_3,0,0.0,False
+Sunrise Shares Holdings Ltd_report,group_4,0,0.0,False
+Sunrise Shares Holdings Ltd_report,group_5,0,0.0,False
+iFast Corporation Ltd_report,group_1,2,100.0,True
+iFast Corporation Ltd_report,group_2,2,100.0,True
+iFast Corporation Ltd_report,group_3,3,100.10000000000001,True
+iFast Corporation Ltd_report,group_4,3,99.99999999999999,True
+iFast Corporation Ltd_report,group_5,0,0.0,False
+TIH Limited_report,group_1,2,100.0,True
+TIH Limited_report,group_2,0,0.0,False
+TIH Limited_report,group_3,0,0.0,False
+TIH Limited_report,group_4,0,0.0,False
+TIH Limited_report,group_5,0,0.0,False
+The Trendlines Group Ltd_report,group_1,2,100.0,True
+The Trendlines Group Ltd_report,group_2,0,0.0,False
+The Trendlines Group Ltd_report,group_3,1,50.0,False
+The Trendlines Group Ltd_report,group_4,0,0.0,False
+The Trendlines Group Ltd_report,group_5,0,0.0,False
+Jasper Investments Limited_report,group_1,0,0.0,False
+Jasper Investments Limited_report,group_2,0,0.0,False
+Jasper Investments Limited_report,group_3,0,0.0,False
+Jasper Investments Limited_report,group_4,0,0.0,False
+Jasper Investments Limited_report,group_5,0,0.0,False
+Ayondo Ltd_report,group_1,0,0.0,False
+Ayondo Ltd_report,group_2,0,0.0,False
+Ayondo Ltd_report,group_3,0,0.0,False
+Ayondo Ltd_report,group_4,0,0.0,False
+Ayondo Ltd_report,group_5,0,0.0,False
+MoneyMax Financial Services Ltd_report,group_1,2,100.0,True
+MoneyMax Financial Services Ltd_report,group_2,0,0.0,False
+MoneyMax Financial Services Ltd_report,group_3,3,100.0,True
+MoneyMax Financial Services Ltd_report,group_4,0,0.0,False
+MoneyMax Financial Services Ltd_report,group_5,0,0.0,False
+United Overseas Insurance Limited_report,group_1,2,100.0,True
+United Overseas Insurance Limited_report,group_2,2,100.0,True
+United Overseas Insurance Limited_report,group_3,3,300.0,False
+United Overseas Insurance Limited_report,group_4,3,100.0,True
+United Overseas Insurance Limited_report,group_5,3,86.0,False
+Net Pacific Financial Holdings Limited_report,group_1,2,100.0,True
+Net Pacific Financial Holdings Limited_report,group_2,1,26.0,False
+Net Pacific Financial Holdings Limited_report,group_3,0,0.0,False
+Net Pacific Financial Holdings Limited_report,group_4,0,0.0,False
+Net Pacific Financial Holdings Limited_report,group_5,0,0.0,False
+Innopac Holdings Limited_report,group_1,0,0.0,False
+Innopac Holdings Limited_report,group_2,0,0.0,False
+Innopac Holdings Limited_report,group_3,0,0.0,False
+Innopac Holdings Limited_report,group_4,0,0.0,False
+Innopac Holdings Limited_report,group_5,0,0.0,False

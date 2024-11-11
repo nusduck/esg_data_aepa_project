@@ -1,0 +1,448 @@
+Please follow the instructions below to help me annotate the sentences you receive and only return the annotate result as designated format.
+
+# ESG Metrics BIO Tagging Scheme (English)
+
+## Tag Format
+
+- **B-[Category]\*[Topic]\*[Metric]**: Beginning of an entity
+- **I-[Category]\*[Topic]\*[Metric]**: Inside of an entity
+- **B-VALUE**: Beginning of a numerical value
+- **I-VALUE**: Inside of a numerical value
+- **B-UNIT**: Beginning of a unit
+- **I-UNIT**: Inside of a unit
+- **O**: Outside of any entity
+
+## Categories
+
+1. **ENV**: Environmental
+2. **SOC**: Social
+3. **GOV**: Governance
+
+## All Categories and Tags
+
+### Environmental (ENV) Tags
+
+#### Greenhouse Gas Emissions
+
+- **B-ENV_GHG_AET**: Total Absolute emissions
+- **I-ENV_GHG_AET**: Total Absolute emissions
+- **B-ENV_GHG_AE1**: Absolute emissions (Scope 1)
+- **I-ENV_GHG_AE1**: Absolute emissions (Scope 1)
+- **B-ENV_GHG_AE2**: Absolute emissions (Scope 2)
+- **I-ENV_GHG_AE2**: Absolute emissions (Scope 2)
+- **B-ENV_GHG_AE3**: Absolute emissions (Scope 3)
+- **I-ENV_GHG_AE3**: Absolute emissions (Scope 3)
+- **B-ENV_GHG_EIT**: Total Emission intensities 
+- **I-ENV_GHG_EIT**: Total Emission intensities
+- **B-ENV_GHG_EI1**: Emission intensities (Scope 1)
+- **I-ENV_GHG_EI1**: Emission intensities (Scope 1)
+- **B-ENV_GHG_EI2**: Emission intensities (Scope 2)
+- **I-ENV_GHG_EI2**: Emission intensities (Scope 2)
+- **B-ENV_GHG_EI3**: Emission intensities (Scope 3)
+- **I-ENV_GHG_EI3**: Emission intensities (Scope 3)
+
+#### Energy Consumption
+
+- **B-ENV_ENC_TEC**: Total energy consumption (not specific to a type of energy)
+- **I-ENV_ENC_TEC**: Total energy consumption
+- **B-ENV_ENC_ECI**: Energy consumption intensity
+- **I-ENV_ENC_ECI**: Energy consumption intensity
+
+#### Water Consumption
+
+- **B-ENV_WAC_TWC**: Total water consumption
+- **I-ENV_WAC_TWC**: Total water consumption
+- **B-ENV_WAC_WCI**: Water consumption intensity
+- **I-ENV_WAC_WCI**: Water consumption intensity
+
+#### Waste Generation
+
+- **B-ENV_WAG_TWG**: Total waste generated
+- **I-ENV_WAG_TWG**: Total waste generated
+
+### Social (SOC) Tags
+
+#### Gender Diversity
+
+- **B-SOC_GED_CEG_M**: Current total male employees 
+- **I-SOC_GED_CEG_M**: Current total male employees 
+- **B-SOC_GED_CEG_F**: Current total female employees 
+- **I-SOC_GED_CEG_F**: Current total female employees 
+- **B-SOC_GED_NHG_M**: New male hires
+- **I-SOC_GED_NHG_M**: New male hires
+- **B-SOC_GED_NHG_F**: New female hires
+- **I-SOC_GED_NHG_F**: New female hires
+- **B-SOC_GED_ETG_M**: Male employee turnover
+- **I-SOC_GED_ETG_M**: Male employee turnover
+- **B-SOC_GED_ETG_F**: Female employee turnover
+- **I-SOC_GED_ETG_F**: Female employee turnover
+
+#### Age-Based Diversity
+
+- **B-SOC_AGD_CEA_U30**: Current employees by age (Under 30)
+- **I-SOC_AGD_CEA_U30**: Current employees by age (Under 30)
+- **B-SOC_AGD_CEA_B35**: Current employees by age (Between 30 and 50)
+- **I-SOC_AGD_CEA_B35**: Current employees by age (Between 30 and 50)
+- **B-SOC_AGD_CEA_A50**: Current employees by age (Above 50)
+- **I-SOC_AGD_CEA_A50**: Current employees by age (Above 50)
+- **B-SOC_AGD_NHI_U30**: New hires by age (Under 30)
+- **I-SOC_AGD_NHI_U30**: New hires by age (Under 30)
+- **B-SOC_AGD_NHI_B35**: New hires by age (Between 30 and 50)
+- **I-SOC_AGD_NHI_B35**: New hires by age (Between 30 and 50)
+- **B-SOC_AGD_NHI_A50**: New hires by age (Above 50)
+- **I-SOC_AGD_NHI_A50**: New hires by age (Above 50)
+- **B-SOC_AGD_TOR_U30**: Turnover by age (Under 30)
+- **I-SOC_AGD_TOR_U30**: Turnover by age (Under 30)
+- **B-SOC_AGD_TOR_B35**: Turnover by age (Between 30 and 50)
+- **I-SOC_AGD_TOR_B35**: Turnover by age (Between 30 and 50)
+- **B-SOC_AGD_TOR_A50**: Turnover by age (Above 50)
+- **I-SOC_AGD_TOR_A50**: Turnover by age (Above 50)
+
+#### Development & Training
+
+- **B-SOC_DEV_ATH_M**: Average training hours (Male)
+- **I-SOC_DEV_ATH_M**: Average training hours (Male)
+- **B-SOC_DEV_ATH_F**: Average training hours (Female)
+- **I-SOC_DEV_ATH_F**: Average training hours (Female)
+
+#### Occupational Health & Safety
+
+- **B-SOC_OHS_FAT**: Fatalities
+- **I-SOC_OHS_FAT**: Fatalities
+- **B-SOC_OHS_HCI**: High-consequence injuries
+- **I-SOC_OHS_HCI**: High-consequence injuries
+- **B-SOC_OHS_REC**: Recordable injuries
+- **I-SOC_OHS_REC**: Recordable injuries
+- **B-SOC_OHS_RWI**: Recordable work-related ill health cases
+- **I-SOC_OHS_RWI**: Recordable work-related ill health cases
+
+### Governance (GOV) Tags
+
+#### Board Composition
+
+- **B-GOV_BOC_BIN**: Board independence
+- **I-GOV_BOC_BIN**: Board independence
+- **B-GOV_BOC_WOB**: Women on the board
+- **I-GOV_BOC_WOB**: Women on the board
+
+#### Management Diversity
+
+- **B-GOV_MAD_WMT**: Women in the management team
+- **I-GOV_MAD_WMT**: Women in the management team
+
+#### Ethical Behaviour
+
+- **B-GOV_ETB_ACD**: Anti-corruption disclosures
+- **I-GOV_ETB_ACD**: Anti-corruption disclosures
+- **B-GOV_ETB_ACT_N**: Anti-corruption training (Number)
+- **I-GOV_ETB_ACT_N**: Anti-corruption training (Number)
+- **B-GOV_ETB_ACT_P**: Anti-corruption training (Percentage)
+- **I-GOV_ETB_ACT_P**: Anti-corruption training (Percentage)
+
+#### Certifications
+
+- **B-GOV_CER_LRC**: List of relevant certifications
+- **I-GOV_CER_LRC**: List of relevant certifications
+
+#### Alignment with Frameworks
+
+- **B-GOV_ALF_AFD**: ESG frameworks and disclosure practices
+- **I-GOV_ALF_AFD**: ESG frameworks and disclosure practices
+
+#### Assurance
+
+- **B-GOV_ASS_ASR**: Assurance of sustainability report
+- **I-GOV_ASS_ASR**: Assurance of sustainability report
+
+# Analysis Process
+
+## Step 1: Initial Text Analysis
+
+First, carefully read and analyze the input text:
+
+1. Identify the time period mentioned (focus on 2022 data)
+2. Sumarise the main content of the sentence.
+3. Based on the **All Categories and Tags**  scan for metrics objects
+4. Locate numerical values and their associated units
+
+## Step 2: Entity Recognition and Classification
+
+For each identified element, determine its category:
+
+### ESG Metrics Identification:
+
+- Understand the meaning of each tag.
+- Based on the analysis of inferring the proper tag(s) for the sentence.
+
+### Value and Unit Analysis:
+
+- Identify numerical values associated with 2022
+- Based on the analysis results, obtain the proper value and unit of the corresponding metrics.
+- Recognize measurement units and their components
+- Check for combined value-unit words that need splitting
+
+
+## Step 3: Word-Level Annotation
+
+Process each word individually:
+
+1. Split text into words
+2. Handle special cases:
+   - Hyphenated words as single words
+   - Multi-word units
+   - Punctuation marks as 'O'
+
+## Step 4: Validation
+
+Before finalizing, verify:
+
+1. Tag sequence logic:
+   - B- tags start new entities
+   - I- tags follow appropriate B- tags
+   - No overlapping annotations
+2. Consistency check:
+   - Year relevance (2022 focus)
+   - Hierarchy compliance
+   - Framework alignment
+3. Format check:
+   - output line by line
+
+## Step 5: BIO Tag Assignment and Output
+
+Apply the appropriate BIO tags:.
+
+1. For ESG Metrics:
+   - B-[Category]*[Topic]*[Metric] for the first word
+   - I-[Category]*[Topic]*[Metric] for subsequent words
+2. For Values:
+   - B-VALUE for standalone numbers
+   - I-VALUE for continuing parts
+3. For Units:
+   - B-UNIT for first unit word
+   - I-UNIT for continuing unit parts
+
+## Annotation Guidelines
+
+1. **All tags must come from the given scheme; you cannot create your own.**
+
+2. **Focus on 2022 Data**:
+   - **Only annotate data explicitly associated with the year **2022**. Information from other years should be labeled as **O**.
+   - **Explicit Association**: Numerical values and units should be annotated **only** if they are directly preceded by "fy2022" or clearly associated with the year 2022 in context.
+   - **Examples**:
+     - "fy2022: 6,280.00" → Annotate `6,280.00` as **B-VALUE**
+     - "fy2021: 5,062.00" → Label `5,062.00` as **O**
+     - "2022: 3433" → Annotate `3433` as **B-VALUE**
+
+3. **Value and Unit Annotations**:
+
+   - **Each pair of value and unit corresponds to a metric tag; find the most appropriate value and unit for labeling.**
+
+   - **Numerical Values**: Annotate only numerical values with **B-VALUE** and **I-VALUE**.
+     - Example: "5,000" → **B-VALUE**
+   - **Units**: Annotate units separately with **B-UNIT** and **I-UNIT**.
+     - Example: "MWh" → **B-UNIT**
+   - **Combined words**: If a value and unit are combined (e.g., "5,000MWh"), split them into separate words before annotation.
+     - Example: "5,000MWh" → "5,000" **B-VALUE**, "MWh" **B-UNIT**
+
+4. **Frameworks and Disclosure Practices**:
+   - Annotate recognized frameworks and their abbreviations using **B-GOV_ALF_AFD** and **I-GOV_ALF_AFD** tags.
+   - Common frameworks include SDGs, TCFD, GRI, and SGX.
+   - Example: "aligned with TCFD standards" → "TCFD" **B-GOV_ALF_AFD**, "standards" **I-GOV_ALF_AFD**
+
+5. **Word-Level Annotation**:
+
+   - Each word (word) in the sentence should be annotated individually.
+   - Use spaces and punctuation marks to words appropriately.
+   - Example:
+     - "total energy consumption" → "total" **B-ENV_ENC_TEC**, "energy" **I-ENV_ENC_TEC**, "consumption" **I-ENV_ENC_TEC**
+     - "Tom's" → **O**
+
+6. **Proper wordization**:
+
+   - **Hyphenated Words**: Treat hyphenated words as single words.
+     - Example: "high-consequence" → "high-consequence" **B-SOC_OHS_HCI** (if applicable)
+   - **Punctuation**: Ensure punctuation marks are labeled as **O**.
+     - Example: "," → **O**, "." → **O**
+
+7. **Hierarchy in Tagging**:
+
+   - **Do not annotate the subcategories to a higher-level metric**.
+   - **Example**:
+     - Do not annotate "indirect energy consumption" , "electricity" or "fuel" the subset group to the **B-ENV_ENC_TEC** tag.
+     - Do not annotate "male supervisors or managers" or "female supervisors or managers" to the higher level metrics like **B-SOC_GED_CEG_F**.
+
+8. **Accurancy in Tagging:**
+
+   - **Do not annotate the excluded content for the metric.**
+   - **Example**:
+     - Do not tag the male relative description with the female related tag like "male supervisors or managers" should not be tagged as "B-GOV_MAD_WMT".
+
+9. **Consistency in Tagging**:
+
+   - Maintain a consistent labeling pattern across similar entities.
+   - Avoid overlapping or conflicting tags.
+
+10. **Handling Multi-Word Units**:
+
+    - Annotate each part of multi-word units with appropriate **B-UNIT** and **I-UNIT** tags.
+    - Example: "metric tons of CO2" → 
+      - "metric" **B-UNIT**
+      - "tons" **I-UNIT**
+      - "of" **I-UNIT**
+      - "CO2" **I-UNIT**
+
+11. **Assurance Annotation:**
+
+    - Annotate whether the sustainability report has undertaken:
+      - (a) External independent assurance
+      - (b) Internal assurance
+      - (c) No assurance
+    - These three options should be annotated accordingly.
+    - Example: "this report is externally assured against the GRI standards for sustainability reporting" → 
+      - "externally" **B-GOV_ASS_ASR**
+      - "assured" **I-GOV_ASS_ASR**
+12. **Output Format:**
+
+   - Use this format:
+
+   ```
+word tag
+word1 tag1
+word2 tag2
+   ```
+
+## Example Annotation
+
+Let’s walk through an example sentence to demonstrate the BIO tagging process.
+
+### Example Sentence
+
+"In 2022, our total energy consumption reached 5,000 MWh, while scope 1 emissions were 2,500 metric tons of CO2e. The report is externally assured and follows GRI standards."
+
+## Step 1: Initial Text Analysis
+
+### Time Period Analysis
+
+- Primary reference year: 2022
+- All data points are explicitly associated with 2022
+
+### ESG Terminology and Metrics Identified and inferred
+
+1. Environmental Metrics:
+   - Total energy consumption
+   - Scope 1 emissions
+2. Governance Metrics:
+   - External assurance
+   - GRI reporting framework
+
+### Numerical Values and Units
+
+1. Energy consumption: 5,000 MWh
+2. Emissions: 2,500 metric tons of CO2e
+
+## Step 2: Entity Recognition and Classification
+
+### ESG Metrics Classification:
+
+1. Total energy consumption:
+   - Category: Environmental (ENV)
+   - Topic: Energy Consumption (ENC)
+   - Metric: Total Energy Consumption (TEC)
+   - Tag: ENV_ENC_TEC
+
+2. Scope 1 emissions:
+   - Category: Environmental (ENV)
+   - Topic: Greenhouse Gas Emissions (GHG)
+   - Metric: Absolute Emissions (Scope 1) (AE1)
+   - Tag: ENV_GHG_AE1
+
+3. External assurance:
+   - Category: Governance (GOV)
+   - Topic: Assurance (ASS)
+   - Metric: Assurance of Sustainability Report (ASR)
+   - Tag: GOV_ASS_ASR
+
+4. GRI standards:
+   - Category: Governance (GOV)
+   - Topic: Alignment with Frameworks (ALF)
+   - Metric: ESG Frameworks and Disclosure Practices (AFD)
+   - Tag: GOV_ALF_AFD
+
+### Value and Unit Analysis:
+
+1. Energy consumption value:
+   - Value: 5,000
+   - Unit: MWh
+
+2. Emissions value:
+   - Value: 2,500
+   - Unit: metric tons of CO2e
+
+## Step 3: Annotation Decisions and Rationale
+
+1. **Time Period Focus**
+   - All data is from 2022, so values are eligible for annotation
+   - Year word "2022" itself is marked as O
+
+2. **ESG Metrics**
+   - "total energy consumption" tagged as ENV_ENC_TEC (Environmental category)
+   - "scope 1 emissions" tagged as ENV_GHG_AE1 (Environmental category)
+   - "externally assured" tagged as GOV_ASS_ASR (Governance category)
+   - "GRI standards" tagged as GOV_ALF_AFD (Governance category)
+
+3. **Values and Units**
+   - Numerical values (5,000 and 2,500) tagged as B-VALUE
+   - Units properly split and tagged (MWh as B-UNIT, "metric tons of CO2e" as B-UNIT/I-UNIT sequence)
+
+4. **Special Considerations**
+   - Multi-word units ("metric tons of CO2e") properly handled with B-UNIT and I-UNIT tags
+   - Framework reference (GRI) properly tagged under Governance category
+   - External assurance properly identified and tagged
+
+## Step 4: Validation Checklist
+
+✓ All tags follow proper B-I sequence  
+✓ No overlapping annotations  
+✓ All 2022 data properly captured  
+✓ Hierarchy compliance maintained  
+✓ Framework alignment properly tagged  
+✓ Units correctly split and tagged  
+✓ All punctuation marked as O  
+✓ Assurance status properly captured
+
+## Step 5: word-Level BIO Annotation and Output
+
+```
+In          O
+2022        O
+,           O
+our         O
+total       B-ENV_ENC_TEC
+energy      I-ENV_ENC_TEC
+consumption I-ENV_ENC_TEC
+reached     O
+5,000       B-VALUE
+MWh         B-UNIT
+,           O
+while       O
+scope       B-ENV_GHG_AE1
+1           I-ENV_GHG_AE1
+emissions   I-ENV_GHG_AE1
+were        O
+2,500       B-VALUE
+metric      B-UNIT
+tons        I-UNIT
+of          I-UNIT
+CO2e        I-UNIT
+.           O
+The         O
+report      O
+is          O
+externally  B-GOV_ASS_ASR
+assured     I-GOV_ASS_ASR
+and         O
+follows     O
+GRI         B-GOV_ALF_AFD
+standards   I-GOV_ALF_AFD
+.           O
+```

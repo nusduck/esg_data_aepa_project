@@ -16,6 +16,7 @@
         - If there is an irregularity in the table structure (e.g., some rows have more cells than headers or complex multi-level headers), simplify the headers so that they align clearly with the table data, and ensure that all key information is preserved.
         - Adjust multi-level headers into a single row for clarity. For example, merge separate header rows or categories into a single line when possible.
      - **Bold the table title** before the table using this format: **Table: [Table Name]**.
+     - If no table title exists, create a concise and descriptive summary as the title.
      - Identify key variables or categories (e.g., year, region, value types, percentages) and use them as headers in the table.
      - Make sure to capture all numerical data, percentages, or other units in the correct columns.
      - Avoid column shifting issues by making sure that all columns are clearly separated and data remains within the corresponding columns.
