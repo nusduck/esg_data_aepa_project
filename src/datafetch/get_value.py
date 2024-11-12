@@ -70,4 +70,4 @@ if __name__ == "__main__":
     directory_path = sys.argv[1]
     company = sys.argv[2] if len(sys.argv) > 2 else None
     results = get_company_value(directory_path, company)
-    print(json.dumps(results, indent=2))
+    print(json.dumps(results, indent=2, separators=(',', ': ')))

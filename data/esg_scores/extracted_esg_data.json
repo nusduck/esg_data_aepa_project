@@ -1,0 +1,7720 @@
+{
+  "Great Eastern Holdings Ltd_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "13081",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "180",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "12714.7",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "2612.31",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "2.61",
+      "unit": "tonnes of carbon dioxide equivalent/FTE"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "0.07",
+      "unit": "tCO2e/FTE"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "2.54",
+      "unit": "tCO2e/FTE"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "0.08",
+      "unit": "tCO2e/FTE"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "23690.7",
+      "unit": "MWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "4.6",
+      "unit": "MWh/FTE"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "201714",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "40.3",
+      "unit": "m³/FTE"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "257.1",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "37.14",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "62.86",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "41.4",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "58.6",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "38.88",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "61.12",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "37.86",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "57.63",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "4.42",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "24.58",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "64.9",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "10.48",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "5008",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "1021",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "26.3",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "26.2",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "number of fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "0",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "0",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "60",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "20",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "30",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "BCA Green Mark (for Orchard Gateway @ Emerald and GE Changi), Green Building Index Gold (for Plaza Equatorial), Green Building Index Design Assessment (for Menara Great Eastern)",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards 2021, TCFD, SGX Listing Rules 711a and 711b",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance type"
+    }
+  ],
+  "Oversea-Chinese Banking Corporation Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "61618",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "160",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "59941",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "1517",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "0.011",
+      "unit": "tCO2e/sq ft"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "110789",
+      "unit": "MWhs"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "0.020",
+      "unit": "MWhs/sq ft"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "400322",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "0.10",
+      "unit": "m³/sq ft"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "1761",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "43",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "57",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "49",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "51",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "45",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "55",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "19",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "14",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "41",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "43",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "16",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "30",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "62",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "8",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "31601",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "6408",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "49.1",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "49.9",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "7",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "7",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "44",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "[\"AA rating for MSCI ESG ratings assessment\",\"FTSE4Good constituent in the FTSE4Good Developed Index\",\"iEdge Singapore ESG Leaders Index constituent by SGX\",\"Steward Leadership 25 SL25 list\",\"Outstanding award for green and sustainable loan structuring advisor real estate conglomerates\",\"Outstanding award for green and sustainable loan facilitator Greater China corporates – energy transition\",\"Pioneering organisation in climate disclosure planning\",\"Best home loan/mortgage product 2022\",\"Best digital robo-advisory service 2022\",\"Bank of Singapore: Best corporate ESG strategy Singapore 2022\",\"Bank of Singapore: Best corporate sustainability strategy Singapore 2022\",\"Bank of Singapore: Best bank for sustainable development Singapore 2022\",\"Best SME bank in Asia-Pacific 2023\",\"ASEAN SME bank of the year\",\"Best bank for employee experience\",\"Ocbc Wing Hang China: Best HR team, Best HR expert centre, Best HR business partner team\",\"Gold for Employer Awards 2022\",\"Singapore employee experience of the year – banking\",\"Top 3 within the banking and financial services sector and overall 15th among Singapore's 100 leading graduate employers 2022\",\"Gold for best leadership development\",\"Gold for programme excellence in blended learning category\",\"Bronze for best unique or innovative leadership programme\",\"4 LinkedIn Top Company for Career Growth Singapore\",\"15 LinkedIn Top Company for Career Growth Malaysia\",\"Champion of Good Award 2022\",\"Outstanding Corporate Award\",\"Runner up of the most transparent company award financials category\",\"Bronze for the best managed board award large-cap category\",\"38 awards received in 2022 from the Singapore Police Force\",\"The Alliance of Public Private Cybercrime Stakeholders Appact Appreciation Awards\",\"BCA Green Mark Platinum award for our data centre\",\"BCA Green Mark Gold award for Ocbc Centre, Ocbc Centre East, Ocbc Centre South, Ocbc Tampines Centre One and Ocbc Tampines Centre Two\",\"Green Mark certification for Bank of Singapore Centre and Ocbc Campus\",\"Green Mark Goldplus award for Ocbc Holland Village branch and NUS Frank store\",\"Green Mark Gold award for Ocbc Thomson branch and Ocbc United Square branch\",\"BCA Green Mark Platinum award for Ocbc Amk Hub branch and Ocbc Jurong Point branch\",\"BCA Green Mark Gold award, BCA-HPB Green Mark for healthier workplace for all Bank of Singapore offices\"]",
+      "unit": "list"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "[\"Singapore Exchange SGX Securities Trading Limited Mainboard Listing Rules 711a and 711b on sustainability reporting\",\"SGX Practice Note 7.6 Sustainability Reporting Guide\",\"Sustainability Accounting Standards Board SASB Standards for Commercial Banks\",\"Task Force on Climate-related Financial Disclosures TCFD recommendations\",\"Global Reporting Initiative GRI Standards: Topic and Universal Standards\",\"GRI G4 Financial Services sector disclosures\",\"United Nations Sustainable Development Goals UN SDGs\"]",
+      "unit": "list"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "external, internal",
+      "unit": "assurance_type"
+    }
+  ],
+  "UOB-Kay Hian Holdings Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/million kilowatt-hours"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "3.343",
+      "unit": "million kilowatt-hours"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "MWh/year"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "10.8",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "m³/year"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "48",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "52",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "24",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "28",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "3134",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours/employee"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours/employee"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards, SGX Sustainability Guidelines",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance type"
+    }
+  ],
+  "ValueMax Group Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "573.8",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "2.0",
+      "unit": "tCO2e/million singapore dollar"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "tCO2e/million singapore dollar"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/million singapore dollar"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "tCO2e/million singapore dollar"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "1275784",
+      "unit": "kWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "4445",
+      "unit": "kWh/million singapore dollar"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "3552",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "12.38",
+      "unit": "m³/million singapore dollar"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "45",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "55",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "6",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "62",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "30",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "300",
+      "unit": "people"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "13",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "33.3",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "eco-shop compliant mark by the Singapore Environmental Council, The Edge Billion Dollar Club 2022, Singapore Corporate Awards 2021/2022, The Edge Billion Dollar Club 2020, Singapore Quality Class Service Award, 15th SIAS Investors' Choice Award, 2014 Singapore SME 1000 Awards (Net Profit Excellence), 2014 Singapore SME 1000 Awards (Sales Growth Excellence), Prestige Brand Award, Enterprise 50 Award, EY Entrepreneur of the Year",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, TCFD",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance type"
+    }
+  ],
+  "Sing Investments & Finance Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "525.89",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "91.98",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "433.91",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "3.17",
+      "unit": "tCO2e/staff"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "3.17",
+      "unit": "tCO2e/staff"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "3.17",
+      "unit": "tCO2e/staff"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "1041",
+      "unit": "MWhs"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "6.27",
+      "unit": "MWhs/staff"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "8310",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "50.03",
+      "unit": "m³/staff"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "33.14",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "66.86",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "44",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "56",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "41",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "59",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "52",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "45",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "42",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "13",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "34",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "40",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "27",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "169",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "41",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "17",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "21",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "66.67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "16.67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "55",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "157",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "92.9",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "Cyber Essentials Mark Certification",
+      "unit": "certification"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI 2021 Standards, SGX Sustainability Reporting Regime, TCFD",
+      "unit": "framework"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance_type"
+    }
+  ],
+  "Hong Leong Finance Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "2642",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "11906",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "2043",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "69.67",
+      "unit": "kgCO2e/m²"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "kgCO2e/m²"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "61.41",
+      "unit": "kgCO2e/m²"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "kgCO2e/m²"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "40556",
+      "unit": "MWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "124.63",
+      "unit": "kWh/m²"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "292667",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "0.69",
+      "unit": "m³/m²"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "31",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "69",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "5",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "27",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "8",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "69",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "23",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "32",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "60",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "8",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "19",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "77",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "4",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "408",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "57",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "40.0",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "33.2",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "8",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "75",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "12.5",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "47",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "66",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "ISO 14001, ISO 50001, ISO 45001, ISO 14064-1, ISO 26000, OHSAS 18001, BizSafe Level 3, BCA Green Mark, BCA Green Mark Super Low Energy (SLE), CarbonNeutral®",
+      "unit": "string"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards, TCFD, SASB, CDSB, UNGC, SDGs, IIRC Integrated Reporting Framework, CDP, DJSI, FTSE4Good, Global 100, GRESB, MSCI",
+      "unit": "string"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "external",
+      "unit": "string"
+    }
+  ],
+  "Singapore Exchange Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "33.19",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "27.48",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "5.71",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "50626",
+      "unit": "MJ"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "0.5",
+      "unit": "kg"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "66.7",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "33.3",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "85.7",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "14.3",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "81.25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "18.75",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "16",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "7",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "incidents"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "incidents"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "incidents"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "incidents"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "60",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "40",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, TCFD, SGX",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance_type"
+    }
+  ],
+  "IFS Capital Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "22054",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "248",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "1494",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "20312",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "65.20",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "34.77",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "40.00",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "28.26",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "3975",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "79",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "EcoVadis Bronze medal, 100 renewable electricity usage",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, SASB, UN Global Compact, SDGs, TCFD",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "external, internal",
+      "unit": "assurance type"
+    }
+  ],
+  "Hotung Investment Holdings Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "27.326",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "27.326",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "tCO2e/revenue"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "0.94",
+      "unit": "tCO2e/employee"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/employee"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "tCO2e/employee"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "54496",
+      "unit": "kWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "1822",
+      "unit": "kWh/employee"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "726",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "24",
+      "unit": "m³/employee"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "34",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "66",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "17.24",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "80.65",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "29",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, TCFD, SGX-ST",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance_type"
+    }
+  ],
+  "AF Global Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "0.216312",
+      "unit": "tCO2e/Singapore dollar million"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "7057.321",
+      "unit": "MWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "540.087",
+      "unit": "MWh/Singapore dollar million"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "1.5",
+      "unit": "m³/occupied room"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "53",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "47",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "293",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "incidents"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "incidents"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "incidents"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "incidents"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "47",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "0",
+      "unit": "incidents"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "IHG Green Engage Level 2",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards, TCFD recommendations",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance type"
+    }
+  ],
+  "Pine Capital Group Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "tCO2e/USD Million"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "tCO2e/USD Million"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/USD Million"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "tCO2e/USD Million"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "MWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "MWh/USD Million"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "ML"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "ML/USD Million"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "54",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "46",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "700+",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "number of fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "32",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "The Institutional Investors Group on Climate Change (IIGCC), Institutional Limited Partners Association (ILPA), Net Zero Asset Managers initiative (NZAM), Principles for Responsible Investment (PRI), Sustainability Accounting Standards Board (SASB), Task Force on Climate-related Financial Disclosures (TCFD), UN Global Compact (UNGC)",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, TCFD, SASB, SDGs, UN Global Compact",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance type"
+    }
+  ],
+  "Transcorp Holdings Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N\\/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "N\\/A"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "1391",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "44",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "ISO 9001, ISO 45001, ISO 14001",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "N/A"
+    }
+  ],
+  "Uni-Asia Group Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "0.03",
+      "unit": "tCO2e/US$’000 revenue"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "0.03",
+      "unit": "tCO2e/US$’000 revenue"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "0.001",
+      "unit": "tCO2e/US$’000 revenue"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "4269963",
+      "unit": "MJ"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "49.6",
+      "unit": "MJ/US$’000 revenue"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "37447",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "0.43",
+      "unit": "m³/US$’000 revenue"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "831.47",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "71",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "29",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "60",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "40",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "14",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "71",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "14",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "90",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "10",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "68",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "10",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "1",
+      "unit": "number of cases"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "2",
+      "unit": "number of cases"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "2",
+      "unit": "number of cases"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number of cases"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "43",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "14",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "44",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "International Air Pollution Prevention (IAPP), International Oil Pollution Prevention (IOPP), International Engine Efficiency (IEE), International Sewage Pollution Prevention (ISPP), International Anti-fouling (IAF) system",
+      "unit": "certification"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, TCFD",
+      "unit": "framework"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance type"
+    }
+  ],
+  "Courage Investment Group Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "4.99",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "0",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "4.27",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "0.72",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "0.31",
+      "unit": "tCO2e/employee"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/employee"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "0.009",
+      "unit": "tCO2e/employee"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "6280.00",
+      "unit": "kWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "392.50",
+      "unit": "kWh/employee"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "0.151",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "12.50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "12.50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "6.25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "37.5",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "56.25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "16.67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "11.11",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "16",
+      "unit": "number of people"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "2",
+      "unit": "number of people"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "59.38",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "13.75",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "number of fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "0",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "0",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "60",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "20",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "16",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "75.00",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "ISO 14001",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "Hong Kong Listing Rules Appendix 27",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance type"
+    }
+  ],
+  "Pacific Century Regional Developments Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "40",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "60",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "10",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "10",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, TCFD",
+      "unit": "framework"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance_type"
+    }
+  ],
+  "Forise International Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "0",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "0",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "tCO2e/SGD"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "0",
+      "unit": "tCO2e/SGD"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/square footage"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "tCO2e/SGD"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "MWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "MWh/square footage"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "ML"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "ML/SGD"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "80",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "20",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "13",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "75",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "10",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "43",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "40",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "10",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "7",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "number of fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "0",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "0",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "0",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "0",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards 2021, TCFD framework, SASB, MSCI",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance type"
+    }
+  ],
+  "DBS Group Holdings Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "582",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "2.68",
+      "unit": "tCO2e/Singapore dollar million"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "MWhs"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "6.09",
+      "unit": "MWhs/Singapore dollar million"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "9.06",
+      "unit": "m³/Singapore dollar million"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "1311.5",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "23",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "26",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "10",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "8",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "19",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "69",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "12",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "47",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "20",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "12",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "14",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "8",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "4",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "40,770",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "3256",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "32.7",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "32.3",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "20",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "41",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "ISO27001, Singapore Cyber Trust Mark (CTM) at the Advocate level, Data Protection Trustmark (DPTM)",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards 2021, TCFD recommendations, SASB Standards, UN Global Compact Principles, SDGs",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "external, internal",
+      "unit": "assurance_type"
+    }
+  ],
+  "GK Goh Holdings Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "143160",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "99305",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "43855",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "0.32",
+      "unit": "tCO2e/metric ton of product produced"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "0.23",
+      "unit": "tCO2e/metric ton of product produced"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "0.16",
+      "unit": "tCO2e/metric ton of product produced"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "87000",
+      "unit": "MWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "1068369",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "2.39",
+      "unit": "m³/metric ton of product produced"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "66689",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "64",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "36",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "64",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "32",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "4",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "4244",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "11.13",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "17.5",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "37",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "37",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "56",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "49",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "5",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "42.6",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "FSCC 22000, ISO 22000:2018, ISO 45001",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards, SEC Sustainability Reporting Guidelines, UN Sustainable Development Goals (SDGs)",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance type"
+    }
+  ],
+  "British and Malayan Holdings Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "MWhs"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "MWhs/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "ML"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "ML/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "13",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "1",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "13",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "12",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "number of fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "75",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards (Core option), Singapore Exchange (SGX) Mainboard Listing Rules 711a and 711b, SGX Practice Note 7f",
+      "unit": "frameworks and disclosure practices"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance type"
+    }
+  ],
+  "Singapura Finance Ltd_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "106",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/employee"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "MWh/employee"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "443.2",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "4.4",
+      "unit": "m³/employee"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "31",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "71",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "75",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "64",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "36",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "12",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "64",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "24",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "21",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "54",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "32",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "11",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "57",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "102",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "16.9",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "11.1",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "0",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "0",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "75",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "6",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "102",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, Singapore Exchange SGX-ST Listing Rules",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance"
+    }
+  ],
+  "Maxi-Cash Financial Services Corporation Ltd_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "3.77",
+      "unit": "tCO2e/million Singapore dollar"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/million Singapore dollar"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "MWhs or GJ"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "ML or m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "34",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "66",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "751",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "number of fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "0",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "0",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "55",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "0",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "CASEtrust",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards, TCFD recommendations",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance type"
+    }
+  ],
+  "Singapore Reinsurance Corporation Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "68750",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "53312",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "15438",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "0.23",
+      "unit": "tCO2e/INR lakhs"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "0.16",
+      "unit": "tCO2e/million units"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "19541831",
+      "unit": "MWhs"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "654622",
+      "unit": "KL"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "1.94",
+      "unit": "KL/million units"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "62000000",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "80.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "20.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "79.9",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "20.1",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "88.7",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "11.3",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "26.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "64.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "5.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "28.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "70.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "2.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "42.4",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "55.2",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "2.2",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "10204",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "363",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "277",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "10",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "3",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "10",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "60.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "25.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "3",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "ISO 9001, ISO 14001, ISO 45001, LEED Platinum",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, IIRC, SDGs",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance"
+    }
+  ],
+  "Reenova Investment Holding Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "39.37",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "7.35",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "32.02",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "0.015",
+      "unit": "tCO2e/sq.meter"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/sq.meter"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "0.79385",
+      "unit": "MWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "0.00035",
+      "unit": "MWh/sq.meter"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "582",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "0.15",
+      "unit": "m³/sq.meter"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "0.11",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "78",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "22",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "78",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "22",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "7",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "61",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "31",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "6",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "79",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "6",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "79",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "70",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "18",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "43.52",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "42.32",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "0",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "0",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "11",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "22",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "1",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "38",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "54",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "LEED ND, Chongqing Golden Green Building Design Label Certificate, National Two-Star Green Building Design Label Certificate",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "Appendix 27 to the Listing Rules",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance"
+    }
+  ],
+  "United Overseas Bank Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "79.083",
+      "unit": "thousand tonnes of carbon dioxide equivalent"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "5.8",
+      "unit": "thousand tonnes of carbon dioxide equivalent"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "69.3",
+      "unit": "thousand tonnes of carbon dioxide equivalent"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "4.0",
+      "unit": "thousand tonnes of carbon dioxide equivalent"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "112.1",
+      "unit": "kg CO2e/m²"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "112.1",
+      "unit": "kg CO2e/m²"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "135.3",
+      "unit": "GWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "218.4",
+      "unit": "kWh/m²"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "497600",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "0.8",
+      "unit": "m³/m²"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "2585",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "38.7",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "61.3",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "42.4",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "57.6",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "42.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "58.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "42.6",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "53.9",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "3.5",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "31.8",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "60.2",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "8.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "25644",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "4580",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "50.9",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "57.9",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "5",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "5",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "70",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "20",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "37.2",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "APEC Cross Border Privacy Rules Certification, Data Protection Trustmark, SG Clean Certification",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "Singapore Exchange Sustainability Reporting Rules, SGX Core ESG Metrics, Global Reporting Initiative (GRI) Standards, GRI G4 Financial Services Sector Disclosures, Sustainability Accounting Standards Board (SASB) Financials Sector Standards, Monetary Authority of Singapore (MAS) Green Finance Industry Taskforce Financial Institutions Climate-Related Disclosure, MAS Guidelines on Environmental Risk Management for Banks, Association of Banks in Singapore Guidelines on Responsible Financing, Task Force on Climate-related Financial Disclosures (TCFD) Recommendations, United Nations Global Compact (UNGC)",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "external",
+      "unit": "assurance type"
+    }
+  ],
+  "Sunrise Shares Holdings Ltd_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "N/A"
+    }
+  ],
+  "iFast Corporation Ltd_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "0.25673025",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "0",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "0.17120645",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "0.0855338",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "tCO2e/N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "0.4057",
+      "unit": "tCO2e/kWh"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "tCO2e/business trip"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "422033",
+      "unit": "kWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "1465",
+      "unit": "kWh/employee"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "127.9",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "m³/employee"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "1.038",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "45.6",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "54.4",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "50.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "50.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "36.4",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "57.5",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "6.2",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "51.9",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "42.3",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "5.8",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "1189",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "1.44",
+      "unit": "days"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "1.24",
+      "unit": "days"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, TCFD, SDGs",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance_type"
+    }
+  ],
+  "TIH Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "465036",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "458518",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "6518",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "1649",
+      "unit": "tonnes of carbon dioxide equivalent per million kilometer"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "1649",
+      "unit": "tonnes of carbon dioxide equivalent per million kilometer"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "0.015",
+      "unit": "tonnes of carbon dioxide equivalent per m²"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "6716564",
+      "unit": "gigajoules"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "24154",
+      "unit": "gigajoules per million kilometer"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "197855",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "46",
+      "unit": "cubic meters per bus"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "91.59",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "8.41",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "91.1",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "8.9",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "12837",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "2081",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "25",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "23",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "0",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "242",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "242",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "0",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "55.56",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "0",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "2",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "3",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "type"
+    }
+  ],
+  "The Trendlines Group Ltd_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "205.58",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "61.91",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "205.58",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "0.43",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "tCO2e/car"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "109.66",
+      "unit": "tCO2e/m^2"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "0.24",
+      "unit": "MWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "120",
+      "unit": "kWh/m^2"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "1.08",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "47",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "53",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "34",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "5",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "60",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "25",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "1",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "34",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, TCFD",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance"
+    }
+  ],
+  "Jasper Investments Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "MWhs or GJ"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "MWhs or GJ/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "ML or m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "ML or m³/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "number of fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "83.33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "16.67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "16.67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "revised code of corporate governance 2018, listing manual",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance type"
+    }
+  ],
+  "Ayondo Ltd_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "MWhs or GJ"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "MWhs or GJ/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "ML or m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "ML or m³/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "1",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "number of fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "50.0",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "50",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "N/A",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "Code of Corporate Governance 2018, Singapore Exchange Securities Trading Limited (SGX-ST) Listing Rules",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance type"
+    }
+  ],
+  "MoneyMax Financial Services Ltd_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "722.5",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "722.5",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "2.5",
+      "unit": "tCO2e/million Singapore dollars revenue"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/million Singapore dollars revenue"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "26.9",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "73.1",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "19.5",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "63.5",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "17",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "372",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "19",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "60",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "lowcarbonsg participant logo",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Universal Standards 2021, TCFD",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance type"
+    }
+  ],
+  "United Overseas Insurance Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "207",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "207",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "tCO2e/$'000"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "1.80",
+      "unit": "tCO2e/employee"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "496252",
+      "unit": "kWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "4315",
+      "unit": "kWh/employee"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "4057",
+      "unit": "kg"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "21",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "79",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "38",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "62",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "16",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "23",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "10",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "87",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "3",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "57",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "21",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "8",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "115",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "16",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "24",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "24",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "62.5",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "12.5",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "3",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "100",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "Green Mark",
+      "unit": "certification"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI, TCFD, SDGs",
+      "unit": "framework"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "internal",
+      "unit": "assurance_type"
+    }
+  ],
+  "Net Pacific Financial Holdings Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "85200",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "17324",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "67909",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "519",
+      "unit": "tCO2e/100 million JPY"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "304000",
+      "unit": "GJ"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "1374000",
+      "unit": "m³"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "N/A"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "2256",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "80.73",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "19.27",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "26",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "4763",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "number of fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "number of injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "number of illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "33.33",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "16.67",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "number of disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "number of employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "ISO 9001, 2022 certified health & productivity management outstanding organizations recognition program",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "GRI Standards, ISO 26000, International Integrated Reporting Framework, TCFD, SASB, SDGs",
+      "unit": "frameworks and disclosure practices"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "third-party opinion",
+      "unit": "assurance type"
+    }
+  ],
+  "Innopac Holdings Limited_report": [
+    {
+      "metric": "B-ENV_GHG_AET",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE1",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE2",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_AE3",
+      "value": "N/A",
+      "unit": "tCO2e"
+    },
+    {
+      "metric": "B-ENV_GHG_EIT",
+      "value": "N/A",
+      "unit": "tCO2e/SGD"
+    },
+    {
+      "metric": "B-ENV_GHG_EI1",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI2",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_GHG_EI3",
+      "value": "N/A",
+      "unit": "tCO2e/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_ENC_TEC",
+      "value": "N/A",
+      "unit": "MWh"
+    },
+    {
+      "metric": "B-ENV_ENC_ECI",
+      "value": "N/A",
+      "unit": "MWh/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_WAC_TWC",
+      "value": "N/A",
+      "unit": "ML"
+    },
+    {
+      "metric": "B-ENV_WAC_WCI",
+      "value": "N/A",
+      "unit": "ML/[Organisation-Specific Metric]"
+    },
+    {
+      "metric": "B-ENV_WAG_TWG",
+      "value": "N/A",
+      "unit": "t"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_CEG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_NHG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_M",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_GED_ETG_F",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_CEA_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_NHI_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_U30",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_B35",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_AGD_TOR_A50",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-SOC_EMP_TNM",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_EMP_TTN",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_M",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_DEV_ATH_F",
+      "value": "N/A",
+      "unit": "hours"
+    },
+    {
+      "metric": "B-SOC_OHS_FAT",
+      "value": "N/A",
+      "unit": "fatalities"
+    },
+    {
+      "metric": "B-SOC_OHS_HCI",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_REC",
+      "value": "N/A",
+      "unit": "injuries"
+    },
+    {
+      "metric": "B-SOC_OHS_RWI",
+      "value": "N/A",
+      "unit": "illnesses"
+    },
+    {
+      "metric": "B-GOV_BOC_BIN",
+      "value": "60",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_BOC_WOB",
+      "value": "20",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_MAD_WMT",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_ETB_ACD",
+      "value": "N/A",
+      "unit": "disclosures"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_N",
+      "value": "N/A",
+      "unit": "employees"
+    },
+    {
+      "metric": "B-GOV_ETB_ACT_P",
+      "value": "N/A",
+      "unit": "Percentage (%)"
+    },
+    {
+      "metric": "B-GOV_CER_LRC",
+      "value": "HSA manufacturer license, HSA import and wholesale license, ISO 13485:2016, EN ISO 13485:2016, BizSafe level 3",
+      "unit": "certifications"
+    },
+    {
+      "metric": "B-GOV_ALF_AFD",
+      "value": "Code of Corporate Governance (Singapore), Catalist Rules (Singapore Exchange), Task Force on Climate-related Financial Disclosures (TCFD)",
+      "unit": "frameworks"
+    },
+    {
+      "metric": "B-GOV_ASS_ASR",
+      "value": "N/A",
+      "unit": "assurance_type"
+    }
+  ]
+}

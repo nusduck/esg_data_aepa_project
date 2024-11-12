@@ -10,7 +10,7 @@ def process_csv_files(directory_path, company):
             file_path = os.path.join(directory_path, filename)
             df = pd.read_csv(file_path)
             # Remove rows with same campany name
-            df = df.drop_duplicates(subset='Company', keep='first')
+            df = df.drop_duplicates(subset='Company', keep='last')
             if company:
                 company = company + '_report'
                 df = df[df['Company'] == company]
