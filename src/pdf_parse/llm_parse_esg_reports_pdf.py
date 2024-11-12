@@ -9,10 +9,11 @@ from PIL import Image
 import concurrent.futures
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
-from openai_parse_image import analyze_image
+from src.pdf_parse.openai_parse_image import analyze_image
 from rapid_layout import RapidLayout, VisLayout
 import yaml
 from datetime import datetime
+from src.utils.file_io_read import read_pdf
 
 # Create log directory if it doesn't exist
 log_dir = 'src/log/llm_parse'
@@ -239,22 +240,26 @@ def parse_pdf(
             all_rect_images.extend(rect_images)
     return content, all_rect_images
 
-def process_all_pdfs(pdf_dir: str, base_output_dir: str, verbose: bool = False, gemini_worker: int = 1):
-    for filename in os.listdir(pdf_dir):
-        if filename.endswith('.pdf'):
-            pdf_path = os.path.join(pdf_dir, filename)
-            report_name = os.path.splitext(filename)[0]
-            output_dir = os.path.join(base_output_dir, report_name)
-            
-            logging.info(f"Processing {filename}")
-            result = parse_pdf(
-                pdf_path=pdf_path,
-                output_dir=output_dir,
-                verbose=verbose,
-                gemini_worker=gemini_worker
-            )
-            logging.info(f"Finished processing {filename}")
+def process_all_pdfs(pdf_dir: str, base_output_dir: str = base_output_dir, verbose: bool = False, gemini_worker: int = 1, specific_report=None):
+    
+    # 使用 read_pdf 函数获取所有 PDF 文件路径
+    pdf_paths = read_pdf(pdf_dir, specific_report=specific_report)
+    
+    for pdf_path in pdf_paths:
+        # 获取文件名（不含路径和扩展名）
+        filename = os.path.basename(pdf_path)
+        report_name = os.path.splitext(filename)[0]
+        output_dir = os.path.join(base_output_dir, report_name)
+        
+        logging.info(f"Processing {filename}")
+        result = parse_pdf(
+            pdf_path=pdf_path,
+            output_dir=output_dir,
+            verbose=verbose,
+            gemini_worker=gemini_worker
+        )
+        logging.info(f"Finished processing {filename}")
 
 if __name__ == "__main__":
     pdf_dir = 'data/esg_reports_pdf'
-    process_all_pdfs(pdf_dir, base_output_dir, verbose=True, gemini_worker=1)
+    process_all_pdfs(pdf_dir, verbose=True, gemini_worker=1, specific_report='IFS Capital Limited_report.pdf')

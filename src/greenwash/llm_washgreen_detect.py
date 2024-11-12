@@ -7,6 +7,8 @@ from google.generativeai.types import HarmCategory, HarmBlockThreshold
 from datetime import datetime
 import logging
 import yaml
+from src.utils.file_io_read import read_text
+from src.utils.file_io_save import save_json
 
 def create_directories():
     directories = ['src/log/llm_greenwash', 'data/esg_green_wash']
@@ -52,7 +54,7 @@ def get_model_config():
     )
 
 class ESGAnalyzer:
-    def __init__(self, config):
+    def __init__(self, config, specific_report=None):
         self.config = config
         self.safety_settings, self.generation_config = get_model_config()
         genai.configure(api_key=config['google']['api_keys'][0])
@@ -61,6 +63,7 @@ class ESGAnalyzer:
             safety_settings=self.safety_settings,
             generation_config=self.generation_config
         )
+        self.specific_report = specific_report
         
     def read_user_prompt(self):
         prompt_path = 'data/prompt/greenwashing/user_prompt.txt'
@@ -72,9 +75,14 @@ class ESGAnalyzer:
         files = []
         file_contents = []
         
-        for file_path in Path(data_folder).glob('*.txt'):
-            with open(file_path, 'r', encoding='utf-8') as f:
-                files.append(file_path.stem)
+        file_paths = read_text(data_folder, self.specific_report)
+        if not isinstance(file_paths, list):
+            file_paths = [file_paths]  # 如果是单个文件，转换为列表
+        
+        for file_path in file_paths:
+            with open(file_path, 'r') as f:
+                # 提取文件名（不含扩展名）
+                files.append(Path(file_path).stem)
                 file_contents.append(f.read())
                 
         return files, file_contents
@@ -96,38 +104,41 @@ class ESGAnalyzer:
     def process_and_save_results(self):
         files, file_contents = self.read_txt_files()
         user_prompt = self.read_user_prompt()
-        results = []
+        results = {}
         
         for filename, content in zip(files, file_contents):
             logging.info(f'Processing file: {filename}')
             response = self.analyze_report(content, user_prompt)
             
             if response:
-                results.append({
-                    "report_name": filename,
-                    "response": response
-                })
+                # results.append({
+                #     "report_name": filename,
+                #     "response": response
+                # })
+                results[filename] = response
             else:
                 logging.error(f'Failed to analyze file: {filename}')
         
         # Save results to JSON file
-        output_path = os.path.join(
-            'data/esg_green_wash', 
-            f'greenwashing_analysis_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json'
-        )
+        # output_path = os.path.join(
+        #     'data/esg_green_wash', 
+        #     f'greenwashing_analysis_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json'
+        # )
         
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
+        # with open(output_path, 'w', encoding='utf-8') as f:
+        #     json.dump(results, f, ensure_ascii=False, indent=2)
+        output_path = 'data/esg_green_wash/greenwashing_analysis_result.json'
+        save_json(results, output_path, self.specific_report)
         
         logging.info(f'Results saved to {output_path}')
 
-def main():
+def esg_washgreen_check(specific_report=None):
     create_directories()
     setup_logging()
     config = load_config()
     
-    analyzer = ESGAnalyzer(config)
+    analyzer = ESGAnalyzer(config, specific_report)
     analyzer.process_and_save_results()
 
 if __name__ == '__main__':
-    main()
+    esg_washgreen_check(specific_report='IFS Capital Limited_report.pdf')

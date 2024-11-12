@@ -7,6 +7,8 @@ from google.generativeai.types import HarmCategory, HarmBlockThreshold
 from datetime import datetime
 import logging
 import yaml
+from src.utils.file_io_read import read_company_names
+from src.utils.file_io_save import save_json
 
 def create_directories():
     directories = ['src/log/llm_search', 'data/esg_realtime_info']
@@ -43,7 +45,7 @@ def get_model_config():
     return safety_settings
 
 class ESGAnalyzer:
-    def __init__(self, config):
+    def __init__(self, config, specific_report=None):
         self.config = config
         self.safety_settings = get_model_config()
         genai.configure(api_key=config['google']['api_keys'][0])
@@ -51,6 +53,7 @@ class ESGAnalyzer:
             config['google']['model'],
             safety_settings=self.safety_settings,
         )
+        self.specific_report = specific_report
         
     def read_user_prompt(self):
         prompt_path = 'data/prompt/real_time_info/user_prompt.txt'
@@ -59,12 +62,12 @@ class ESGAnalyzer:
     
     def get_company_names(self):
         data_folder = 'data/esg_cleaned_data'
-        company_names = []
+        company_names = read_company_names(data_folder,specific_report=self.specific_report)
         
-        for file_path in Path(data_folder).glob('*.txt'):
-            # Extract company name from filename (remove '_report.txt')
-            company_name = file_path.stem.replace('_report', '')
-            company_names.append(company_name)
+        # for file_path in Path(data_folder).glob('*.txt'):
+        #     # Extract company name from filename (remove '_report.txt')
+        #     company_name = file_path.stem.replace('_report', '')
+        #     company_names.append(company_name)
                 
         return company_names
 
@@ -88,39 +91,45 @@ class ESGAnalyzer:
     def process_and_save_results(self):
         company_names = self.get_company_names()
         user_prompt = self.read_user_prompt()
-        results = []
+        results = {}
         
         for company_name in company_names:
             logging.info(f'Processing company: {company_name}')
             response = self.analyze_company(company_name, user_prompt)
             
             if response:
-                results.append({
-                    "company_name": company_name,
+                # results.append({
+                #     "company_name": company_name,
+                #     "timestamp": datetime.now().isoformat(),
+                #     "esg_insights": response
+                # })
+                results[company_name] = {
                     "timestamp": datetime.now().isoformat(),
                     "esg_insights": response
-                })
+                }
             else:
                 logging.error(f'Failed to analyze company: {company_name}')
         
         # Save results to JSON file
-        output_path = os.path.join(
-            'data/esg_realtime_info', 
-            f'esg_realtime_analysis_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json'
-        )
+        # output_path = os.path.join(
+        #     'data/esg_realtime_info', 
+        #     f'esg_realtime_analysis_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json'
+        # )
         
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
+        # with open(output_path, 'w', encoding='utf-8') as f:
+        #     json.dump(results, f, ensure_ascii=False, indent=2)
+        output_path = 'data/esg_realtime_info/esg_realtime_info_obtain.json'
+        save_json(results, output_path)
         
         logging.info(f'Results saved to {output_path}')
 
-def main():
+def esg_realtime_obtain(specific_report=None):
     create_directories()
     setup_logging()
     config = load_config()
     
-    analyzer = ESGAnalyzer(config)
+    analyzer = ESGAnalyzer(config,specific_report)
     analyzer.process_and_save_results()
 
 if __name__ == '__main__':
-    main()
+    esg_realtime_obtain(specific_report='IFS Capital Limited_report.pdf')

@@ -11,6 +11,8 @@ import logging
 import yaml
 import pandas as pd
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+from src.utils.file_io_read import read_text
+from src.utils.file_io_save import save_json
 
 # Create necessary directories
 def create_directories():
@@ -75,12 +77,13 @@ class APIKeyManager:
         return self.api_keys[self.current_index]
 
 class ESGDataRetriever:
-    def __init__(self, config):
+    def __init__(self, config, specific_report=None):
         self.config = config
         self.api_key_manager = APIKeyManager(config['google']['api_keys'])
         self.safety_settings, self.generation_config = get_model_config()
         self.model = self.configure_model()
         self.max_retries = 3
+        self.specific_report = specific_report
         
     def configure_model(self):
         genai.configure(api_key=self.api_key_manager.get_current_key())
@@ -106,9 +109,15 @@ class ESGDataRetriever:
         files = []
         file_contents = []
         
-        for file_path in Path(data_folder).glob('*.txt'):
+        # 获取文件路径列表
+        file_paths = read_text(data_folder, self.specific_report)
+        if not isinstance(file_paths, list):
+            file_paths = [file_paths]  # 如果是单个文件，转换为列表
+        
+        for file_path in file_paths:
             with open(file_path, 'rb') as f:
-                files.append(file_path.stem)  # Store filename without extension
+                # 提取文件名（不含扩展名）
+                files.append(Path(file_path).stem)
                 file_contents.append(f.read())
                 
         return files, file_contents
@@ -220,19 +229,20 @@ class ESGDataRetriever:
         logging.info(f"所有 {total_files} 个文件处理完成")
         
         # Save results to JSON file
-        output_path = os.path.join('data/esg_retrieve', f'results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json')
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(results, f, ensure_ascii=False, indent=2)
-        
+        # output_path = os.path.join('data/esg_retrieve', f'results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.json')
+        # with open(output_path, 'w', encoding='utf-8') as f:
+        #     json.dump(results, f, ensure_ascii=False, indent=2)
+        output_path = 'data/esg_retrieve/esg_retrieve_result.json'
+        save_json(results, output_path, self.specific_report)
         logging.info(f'结果已保存至 {output_path}')
 
-def main():
+def esg_data_retrieve(specific_report=None):
     create_directories()
     setup_logging()
     config = load_config()
     
-    retriever = ESGDataRetriever(config)
+    retriever = ESGDataRetriever(config, specific_report)
     retriever.process_and_save_results()
 
 if __name__ == '__main__':
-    main()
+    esg_data_retrieve(specific_report='IFS Capital Limited_report.pdf')

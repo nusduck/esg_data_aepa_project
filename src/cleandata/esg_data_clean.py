@@ -5,6 +5,7 @@ import logging
 from typing import List, Dict, Optional
 import spacy
 from pathlib import Path
+from src.utils.file_io_read import read_dir
 
 class TextProcessor:
     def __init__(self, unit_mapping_path: str, spacy_model: str = "en_core_web_sm"):
@@ -178,7 +179,7 @@ class TextProcessor:
             logging.error(f"Error processing file {input_path}: {e}")
             raise
 
-def main():
+def esg_data_clean(specific_report=None):
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s'
@@ -193,7 +194,12 @@ def main():
     try:
         processor = TextProcessor(CONFIG['unit_mapping_file'])
         
-        for filename in os.listdir(CONFIG['input_folder']):
+        filenames = read_dir(CONFIG['input_folder'], specific_report)
+        print(filenames)
+        if not isinstance(filenames, list):
+            filenames = [filenames]  # 如果是单个文件，转换为列表
+            
+        for filename in filenames:
             logging.info(f"Processing {filename}")
             
             input_path = os.path.join(CONFIG['input_folder'], f"{filename}/output.md")
@@ -210,4 +216,4 @@ def main():
         raise
 
 if __name__ == "__main__":
-    main()
+    esg_data_clean()  # 不传参数处理所有文件
