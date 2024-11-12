@@ -39,16 +39,20 @@ const upload = multer({ storage, fileFilter });
 
 // Endpoint to handle file upload
 app.post('/upload', upload.single('file'), (req, res) => {
+  // Check if file was uploaded or if it already exists
   if (req.fileAlreadyExists) {
-    return res.send({ message: 'File already exists, upload skipped', fileUrl});
+    const fileUrl = `http://localhost:${port}/uploads/${req.file?.filename}`;
+    return res.send({ message: 'File already exists, upload skipped', fileUrl });
   }
 
   if (!req.file) {
     return res.status(400).send({ message: 'No file uploaded' });
   }
 
+  // If a new file was successfully uploaded
   const fileUrl = `http://localhost:${port}/uploads/${req.file.filename}`;
   res.send({ message: 'File uploaded successfully', fileUrl });
+  console.log(fileUrl);
 });
 
 
@@ -97,7 +101,7 @@ app.get('/companies', (req, res) => {
 
 // Endpoint to get the score data from CSV files
 app.get('/score-data', (req, res) => {
-  const directoryPath = path.join(__dirname, 'data/esg_score');
+  const directoryPath = path.join(__dirname, 'data/esg_scores');
   const company = req.query.company;
 
   const pythonProcess = spawn('python3', ['src/datafetch/get_score.py', directoryPath, company]);
@@ -125,6 +129,36 @@ app.get('/score-data', (req, res) => {
   
 });
 
+
+// Endpoint to get the metrics data from json files
+app.get('/company-metrics', (req, res) => {
+  const directoryPath = path.join(__dirname, 'data/esg_scores/extracted_esg_data.json');
+  const company = req.query.company;
+
+  const pythonProcess = spawn('python3', ['src/datafetch/get_value.py', directoryPath, company]);
+
+  let dataString = '';
+
+  console.log('company:', company)
+  pythonProcess.stdout.on('data', (data) => {
+    dataString += data.toString();
+  });
+
+  pythonProcess.stderr.on('data', (data) => {
+    console.error(`stderr: ${data}`);
+  });
+
+  pythonProcess.on('close', (code) => {
+    if (code !== 0) {
+      return res.status(500).send({ message: 'Error processing CSV files' });
+    }
+    const results = JSON.parse(dataString);
+    // console.log(results);
+    res.json(results);
+  });
+
+  
+});
 
 // Serve static files from the uploads directory
 app.use('/uploads', express.static(path.join(__dirname, 'data/esg_reports_pdf')));
