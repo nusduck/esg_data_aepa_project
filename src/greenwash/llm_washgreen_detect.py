@@ -141,4 +141,4 @@ def esg_washgreen_check(specific_report=None):
     analyzer.process_and_save_results()
 
 if __name__ == '__main__':
-    esg_washgreen_check(specific_report='IFS Capital Limited_report.pdf')
+    esg_washgreen_check(specific_report="Singapore Reinsurance Corporation Limited_report.pdf")

@@ -132,4 +132,4 @@ def esg_realtime_obtain(specific_report=None):
     analyzer.process_and_save_results()
 
 if __name__ == '__main__':
-    esg_realtime_obtain(specific_report='IFS Capital Limited_report.pdf')
+    esg_realtime_obtain()
