@@ -18,6 +18,7 @@
    python3 -m venv env
    source env/bin/activate  # On Windows, use `env\Scripts\activate`
    pip install -r requirements.txt
+   export PYTHONPATH=$PYTHONPATH:. # Set your python path
    ```
 
 3. Edit `demo_config.yaml` to add your model and API key and rename this file to `config.yaml`.
