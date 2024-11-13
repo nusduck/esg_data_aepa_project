@@ -122,7 +122,7 @@ app.get('/score-data', (req, res) => {
       return res.status(500).send({ message: 'Error processing CSV files' });
     }
     const results = JSON.parse(dataString);
-    console.log(results);
+    // console.log(results);
     res.json(results);
   });
 
@@ -169,7 +169,6 @@ app.get('/realtime-data', (req, res) => {
 
   let dataString = '';
 
-  console.log('company:', company)
   pythonProcess.stdout.on('data', (data) => {
     dataString += data.toString();
   });
@@ -186,8 +185,39 @@ app.get('/realtime-data', (req, res) => {
     // console.log(results);
     res.json(results);
   });
+});
 
-  
+
+// Endpoint to get the greenwash data from json files
+app.get('/greenwash-data', (req, res) => {
+  const directoryPath = path.join(__dirname, 'data/esg_green_wash');
+  const company = req.query.company;
+  const pythonProcess = spawn('python3', ['src/datafetch/get_greenwash.py', directoryPath, company]);
+
+  let dataString = '';
+
+  pythonProcess.stdout.on('data', (data) => {
+    dataString += data.toString();
+  });
+
+  pythonProcess.stderr.on('data', (data) => {
+    console.error(`stderr: ${data}`);
+  });
+
+  pythonProcess.on('close', (code) => {
+    if (code !== 0) {
+      return res.status(500).send({ message: 'Error processing JSON files' });
+    }
+
+    try {
+      console.log(dataString);
+      const results = JSON.parse(dataString); 
+      res.json(results); 
+    } catch (error) {
+      console.error('JSON parsing error:', error);
+      res.status(500).send({ message: 'Failed to parse JSON output' });
+    }
+  });
 });
 
 // Serve static files from the uploads directory
