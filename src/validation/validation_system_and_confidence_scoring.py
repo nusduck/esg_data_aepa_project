@@ -91,7 +91,7 @@ def check_consistency(extracted_data, framework):
     return missing_fields, missing_question_id_count, empty_response_count, invalid_value_count
 
 # Specify the JSON file path containing all the reports
-json_file_path = "../../data/esg_retrieve/results_20241108_230051.json"
+json_file_path = "../../data/esg_retrieve/esg_retrieve_result.json"
 
 # Prepare CSV file for output
 csv_file_path = '../../data/esg_validation/report_consistency_results.csv'
