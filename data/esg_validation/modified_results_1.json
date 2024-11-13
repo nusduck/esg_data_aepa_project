@@ -225,7 +225,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "total headcount year: 2022, total headcount: 5,008, female: 3,148, male: 1,860",
                 "unit": "number of employees",
@@ -233,7 +233,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "turnover year: 2022, turnover: 1,021, female: 624, male: 397, <30 years: 251, 30-50 years: 663, 50 years: 107",
                 "unit": "number of employees",
@@ -587,7 +587,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "Total workforce in 2022: 31,601",
                 "unit": "number",
@@ -595,7 +595,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "year: 2022, total: 6,408",
                 "unit": "number",
@@ -949,7 +949,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "the group employs approximately 3,134 professional and support staff globally.",
                 "unit": "employees",
@@ -957,7 +957,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "employees",
@@ -1311,7 +1311,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "valuemax employs over 300 people in singapore.",
                 "unit": "people",
@@ -1319,7 +1319,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "staff retention staff turnover: 13% staff retention rate: 87%",
                 "unit": "percentage",
@@ -1673,7 +1673,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "table: employee count by employment type 2021-2023 year: 2021 as at 31 dec 2021 , employment type: permanent, male: 47, female: 101, total: 148 employment type: temporary, male: 1, female: 6, total: 7 employment type: total , male: 48 , female: 107 , total: 155 year: 2022 as at 31 dec 2022 , employment type: permanent, male: 53, female: 107, total: 160 employment type: temporary, male: 0, female: 5, total: 5 employment type: total , male: 53 , female: 112 , total: 165 year: 2023 as at 31 dec 2023 , employment type: permanent, male: 55, female: 108, total: 163 employment type: temporary, male: 1, female: 5, total: 6 employment type: total , male: 56 , female: 113 , total: 169",
                 "unit": "number",
@@ -1681,7 +1681,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "table: resignation by gender 2021-2023 year: 2021, male: 36%, female: 64%, total: 100% year: 2022, male: 40%, female: 60%, total: 100% year: 2023, male: 41%, female: 59%, total: 100%",
                 "unit": "number",
@@ -2035,7 +2035,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "As of 31 December 2021, cdl hired a total of 408 employees for its operations headquartered in singapore, where most of its business in property development and asset management is based (excluding hotel properties). Close to 4% of employees were hired on a temporary basis with a tenure of more than one year. In 2021, cdl had no employees with non-guaranteed hours of training per employee.",
                 "unit": "number",
@@ -2043,7 +2043,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "Our employee resignation rate of 14% continued to remain significantly lower than the national average of 19.2% in 2021. cdl experienced an involuntary turnover rate of about 4.7%, of which 1.7% is due to retirement. employee resignation rate % table: employee resignation rate year: 2017, cdl: 17.3 year: 2018, cdl: 16.0, industry average: 22.0 year: 2019, cdl: 16.1, industry average: 21.6 year: 2020, cdl: 7.0, industry average: 18.6 year: 2021, cdl: 14.0 9 , industry average: 19.2 10 table end. notes: 9. computation of annual employee turnover is based on cumulative monthly attrition rate derived from the number of resignations for the month divided by the headcount for the month. 10. extrapolated from mom's website as q4 2021 national resignation rate was not available at the time of publication. employee demographics - resignations total: 57 female: 38 67% male: 19 33% below 30 years old: female 8 14% , male 3 5% , total 11 19% 30-50 years old: female 28 49% , male 16 28% , total 44 77% above 50 years old: female 2 4% , male 0 0% , total 2 4%",
                 "unit": "number",
@@ -2397,7 +2397,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "At the end of fy2022, our total employee headcount was 16, comprising 100% permanent full-time employees.",
                 "unit": "employees",
@@ -2405,7 +2405,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "In FY2022, the employee turnover was 6 male and 1 female.",
                 "unit": "employees",
@@ -2759,7 +2759,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "N/A",
@@ -2767,7 +2767,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "N/A",
@@ -3121,7 +3121,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "reference no.: 2-7, disclosure: employees, location: page 65. the group has 29 employees and 1 contractor who is the office cleaner as at the end of fy2023.",
                 "unit": "number",
@@ -3129,7 +3129,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "current employees by age groups year: fy2023, between 20 and 39 years old % : 17.24%, between 40 and 59 years old % : 77.42%, over 60 years old % : 3.23%",
                 "unit": "number",
@@ -3483,7 +3483,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "in fy2022, 155 of our employees were male, comprising 53% of our workforce, while 138 47% employees were female.",
                 "unit": "employees",
@@ -3491,7 +3491,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "in fy2022, 155 of our employees were male, comprising 53% of our workforce, while 138 47% employees were female.",
                 "unit": "employees",
@@ -3845,7 +3845,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "46% of our 700+ global employees are women",
                 "unit": "number of employees",
@@ -3853,7 +3853,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "we believe that helping our employees to be actively engaged at work while promoting a healthy balance creates an environment where our employees can thrive both personally and professionally.",
                 "unit": "number of employees",
@@ -4207,7 +4207,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "the group's total number of employees was 1,391 at the end of 2022 and 1,374 at the end of 2021",
                 "unit": "employees",
@@ -4215,7 +4215,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "N/A",
@@ -4569,7 +4569,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "total number of employees at the end of reporting period: 68 including one part-time staff",
                 "unit": "number of employees",
@@ -4577,7 +4577,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "gri 401-1: number of employee turnover by age group turnover bar chart showing the percentage of employee turnover by age group and gender age group: 30-50yrs, male % : 56%, female % : 44%, total absolute number : 9 age group: 50yrs, male % : 100%, female % : -%, total absolute number : 1 age group: total , male % : 60%, female % : 40%, total absolute number : 10 table end.",
                 "unit": "number of employees",
@@ -4931,7 +4931,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "as at 31 december 2022, the group had 16 (31 december 2021: 16) full-time employees in total.",
                 "unit": "number of people",
@@ -4939,7 +4939,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "during fy2022, the total number of employees leaving employment was 2 (fy2021: 1), and the total employee turnover rate was approximately 12.50% (fy2021: 6.25%).",
                 "unit": "number of people",
@@ -5293,7 +5293,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "in fy2022, we had 10 full-time staff.",
                 "unit": "number",
@@ -5301,7 +5301,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "our staff turnover continues to be low with a large percentage of employees having between 5 and 25 years of service to the group.",
                 "unit": "number",
@@ -5655,7 +5655,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "as at 31 december 2022, the group has a total of 10 employees as at 31 december 2021: 17 employees",
                 "unit": "number of employees",
@@ -5663,7 +5663,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "in fy2022, the group hired a new executive director to supplement the board's skillsets. the overall employee turnover rate was approximately 10%, and the overall employee new hires rate was approximately 70%. table: employee turnover fy2022 category: by gender category: male, number and rate: 6 75% category: female, number and rate: 1 50% category: by age group category: < 30 years old, number and rate: 3 – category: 30 - 50 years old, number and rate: 4 40% category: 50 years old, number and rate: – category: by geographic region category: singapore, number and rate: – category: china, number and rate: – category: india, number and rate: 7 175%",
                 "unit": "number of employees",
@@ -6017,7 +6017,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "total number of employees, 2023: 40,770",
                 "unit": "employees",
@@ -6025,7 +6025,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "category: total , headcount: 40,770 , work force mix: 100% , no. of new hires: 9,898 , new hire rate: 24% , no. of voluntary attrition: 3,256 , voluntary attrition rate: 9%",
                 "unit": "employees",
@@ -6379,7 +6379,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "table: employee data 2022 category: total number of employees , monde nissin: 3,356, quorn foods: 888, units: category: number of female employees , monde nissin: 1,210, quorn foods: 335, units: category: number of male employees , monde nissin: 2,146, quorn foods: 553, units: category: total number of regular employees , monde nissin: 2,057, quorn foods: 888, units: category: number of regular female employees , monde nissin: 800, quorn foods: 335, units: category: number of regular male employees , monde nissin: 1,257, quorn foods: 553, units: category: total number of probationary employees , monde nissin: 1,299, quorn foods: 0, units: category: number of probationary female employees , monde nissin: 410, quorn foods: 0, units: category: number of probationary male employees , monde nissin: 889, quorn foods: 0, units: category: turnover rate , monde nissin: 9, quorn foods: 27, units: % table end.",
                 "unit": "employees",
@@ -6387,7 +6387,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "table: employee data 2022 category: total number of employees , monde nissin: 3,356, quorn foods: 888, units: category: number of female employees , monde nissin: 1,210, quorn foods: 335, units: category: number of male employees , monde nissin: 2,146, quorn foods: 553, units: category: total number of regular employees , monde nissin: 2,057, quorn foods: 888, units: category: number of regular female employees , monde nissin: 800, quorn foods: 335, units: category: number of regular male employees , monde nissin: 1,257, quorn foods: 553, units: category: total number of probationary employees , monde nissin: 1,299, quorn foods: 0, units: category: number of probationary female employees , monde nissin: 410, quorn foods: 0, units: category: number of probationary male employees , monde nissin: 889, quorn foods: 0, units: category: turnover rate , monde nissin: 9, quorn foods: 27, units: % table end. note: turnover rate includes all types of separation no. of separated regular employees / average of total no. of employees of previous reporting year and total no. of employees of current reporting year",
                 "unit": "employees",
@@ -6741,7 +6741,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "the group’s workforce consists of 13 professional staff, all of whom are singaporeans or permanent residents.",
                 "unit": "number of employees",
@@ -6749,7 +6749,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "during fy2021, there were 3 new hires during the year and 1 departure due to retirement.",
                 "unit": "number of employees",
@@ -7103,7 +7103,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "table 5: total number of employees by employment type and gender in fy2021 and fy2022 : number of full-time employees : male, fy2021: 33, fy2022: 31 : female, fy2021: 70, fy2022: 71 : number of part-time employees : male, fy2021: 0, fy2022: 0 : female, fy2021: 0, fy2022: 0 table end.",
                 "unit": "employees",
@@ -7111,7 +7111,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "figure 4. total employee turnover in fy2022.a turnover by gender.table: turnover by gender fy2022 gender: male, percentage: 64% gender: female, percentage: 36% table end.b turnover by age category.table: turnover by age category fy2022 age category: under 30 years old, percentage: 32% age category: 30-50 years old, percentage: 11% age category: over 50 years old, percentage: 57% table end.",
                 "unit": "employees",
@@ -7465,7 +7465,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "in fy2022, 496 66% of our employees were female and 255 34% employees were male.",
                 "unit": "number of employees",
@@ -7473,7 +7473,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "The report does not provide data on employee turnover.",
                 "unit": "number of employees",
@@ -7827,7 +7827,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "table: resl personnel gender and age breakdown fy 2021-22 employee category: top management, <30 years male: -, <30 years female: -, 30-50 years male: 3, 30-50 years female: -, 30-50 years others: -, 50 years male: 2, 50 years female: -, total: 5 employee category: senior management, <30 years male: -, <30 years female: -, 30-50 years male: 8, 30-50 years female: -, 30-50 years others: -, 50 years male: 12, 50 years female: -, total: 20 employee category: middle management, <30 years male: -, <30 years female: -, 30-50 years male: 67, 30-50 years female: -, 30-50 years others: -, 50 years male: 24, 50 years female: 1, total: 92 employee category: junior management, <30 years male: 12, <30 years female: -, 30-50 years male: 233, 30-50 years female: 11, 30-50 years others: -, 50 years male: 32, 50 years female: 2, total: 290 employee category: associates/non-management, <30 years male: 2,603, <30 years female: 134, 30-50 years male: 4,720, 30-50 years female: 1,653, 30-50 years others: 5, 50 years male: 450, 50 years female: 232, total: 9,797 employee category: grand total , <30 years male: 2,615 , <30 years female: 134 , 30-50 years male: 5,031 , 30-50 years female: 1,664 , 30-50 years others: 5 , 50 years male: 520 , 50 years female: 235 , total: 10,204 table end.",
                 "unit": "employees",
@@ -7835,7 +7835,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "employee turnover by age and gender india category: <30 years, male fy 2020-21 : 85, female fy 2020-21 : 17, male fy 2021-22 : 143, female fy 2021-22 : 22 category: 30-50 years, male fy 2020-21 : 89, female fy 2020-21 : 6, male fy 2021-22 : 158, female fy 2021-22 : 18 category: 50 years, male fy 2020-21 : 9, female fy 2020-21 : 0, male fy 2021-22 : 21, female fy 2021-22 : 1 category: total , male fy 2020-21 : 183, female fy 2020-21 : 23, male fy 2021-22 : 322, female fy 2021-22 : 41 table end.",
                 "unit": "employees",
@@ -8189,7 +8189,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "as at 31 march 2022, the group had a total of 70 2021: 85 full-time employees.",
                 "unit": "employees",
@@ -8197,7 +8197,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "during fy2022, there were 18 2021: 18 employees leaving the group, with the overall turnover of about 21.17% 2021: 19.46% .",
                 "unit": "employees",
@@ -8551,7 +8551,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "number and percentage % of employees by gender year: 2022, male: 9,915 38.7% , female: 15,729 61.3% , total: 25,644 100%",
                 "unit": "number",
@@ -8559,7 +8559,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "number and percentage % of employee attrition by gender year: 2022, male: 1,923 42.0% , female: 2,657 58.0% , total: 4,580 100%",
                 "unit": "number",
@@ -8913,7 +8913,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "N/A",
@@ -8921,7 +8921,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "N/A",
@@ -9275,7 +9275,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "as at 31 december 2022, ifast corp has more than 1,189 employees across the four markets singapore, hong kong, malaysia, uk that it operates in 2021: 1,097 . in singapore, the company has employed a total of 288 employees as at end december 2022 end december 2021: 286 .",
                 "unit": "employees",
@@ -9283,7 +9283,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "in 2022, the employee turnover ratio in singapore was at 20.0% 2021: 22.5% . as at 31 december 2022, ifast corp has more than 1,189 employees across the four markets singapore, hong kong, malaysia, uk that it operates in 2021: 1,097 . in singapore, the company has employed a total of 288 employees as at end december 2022 end december 2021: 286 .",
                 "unit": "employees",
@@ -9637,7 +9637,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "total workforce unit: no. of employees, fy 2022: 12,837, fy 2021: 13,069, year-on-year change: -1.78%",
                 "unit": "number of employees",
@@ -9645,7 +9645,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "category: by gender , subcategory: female, unit: no. of employees, fy 2022: 181, fy 2021: 352, year-on-year change: -48.58% subcategory: male, unit: no. of employees, fy 2022: 1,900, fy 2021: 2,158, year-on-year change: -11.96%",
                 "unit": "number of employees",
@@ -9999,7 +9999,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "the employee count decreased from 39 in march 2023 to 34 by december 2023",
                 "unit": "employees",
@@ -10007,7 +10007,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "the employee count decreased from 39 in march 2023 to 34 by december 2023",
                 "unit": "employees",
@@ -10361,7 +10361,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "number of employees",
@@ -10369,7 +10369,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "number of employees",
@@ -10723,7 +10723,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "Currently, the company has only one employee, namely, mr dominic anthony morris being chief technology officer cum interim ceo",
                 "unit": "number of employees",
@@ -10731,7 +10731,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "number of employees",
@@ -11085,7 +11085,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "as of 31 december 2023, the group employed a total of 372 employees in singapore, as compared to 353 employees as at 31 december 2022.",
                 "unit": "employees",
@@ -11093,7 +11093,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "as of 31 december 2023, the group employed a total of 372 employees in singapore, as compared to 353 employees as at 31 december 2022.",
                 "unit": "employees",
@@ -11447,7 +11447,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "social employees factor: total number of employees, unit: number, 2023: 115, 2022: 100, 2021: 101 factor: new hires, unit: number, 2023: 39, 2022: 23, 2021: 13 factor: female employees, unit: %, 2023: 79, 2022: 86, 2021: 81 factor: female managers and supervisors, unit: %, 2023: 76, 2022: 85, 2021: 82 factor: female department heads, unit: %, 2023: 75, 2022: 57, 2021: 38 factor: average hours of training per employee of training per employee, unit: hours, 2023: 24, 2022: 33, 2021: 20 factor: annual employee turnover rate, unit: %, 2023: 14, 2022: 12, 2021: 12 table end.",
                 "unit": "number",
@@ -11455,7 +11455,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "social employees factor: annual employee turnover rate, unit: %, 2023: 14, 2022: 12, 2021: 12 table end. table: employee turnover by gender year: 2021, male % : 16, female % : 11 year: 2022, male % : 24, female % : 10 year: 2023, male % : 16, female % : 23 table end.",
                 "unit": "number",
@@ -11809,7 +11809,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "number of employees: 1,988 consolidated: 4,763",
                 "unit": "number of employees",
@@ -11817,7 +11817,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "number of employees",
@@ -12171,7 +12171,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TNM",
+            "question_id": "B-SOC-EMP-TNM",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "employees",
@@ -12179,7 +12179,7 @@
             }
         },
         {
-            "question_id": "B-SOC_EMP_TTN",
+            "question_id": "B-SOC-EMP-TTN",
             "response": {
                 "from_sentences": "N/A",
                 "unit": "employees",
