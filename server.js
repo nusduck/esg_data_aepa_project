@@ -108,7 +108,7 @@ app.get('/score-data', (req, res) => {
 
   let dataString = '';
 
-  console.log('company:', company)
+  // console.log('company:', company)
   pythonProcess.stdout.on('data', (data) => {
     dataString += data.toString();
   });
@@ -162,7 +162,7 @@ app.get('/company-metrics', (req, res) => {
 
 // Endpoint to get the realtime data from json files
 app.get('/realtime-data', (req, res) => {
-  const directoryPath = path.join(__dirname, 'data/esg_realtime_info');
+  const directoryPath = path.join(__dirname, 'data/esg_realtime_info/esg_realtime_info_obtain.json');
   const company = req.query.company;
 
   const pythonProcess = spawn('python3', ['src/datafetch/get_realtime.py', directoryPath, company]);
@@ -190,7 +190,7 @@ app.get('/realtime-data', (req, res) => {
 
 // Endpoint to get the greenwash data from json files
 app.get('/greenwash-data', (req, res) => {
-  const directoryPath = path.join(__dirname, 'data/esg_green_wash');
+  const directoryPath = path.join(__dirname, 'data/esg_green_wash/greenwashing_analysis_result.json');
   const company = req.query.company;
   const pythonProcess = spawn('python3', ['src/datafetch/get_greenwash.py', directoryPath, company]);
 
@@ -210,7 +210,7 @@ app.get('/greenwash-data', (req, res) => {
     }
 
     try {
-      console.log(dataString);
+      console.log('green_wash_data', dataString);
       const results = JSON.parse(dataString); 
       res.json(results); 
     } catch (error) {

@@ -9,19 +9,11 @@ def process_realtime_file(directory_path, company):
     try:
         # result = subprocess.run(['python', 'src/realtime/llm_esg_realtime_info_search.py'], capture_output=True, text=True, check=True)
         results = []
-        for filename in os.listdir(directory_path):
-            if filename.endswith('.json'):
-                file_path = os.path.join(directory_path, filename)
-                with open(file_path, encoding='utf-8') as f:
-                    data = json.load(f)
-                    for i in data:
-                        if i['company_name'] == company:
-                            news = {
-                                'insight': i['esg_insights'],
-                                'timestamp': i['timestamp'].split('T')[0]
-                            }
-                            results.append(news)
-        results = json.dumps(results, separators=(',', ':'))
+        with open(directory_path, encoding='utf-8') as f:
+            data = json.load(f)
+            data = data.get(company)
+            results.append(data)
+        results = json.dumps(results, separators=(',', ':')) 
         return results
     except subprocess.CalledProcessError as e:
         return {
