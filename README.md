@@ -25,10 +25,10 @@
 
 4. Move your reports file to `data/esg_reports_pdf` directory.
 
-5. Run the script to parse ESG reports:
+5. Run the script to extract ESG reports:
 
    ```shell
-   python3 src/pdf_parse/llm_parse_esg_reports_pdf.py
+   python3 main.py --report example.pdf
    ```
 
    ### Filtered ESG report txt file
