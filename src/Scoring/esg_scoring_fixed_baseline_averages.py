@@ -312,12 +312,12 @@ def calculate_all_esg_scores(json_folder):
     df['Letter Rating'] = df['Normalized Score'].apply(assign_rating)
 
     # Excel 
-    output_path = os.path.join(script_dir, "C:/Users/Cindy/Desktop/data/esg_scores/esg_scores_detailed_with_ratings.xlsx")
+    output_path = os.path.join(script_dir, "../../data/esg_scores/esg_scores_detailed_with_ratings.xlsx")
     df.to_excel(output_path, index=False)
 
     return df
 
 # Run the main function
-json_folder_path = 'C:/Users/Cindy/data/esg_validation'
+json_folder_path = '../../data/esg_validation'
 esg_scores_df = calculate_all_esg_scores(json_folder_path)
 print(esg_scores_df)
