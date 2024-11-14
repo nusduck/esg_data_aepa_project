@@ -45,6 +45,11 @@ app.post('/upload', upload.single('file'), (req, res) => {
     return res.send({ message: 'File already exists, upload skipped', fileUrl });
   }
 
+  if (!req.fileAlreadyExists) {
+    const fileUrl = `http://localhost:${port}/uploads/${req.file?.filename}`;
+    return res.send({ message: 'This is a new file', fileUrl });
+  }
+
   if (!req.file) {
     return res.status(400).send({ message: 'No file uploaded' });
   }
@@ -55,21 +60,38 @@ app.post('/upload', upload.single('file'), (req, res) => {
   console.log(fileUrl);
 });
 
+// run main.py, start analysis
+app.get('/start-analysis', (req, res) => {
+  console.log('Starting analysis...', req.query.file);
+  const fileName = req.query.file;
 
-app.get('/run-python', (req, res) => {
-    const scriptPath = path.join(__dirname, 'scripts', 'your_script.py');
-    exec(`python ${scriptPath}`, (error, stdout, stderr) => {
-      if (error) {
-        console.error(`Error executing script: ${error.message}`);
-        return res.status(500).send(`Error executing script: ${error.message}`);
-      }
-      if (stderr) {
-        console.error(`Script error: ${stderr}`);
-        return res.status(500).send(`Script error: ${stderr}`);
-      }
-      res.send(stdout);
-    });
-});
+  const pythonProcess = spawn('python3', ['src/main.py', fileName]);
+
+  let dataString = '';
+
+  // console.log('company:', company)
+  pythonProcess.stdout.on('data', (data) => {
+    dataString += data.toString();
+  });
+
+  pythonProcess.stderr.on('data', (data) => {
+    console.error(`stderr: ${data}`);
+  });
+
+  pythonProcess.on('close', (code) => {
+    if (code !== 0) {
+      return res.status(500).send({ message: 'Error processing analysis!' });
+    }
+    const results = JSON.parse(dataString);
+    // console.log(results);
+    res.json(results);
+  });
+
+  
+
+
+})
+
 
 app.get('/read-file', (req, res) => {
     const filePath = path.join(__dirname, req.query.path);
@@ -210,7 +232,7 @@ app.get('/greenwash-data', (req, res) => {
     }
 
     try {
-      console.log('green_wash_data', dataString);
+      //console.log('green_wash_data', dataString);
       const results = JSON.parse(dataString); 
       res.json(results); 
     } catch (error) {
