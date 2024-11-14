@@ -67,24 +67,11 @@ app.get('/start-analysis', (req, res) => {
 
   const pythonProcess = spawn('python3', ['main.py', '--report', fileName]);
 
-  let dataString = '';
-
-  // console.log('company:', company)
-  pythonProcess.stdout.on('data', (data) => {
-    dataString += data.toString();
-  });
-
-  pythonProcess.stderr.on('data', (data) => {
-    console.error(`stderr: ${data}`);
-  });
-
   pythonProcess.on('close', (code) => {
     if (code !== 0) {
       return res.status(500).send({ message: 'Error processing analysis!' });
     }
-    const results = JSON.parse(dataString);
-    // console.log(results);
-    res.json(results);
+    res.send({ message: 'Analysis completed!' });
   });
 
 
