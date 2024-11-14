@@ -220,6 +220,38 @@ app.get('/greenwash-data', (req, res) => {
   });
 });
 
+// Endpoint to get the validation data from json files
+app.get('/validation-company', (req, res) => {
+  const directoryPath = path.join(__dirname, 'data/esg_validation/shown_final_score_of_retrieve.csv');
+  const company = req.query.company;
+  const pythonProcess = spawn('python3', ['src/datafetch/get_validation.py', directoryPath]);
+
+  let dataString = '';
+
+  pythonProcess.stdout.on('data', (data) => {
+    dataString += data.toString();
+  });
+
+  pythonProcess.stderr.on('data', (data) => {
+    console.error(`stderr: ${data}`);
+  });
+
+  pythonProcess.on('close', (code) => {
+    if (code !== 0) {
+      return res.status(500).send({ message: 'Error processing JSON files' });
+    }
+
+    try {
+      console.log('validation_data', dataString);
+      const results = JSON.parse(dataString); 
+      res.json(results); 
+    } catch (error) {
+      console.error('JSON parsing error:', error);
+      res.status(500).send({ message: 'Failed to parse JSON output' });
+    }
+  });
+});
+
 // Serve static files from the uploads directory
 app.use('/uploads', express.static(path.join(__dirname, 'data/esg_reports_pdf')));
 
