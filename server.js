@@ -65,7 +65,7 @@ app.get('/start-analysis', (req, res) => {
   console.log('Starting analysis...', req.query.file);
   const fileName = req.query.file;
 
-  const pythonProcess = spawn('python3', ['src/main.py', fileName]);
+  const pythonProcess = spawn('python3', ['main.py', '--report', fileName]);
 
   let dataString = '';
 
@@ -87,7 +87,6 @@ app.get('/start-analysis', (req, res) => {
     res.json(results);
   });
 
-  
 
 
 })
@@ -264,7 +263,7 @@ app.get('/validation-company', (req, res) => {
     }
 
     try {
-      console.log('validation_data', dataString);
+      //console.log('validation_data', dataString);
       const results = JSON.parse(dataString); 
       res.json(results); 
     } catch (error) {
