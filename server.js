@@ -230,7 +230,7 @@ app.get('/greenwash-data', (req, res) => {
 
 // Endpoint to get the validation data from json files
 app.get('/validation-company', (req, res) => {
-  const directoryPath = path.join(__dirname, 'data/esg_validation/shown_final_score_of_retrieve.csv');
+  const directoryPath = path.join(__dirname, 'data/esg_validation/final_output.csv');
   const company = req.query.company;
   const pythonProcess = spawn('python3', ['src/datafetch/get_validation.py', directoryPath]);
 
@@ -250,7 +250,7 @@ app.get('/validation-company', (req, res) => {
     }
 
     try {
-      //console.log('validation_data', dataString);
+      // console.log('validation_data', dataString);
       const results = JSON.parse(dataString); 
       res.json(results); 
     } catch (error) {
