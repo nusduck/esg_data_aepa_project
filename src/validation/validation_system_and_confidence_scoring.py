@@ -446,7 +446,7 @@ for report, responses in modified_data.items():
 
 # Convert to DataFrame and export to CSV file
 df = pd.DataFrame(rows_to_export)
-df.to_csv('../../data/esg_validation/human_B-GOV_ASS_ASR_special_keywords.csv', index=False)
+df.to_csv('../../data/esg_validation/B-GOV_ASS_ASR_special_keywords.csv', index=False)
 
 
 ### 8. Compute confidence score
@@ -458,9 +458,9 @@ df5_text_metrics = pd.read_csv("../../data/esg_validation/text_metrics_invalid_v
 df6_percent_sum = pd.read_csv("../../data/esg_validation/report_summary.csv")
 
 df1_consistency.head(2)
-df1_consistency = df1_consistency[["Report", "Total Missing Fields", "Missing Question ID Count", "Empty Response Count", 
+df1_consistency = df1_consistency[["Section", "Total Missing Fields", "Missing Question ID Count", "Empty Response Count", 
                                    "Invalid Value Count", "Missing Fields"]]
-df1_consistency.rename(columns={'Report': 'report', 
+df1_consistency.rename(columns={'Section': 'report', 
                                 'Total Missing Fields': 'total_missing_fields_count',
                                 "Missing Question ID Count": "missing_question_id_count",
                                 "Empty Response Count": "empty_response_count",
@@ -624,7 +624,7 @@ df_quality["Quality Score"] = (45 - df_quality['Total Missing Fields'])/45
 # plt.boxplot(df_quality["Quality Score"])
 df_low_quality = df_quality[df_quality["Quality Score"] < 0.2]
 df_low_quality_selected = df_low_quality[["Report", "Quality Score"]]
-output_path = '../../data/esg_validation/human_low_quality.csv'
+output_path = '../../data/esg_validation/low_quality.csv'
 df_low_quality_selected.to_csv(output_path, index=False)
 print(f"CSV file saved to: {output_path}")
 
