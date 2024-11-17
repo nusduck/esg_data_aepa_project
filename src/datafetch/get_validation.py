@@ -10,7 +10,7 @@ def process_csv_files(directory_path):
         df = df.drop_duplicates(subset='report', keep='last')
         # keep 2 decimal places
         df = df.round(2)
-        file_url = '/uploads/' + df['report'].astype(str) + '.pdf'
+        file_url = 'uploads/' + df['report'].astype(str) + '.pdf'
         df = df[['report', 'total_missing_fields_count', 'missing_fields', 'extraction_quality_score', 'report_quality_score']]
         df['file_path'] = file_url
         

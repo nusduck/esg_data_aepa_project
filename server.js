@@ -6,7 +6,8 @@ const csv = require('csv-parser');
 const { spawn } = require('child_process');
 const { exec } = require('child_process');
 const cors = require('cors');
-const XLSX = require('xlsx');
+// const XLSX = require('xlsx');
+const ExcelJS = require('exceljs');
 
 const app = express();
 const port = 3002;
@@ -81,38 +82,34 @@ app.get('/start-analysis', (req, res) => {
 })
 
 
-app.get('/read-file', (req, res) => {
+app.get('/read-file', async(req, res) => {
     const filePath = path.join(__dirname, req.query.path);
     if (filePath.endsWith('.xlsx')) {
       // 处理 Excel 文件
-      fs.readFile(filePath, (err, data) => {
-        if (err) {
-          console.error(`Error reading file: ${err.message}`);
-          return res.status(500).send(`Error reading file: ${err.message}`);
-        }
-  
-        try {
-          const workbook = XLSX.read(data, { type: 'buffer' });
-          const sheetName = workbook.SheetNames[0];
-          const worksheet = workbook.Sheets[sheetName];
-          const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
-  
-          res.json(jsonData);
-          console.log(jsonData);
-        } catch (error) {
-          console.error(`Error processing Excel file: ${error.message}`);
-          return res.status(500).send(`Error processing Excel file: ${error.message}`);
-        }
+    try {
+      const workbook = new ExcelJS.Workbook();
+      await workbook.xlsx.readFile(filePath);
+      const worksheet = workbook.worksheets[0];
+      const jsonData = [];
+
+      worksheet.eachRow({ includeEmpty: true }, (row, rowNumber) => {
+        jsonData.push(row.values);
       });
-    } else {
-      // 处理其他文件
-      fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-          console.error(`Error reading file: ${err.message}`);
-          return res.status(500).send(`Error reading file: ${err.message}`);
-        }
-        res.send(data);
-      });
+
+      res.json(jsonData);
+    } catch (error) {
+      console.error(`Error processing Excel file: ${error.message}`);
+      return res.status(500).send(`Error processing Excel file: ${error.message}`);
+    }
+  } else {
+    // 处理其他文件
+    fs.readFile(filePath, 'utf8', (err, data) => {
+      if (err) {
+        console.error(`Error reading file: ${err.message}`);
+        return res.status(500).send(`Error reading file: ${err.message}`);
+      }
+      res.send(data);
+    });
     }
 });  
 
@@ -285,6 +282,7 @@ app.get('/validation-company', (req, res) => {
   });
 });
 
+app.use('/uploads', express.static(path.join(__dirname, '/data/esg_reports_pdf')));
 
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
