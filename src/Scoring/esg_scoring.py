@@ -311,9 +311,9 @@ def calculate_all_esg_scores(json_folder):
     df['Normalized Score'] = scaler.fit_transform(df[['Total ESG Score']])
     df['Letter Rating'] = df['Normalized Score'].apply(assign_rating)
 
-    # Excel 
-    output_path = os.path.join(script_dir, "../../data/esg_scores/esg_scores_detailed_with_ratings.xlsx")
-    df.to_excel(output_path, index=False)
+    # Save to CSV
+    output_csv_path = os.path.join(script_dir, "../../data/esg_scores_detailed_with_ratings.csv")
+    df.to_csv(output_csv_path, index=False)
 
     return df
 
