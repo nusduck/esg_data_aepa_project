@@ -6019,7 +6019,7 @@
     {
       "question_id": "B-SOC_EMP_TNM",
       "response": {
-        "from_sentences": "total number of employees, 2023: 40,770",
+        "from_sentences": "total number of employees, 2023: 40,770.",
         "unit": "employees",
         "value": "40,770"
       }
