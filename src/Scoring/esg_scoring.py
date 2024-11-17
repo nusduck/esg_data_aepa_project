@@ -53,8 +53,8 @@ replacement_dict = {
     "B-SOC_AGD_TOR_U30": "Employment", "I-SOC_AGD_TOR_U30": "Employment",
     "B-SOC_AGD_TOR_B35": "Employment", "I-SOC_AGD_TOR_B35": "Employment",
     "B-SOC_AGD_TOR_A50": "Employment", "I-SOC_AGD_TOR_A50": "Employment",
-    "B-SOC_EMP_TNM": "Employment", "B-SOC_EMP_TTN": "Employment",
-    "B-SOC_DEV_ATH_M" :"Training", "B-SOC_DEV_ATH_F": "Training",
+    "B-SOC-EMP-TNM": "Employment", "B-SOC-EMP-TTN": "Employment",
+    "B-SOC-DEV-ATH-HNE-MAL" :"Training", "SGX-SOC-DEV-ATH-HNE-FEM": "Training",
     "B-SOC_DEV_ATH_M": "HealthSafety", "I-SOC_DEV_ATH_M": "HealthSafety",
     "B-SOC_DEV_ATH_F": "HealthSafety", "I-SOC_DEV_ATH_F": "HealthSafety",
     "B-SOC_OHS_FAT": "HealthSafety", "I-SOC_OHS_FAT": "HealthSafety",
@@ -130,7 +130,7 @@ def extract_numeric_value(value_str):
     except (ValueError, TypeError):
         return 0.0
 
-# extract_company_data
+# extract_company_data 
 def extract_company_data(company_data):
     esg_data = {'ENV': {}, 'SOC': {}, 'GOV': {}}
     for entry in company_data:
@@ -178,47 +178,72 @@ def calculate_coverage(esg_data):
 def calculate_coverage_score(coverage):
     return coverage * 10
 
-# Calculate industry averages and standard deviations
-def calculate_industry_averages(json_folder):
-    aggregate_values = {'ENV': {}, 'SOC': {}, 'GOV': {}}
-    count_values = {'ENV': {}, 'SOC': {}, 'GOV': {}}
-    sum_of_squares = {'ENV': {}, 'SOC': {}, 'GOV': {}}
+
+
+
+
+# Define fixed-baseline-averages and standard deviations
+fixed_industry_averages = {
+    'ENV': {'GHG': 75, 'Energy': 50, 'Water': 30, 'Waste': 20},
+    'SOC': {'Diversity': 0.6, 'Employment': 0.7, 'HealthSafety': 0.8, 'Training': 0.5},
+    'GOV': {'BoardComposition': 0.4, 'ManagementDiversity': 0.3, 'Ethics': 0.5, 'Transparency': 0.6, 'Certifications': 0.4, 'Assurance': 0.3}
+}
+
+fixed_industry_std_devs = {
+    'ENV': {'GHG': 10, 'Energy': 15, 'Water': 5, 'Waste': 8},
+    'SOC': {'Diversity': 0.1, 'Employment': 0.05, 'HealthSafety': 0.15, 'Training': 0.2},
+    'GOV': {'BoardComposition': 0.2, 'ManagementDiversity': 0.15, 'Ethics': 0.1, 'Transparency': 0.15, 'Certifications': 0.05, 'Assurance': 0.1}
+}
+
+
+def calculate_all_esg_scores(json_folder):
     
+    # Use fixed averages and std devs instead of dynamically calculated values
+    results = []
     for filename in os.listdir(json_folder):
         if filename.endswith('.json'):
             file_path = os.path.join(json_folder, filename)
             with open(file_path, 'r') as f:
                 json_data = json.load(f)
-                for company_data in json_data.values():
-                    esg_data = extract_company_data(company_data)  
-                    for dimension, metrics in esg_data.items():
-                        for metric, value in metrics.items():
-                            aggregate_values[dimension][metric] = aggregate_values[dimension].get(metric, 0) + value
-                            count_values[dimension][metric] = count_values[dimension].get(metric, 0) + 1
-                            sum_of_squares[dimension][metric] = sum_of_squares[dimension].get(metric, 0) + value ** 2
-    
-    industry_averages = {}
-    industry_std_devs = {}
-    
-    for dimension in aggregate_values:
-        industry_averages[dimension] = {}
-        industry_std_devs[dimension] = {}
-        for metric in aggregate_values[dimension]:
-            mean = aggregate_values[dimension][metric] / count_values[dimension][metric]
-            industry_averages[dimension][metric] = mean
-            variance = (sum_of_squares[dimension][metric] / count_values[dimension][metric]) - (mean ** 2)
-            industry_std_devs[dimension][metric] = np.sqrt(variance)
-    print("industry_averages:", industry_averages)
-    return industry_averages, industry_std_devs
+                for company_name, company_data in json_data.items():
+                    
+                    # Use fixed baseline averages and std deviations
+                    total_score, env_score, soc_score, gov_score, env_details, soc_details, gov_details, coverage, coverage_score = calculate_esg_score(
+                        company_data, fixed_industry_averages, fixed_industry_std_devs)
 
-# Function to calculate detailed scores
-def calculate_detailed_scores(values, sub_weights, averages, std_devs):
+                    result = {
+                        'Company': company_name,
+                        'Total ESG Score': total_score,
+                        'ENV Score': env_score,
+                        'SOC Score': soc_score,
+                        'GOV Score': gov_score,
+                        'Coverage': coverage,
+                        'Coverage Score': coverage_score,
+                        **{f'ENV_{k}': v for k, v in env_details.items()},
+                        **{f'SOC_{k}': v for k, v in soc_details.items()},
+                        **{f'GOV_{k}': v for k, v in gov_details.items()}
+                    }
+                    results.append(result)
+
+    df = pd.DataFrame(results)
+    scaler = MinMaxScaler(feature_range=(0, 10))
+    df['Normalized Score'] = scaler.fit_transform(df[['Total ESG Score']])
+    df['Letter Rating'] = df['Normalized Score'].apply(assign_rating)
+
+    return df
+    
+# calculate detailed scores
+def calculate_detailed_scores(values, sub_weights, dimension):
     dimension_score = 0
     detailed_scores = {}
     total_weight = 0  # Track the total weight for metrics reported
     
+    # Use fixed-baseline-averages and std devs based on dimension
+    averages = fixed_industry_averages[dimension]
+    std_devs = fixed_industry_std_devs[dimension]
+    
     for metric, weight in sub_weights.items():
-        value = values.get(metric, averages.get(metric, None))  # Use industry average if missing
+        value = values.get(metric, averages.get(metric, None))  
         mean = averages.get(metric, 0)
         std_dev = std_devs.get(metric, 1)
         is_positive = metric in positive_metrics
@@ -234,16 +259,18 @@ def calculate_detailed_scores(values, sub_weights, averages, std_devs):
     dimension_score = (dimension_score / total_weight) if total_weight > 0 else 0
     return dimension_score, detailed_scores
 
-def calculate_esg_score(company_data, industry_averages, industry_std_devs):
+
+def calculate_esg_score(company_data):
     esg_values = extract_company_data(company_data)
     
-    env_score, env_details = calculate_detailed_scores(esg_values.get('ENV', {}), indicator_weights['ENV'], industry_averages['ENV'], industry_std_devs['ENV'])
-    soc_score, soc_details = calculate_detailed_scores(esg_values.get('SOC', {}), indicator_weights['SOC'], industry_averages['SOC'], industry_std_devs['SOC'])
-    gov_score, gov_details = calculate_detailed_scores(esg_values.get('GOV', {}), indicator_weights['GOV'], industry_averages['GOV'], industry_std_devs['GOV'])
+    env_score, env_details = calculate_detailed_scores(esg_values.get('ENV', {}), indicator_weights['ENV'], 'ENV')
+    soc_score, soc_details = calculate_detailed_scores(esg_values.get('SOC', {}), indicator_weights['SOC'], 'SOC')
+    gov_score, gov_details = calculate_detailed_scores(esg_values.get('GOV', {}), indicator_weights['GOV'], 'GOV')
     
     coverage = calculate_coverage(esg_values)
     coverage_score = calculate_coverage_score(coverage)
     
+    # Calculate the total ESG score using weights for each ESG dimension
     total_score = (env_score * weights['E'] +
                    soc_score * weights['S'] + 
                    gov_score * weights['G'] +
@@ -253,8 +280,6 @@ def calculate_esg_score(company_data, industry_averages, industry_std_devs):
 
 # Main function for calculating all ESG scores
 def calculate_all_esg_scores(json_folder):
-    industry_averages, industry_std_devs = calculate_industry_averages(json_folder)
-    
     results = []
     for filename in os.listdir(json_folder):
         if filename.endswith('.json'):
@@ -262,8 +287,11 @@ def calculate_all_esg_scores(json_folder):
             with open(file_path, 'r') as f:
                 json_data = json.load(f)
                 for company_name, company_data in json_data.items():
-                    total_score, env_score, soc_score, gov_score, env_details, soc_details, gov_details, coverage, coverage_score = calculate_esg_score(company_data, industry_averages, industry_std_devs)
                     
+                    # Use fixed-baseline-averages and std deviations
+                    total_score, env_score, soc_score, gov_score, env_details, soc_details, gov_details, coverage, coverage_score = calculate_esg_score(
+                        company_data)
+
                     result = {
                         'Company': company_name,
                         'Total ESG Score': total_score,
@@ -277,18 +305,17 @@ def calculate_all_esg_scores(json_folder):
                         **{f'GOV_{k}': v for k, v in gov_details.items()}
                     }
                     results.append(result)
-    
+
     df = pd.DataFrame(results)
     scaler = MinMaxScaler(feature_range=(0, 10))
     df['Normalized Score'] = scaler.fit_transform(df[['Total ESG Score']])
     df['Letter Rating'] = df['Normalized Score'].apply(assign_rating)
-    
-    # Save to Excel in the desired output path
+
+    # Excel 
     output_path = os.path.join(script_dir, "../../data/esg_scores/esg_scores_detailed_with_ratings.xlsx")
     df.to_excel(output_path, index=False)
-    
-    return df
 
+    return df
 
 # Run the main function
 json_folder_path = '../../data/esg_validation'
