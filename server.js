@@ -42,12 +42,13 @@ const upload = multer({ storage, fileFilter });
 app.post('/upload', upload.single('file'), (req, res) => {
   // Check if file was uploaded or if it already exists
   if (req.fileAlreadyExists) {
-    const fileUrl = `http://localhost:${port}/uploads/${req.file?.filename}`;
+    const fileUrl = `http://localhost:${port}/data/esg_reports_pdf/${req.file?.filename}`;
+    console.log('File already exists, upload skipped', fileUrl);
     return res.send({ message: 'File already exists, upload skipped', fileUrl });
   }
 
   if (!req.fileAlreadyExists) {
-    const fileUrl = `http://localhost:${port}/uploads/${req.file?.filename}`;
+    const fileUrl = `http://localhost:${port}/data/esg_reports_pdf/${req.file?.filename}`;
     return res.send({ message: 'This is a new file', fileUrl });
   }
 
@@ -56,7 +57,7 @@ app.post('/upload', upload.single('file'), (req, res) => {
   }
 
   // If a new file was successfully uploaded
-  const fileUrl = `http://localhost:${port}/uploads/${req.file.filename}`;
+  const fileUrl = `http://localhost:${port}/data/esg_reports_pdf/${req.file.filename}`;
   res.send({ message: 'File uploaded successfully', fileUrl });
   console.log(fileUrl);
 });
@@ -283,9 +284,6 @@ app.get('/validation-company', (req, res) => {
     }
   });
 });
-
-// Serve static files from the uploads directory
-app.use('/uploads', express.static(path.join(__dirname, 'data/esg_reports_pdf')));
 
 
 app.listen(port, () => {
