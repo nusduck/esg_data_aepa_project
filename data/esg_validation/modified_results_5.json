@@ -3849,7 +3849,7 @@
       "response": {
         "from_sentences": "46% of our 700+ global employees are women",
         "unit": "number of employees",
-        "value": "N/A"
+        "value": "700+"
       }
     },
     {
@@ -6021,7 +6021,7 @@
       "response": {
         "from_sentences": "total number of employees, 2023: 40,770",
         "unit": "employees",
-        "value": "N/A"
+        "value": "40,770"
       }
     },
     {

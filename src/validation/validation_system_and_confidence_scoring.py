@@ -6,7 +6,6 @@ import os
 import csv
 import re
 
-### 1. Missing fields of each report
 # ESG framework and extracted data
 esg_framework = {
     "B-ENV_GHG_AET": {"required": True, "unit": "tCO2e"},
@@ -51,11 +50,13 @@ esg_framework = {
     "B-GOV_ETB_ACT_P": {"required": True, "unit": "Percentage (%)"},
     "B-GOV_CER_LRC": {"required": True},
     "B-GOV_ALF_AFD": {"required": True},
-    "B-GOV_ASS_ASR": {"required": True}
+    "B-GOV_ASS_ASR": {"required": True},
+    "B-SOC_EMP_TNM": {"required": True, "unit": "number of employees"},
+    "B-SOC_EMP_TTN": {"required": True, "unit": "number of employees"}
 }
 
 # List of invalid values
-invalid_values = {"not available", "null", "none mentioned", "none", "not_available", "unknown", "not specified", "n/a", "0", "not applicable", 
+invalid_values = {"not available", "null", "none mentioned", "none", "not_available", "unknown", "not specified", "n/a", "not applicable", 
                   "none explicitly mentioned", "not mentioned"}    
 
 # Verify consistency
@@ -124,7 +125,8 @@ for report_name, extracted_data in all_reports_data.items():
     print(f"Missing fields: {missing_fields}\n")
 
 
-### 2. Remove repetitive units for percentage("%" in "value")
+
+
 def count_and_clean_percent_in_report(file_path):
     # Read JSON files
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -178,7 +180,8 @@ with open(csv_output_path, mode="w", newline="") as csv_file:
 print(json.dumps(percent_counts, indent=4))
 
 
-### 3. After removing the "%" from "value", it recognizes "value" which should be output as a number but is actually output as text.
+
+
 def count_and_replace_invalid_value(file_path):
     # A list of question_ids that need to be checked for numbers
     numeric_question_ids = {
@@ -192,7 +195,7 @@ def count_and_replace_invalid_value(file_path):
         "B-SOC_GED_CEG_M", "B-SOC_GED_CEG_F", "B-SOC_GED_NHG_M", "B-SOC_GED_NHG_F",
         "B-SOC_GED_ETG_M", "B-SOC_GED_ETG_F", "B-SOC_AGD_CEA_U30", "B-SOC_AGD_CEA_B35",
         "B-SOC_AGD_CEA_A50", "B-SOC_AGD_NHI_U30", "B-SOC_AGD_NHI_B35", "B-SOC_AGD_NHI_A50",
-        "B-SOC_AGD_TOR_U30", "B-SOC-EMP-TNM", "B-SOC-EMP-TTN"
+        "B-SOC_AGD_TOR_U30", "B-SOC_EMP_TNM", "B-SOC_EMP_TTN"
     }
 
     # Read JSON files
@@ -258,7 +261,8 @@ with open(csv_file_path, mode="w", newline="") as csv_file:
 print(json.dumps(invalid_counts, indent=4))
 
 
-### 4. Unify units，counts for each report
+
+
 # Read JSON files
 with open("../../data/esg_validation/modified_results_2.json", "r") as file:
     data = json.load(file)
@@ -304,8 +308,9 @@ with open(csv_file_path, mode="w", newline="") as csv_file:
 with open("../../data/esg_validation/modified_results_3.json", "w") as file:
     json.dump(data, file, indent=4)
     
-
-### 5. Missing_fields("value" & empty response) of three text metrics
+    
+    
+    
 # Read JSON files
 with open("../../data/esg_validation/modified_results_3.json", "r") as file:
     data = json.load(file)
@@ -346,7 +351,8 @@ with open("../../data/esg_validation/modified_results_4.json", "w") as file:
     json.dump(data, file, indent=4)
     
     
-### 6. Groups of metrics whose sum is 1
+    
+    
 # Read JSON files
 with open("../../data/esg_validation/modified_results_4.json", "r") as file:
     data = json.load(file)
@@ -403,10 +409,11 @@ with open(csv_file_path, mode="w", newline="") as csv_file:
             print(f"    Sum in range (97, 103): {in_range}")
             
             # Write to CSV file
-            writer.writerow([report_name, group_name, valid_count, total_value_sum, in_range])    
-
-
-### 7. Unify "value" of "B-GOV_ASS_ASR"
+            writer.writerow([report_name, group_name, valid_count, total_value_sum, in_range])
+            
+            
+            
+            
 with open('../../data/esg_validation/modified_results_4.json', 'r') as file:
     data = json.load(file)
 
@@ -446,10 +453,11 @@ for report, responses in modified_data.items():
 
 # Convert to DataFrame and export to CSV file
 df = pd.DataFrame(rows_to_export)
-df.to_csv('../../data/esg_validation/B-GOV_ASS_ASR_special_keywords.csv', index=False)
+df.to_csv('../../data/esg_validation/human_B-GOV_ASS_ASR_special_keywords.csv', index=False)
 
 
-### 8. Compute confidence score
+
+
 df1_consistency = pd.read_csv("../../data/esg_validation/report_consistency_results.csv")       
 df2_percent_sign = pd.read_csv("../../data/esg_validation/percent_count_in_reports.csv")
 df3_number_invalid = pd.read_csv("../../data/esg_validation/invalid_value_counts.csv")
@@ -458,9 +466,9 @@ df5_text_metrics = pd.read_csv("../../data/esg_validation/text_metrics_invalid_v
 df6_percent_sum = pd.read_csv("../../data/esg_validation/report_summary.csv")
 
 df1_consistency.head(2)
-df1_consistency = df1_consistency[["Section", "Total Missing Fields", "Missing Question ID Count", "Empty Response Count", 
+df1_consistency = df1_consistency[["Report", "Total Missing Fields", "Missing Question ID Count", "Empty Response Count", 
                                    "Invalid Value Count", "Missing Fields"]]
-df1_consistency.rename(columns={'Section': 'report', 
+df1_consistency.rename(columns={'Report': 'report', 
                                 'Total Missing Fields': 'total_missing_fields_count',
                                 "Missing Question ID Count": "missing_question_id_count",
                                 "Empty Response Count": "empty_response_count",
@@ -508,6 +516,10 @@ df6_percent_sum.rename(columns={'Report Name': 'report',
                         inplace=True)
 df6_percent_sum.head(2)
 
+
+
+
+
 merged_df = (
     df1_consistency.merge(df2_percent_sign, on='report', how='left')
        .merge(df3_number_invalid, on='report', how='left')
@@ -515,11 +527,12 @@ merged_df = (
        .merge(df5_text_metrics, on='report', how='left')
 )
 
-merged_df["demerit_point"] = merged_df["missing_question_id_count"] * 1 + (merged_df["invalid_value_number_count"] + merged_df["text_metrics_invalid_value_count"] - merged_df["invalid_value_count"]) * 0.3 + merged_df["unit_replacement_count"] * 0.3 + merged_df["repeat_percent_sign_count"] * 0.3
+merged_df["demerit_point"] = merged_df["missing_question_id_count"] * 1 + (merged_df["invalid_value_number_count"] + merged_df["text_metrics_invalid_value_count"] + merged_df["missing_question_id_count"] + merged_df["empty_response_count"] - merged_df["invalid_value_count"]) * 0.3 + merged_df["unit_replacement_count"] * 0.3 + merged_df["repeat_percent_sign_count"] * 0.3
 
 merged_df["score1"] = (45 - merged_df["demerit_point"])/45
 
-merged_df.head()
+
+
 
 df6_percent_sum['recognization'] = 0
 
@@ -541,17 +554,19 @@ report_recognization_sum = df6_percent_sum.groupby('report')['recognization'].su
 
 report_recognization_sum.columns = ['report', 'recognization_sum']
 
+
+
+
+
 df = merged_df.merge(report_recognization_sum, on='report', how='left')
-
 df['demerit_point'] = df['demerit_point'] + df['recognization_sum']
-df['final_score'] = (45 - df["demerit_point"])/45
-
-df.head()
+df['final_score'] = ((45 - df["demerit_point"])/45).round(2)
+df['final_score'] = df['final_score'].apply(lambda x: 1 if x > 1 else x)
+df.to_csv('../../data/esg_validation/shown_final_score_of_retrieve.csv', index=False)
 
 plt.hist(df['final_score'], bins=15, color='skyblue', edgecolor='black', alpha=0.7)
 
 
-### 9. Summary of missing_fields after all modification
 # Verify consistency
 def check_consistency(extracted_data, framework):
     missing_fields = []
@@ -617,15 +632,29 @@ for report_key, data in extracted_data.items():
     print(f"Invalid value count: {invalid_value_count}")
     print(f"Missing fields: {missing_fields}\n")
     
-df_quality = pd.read_csv("../../src/validation/report_quality_missing_fields.csv")
+    
+    
+    
+df_quality = pd.read_csv("../../data/esg_validation/report_quality_missing_fields.csv")
 df_quality.head()
-df_quality["Quality Score"] = (45 - df_quality['Total Missing Fields'])/45
+df_quality["Quality Score"] = ((45 - df_quality['Total Missing Fields'])/45).round(2)
 
 # plt.boxplot(df_quality["Quality Score"])
 df_low_quality = df_quality[df_quality["Quality Score"] < 0.2]
 df_low_quality_selected = df_low_quality[["Report", "Quality Score"]]
-output_path = '../../data/esg_validation/low_quality.csv'
+output_path = '../../data/esg_validation/human_low_quality.csv'
 df_low_quality_selected.to_csv(output_path, index=False)
 print(f"CSV file saved to: {output_path}")
 
-df_low_quality
+df_quality
+df_quality.rename(columns = {"Report": "report",
+                             "Quality Score": "report_quality_score"
+                             },
+                  inplace = True)
+
+df_report_quality = df_quality[["report", "report_quality_score"]]
+df.rename(columns = {"final_score": "extraction_quality_score"}, inplace = True)
+df_final = df.merge(df_report_quality, how="left", on="report")
+df_final
+output_path = '../../data/esg_validation/final_output.csv'
+df_final.to_csv(output_path, index=False)
